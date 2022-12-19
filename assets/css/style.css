@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Martian+Mono:wght@100;200;300;400;500;600;700;800&family=Nunito+Sans:wght@200;300;400;600;700;800&family=PT+Sans:wght@400;700&display=swap');
+
+/* Nav Bar*/
+
+nav img {
+    max-width: 75px;
+    height:auto;
+}
+
+
+/* Hero Image */
+
+.hero {
+    height: 75vh;
+    background: url("../images/Hero-Image-Index.jpg") no-repeat bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: top 100px;
+    position: relative;
+}
+.hero img {
+    align-items: center;
+    height: 20vh;
+    z-index: 1;
+}
+.opaque-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.90);
+}
+
+
+
