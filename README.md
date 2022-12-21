@@ -1,8 +1,38 @@
 # Read Me Documentation
 
-[View the live project here](https://jamie2210.github.io/....)
+[View the live project here]()
 
 This is the webiste for 'Tooting Boxing Club, it is designed to be responsible and acccessible on all devices allowing easy access to the timetable, class schedule and information on club and coaches for our members and those who want to know more about us.
+
+## UX
+
+### Project Goals
+
+Primary goal is to provide an informative good looking website that showcases Tooting Boxing Club and encourages the user to come to the gym or get in touch via the website.
+
+### User goals
+
+The target audience is from 16 and up of any gender.
+
+### User Stories
+
+### Design Choices
+
+#### Fonts
+
+#### Icons
+
+#### Colours
+
+#### Styling
+
+#### Backgrounds
+
+#### Images
+
+#### Wireframes
+
+### Features
 
 ## Languages Used
 • [HTML5](https://en.wikipedia.org/wiki/HTML)

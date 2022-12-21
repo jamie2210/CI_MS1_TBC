@@ -12,7 +12,7 @@ nav img {
 
 .hero {
     height: 75vh;
-    background: url("../images/Hero-Image-Index.jpg") no-repeat bottom right;
+    background: url("../images/hero-2.jpg") no-repeat bottom center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -35,8 +35,7 @@ nav img {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.90);
+    background-color: rgba(0,0,0,0.70);
 }
-
 
 
