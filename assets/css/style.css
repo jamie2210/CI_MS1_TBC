@@ -45,4 +45,15 @@ nav img {
     width: auto;
 }
 
+/* Reviews */
+
+.reviews img {
+    height: 75px;
+    width: auto;
+    border-width: 5px;
+    border-color: #dddbdb;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px #726a6a;
+}
+
 
