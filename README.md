@@ -30,6 +30,8 @@ The target audience is from 16 and up of any gender.
 
 #### Images
 
+Review profile images are taken by me of my friends and I have been given permission to use them.
+
 #### Wireframes
 
 ### Features

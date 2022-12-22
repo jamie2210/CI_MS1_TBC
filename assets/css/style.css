@@ -50,10 +50,11 @@ nav img {
 .reviews img {
     height: 75px;
     width: auto;
-    border-width: 5px;
-    border-color: #dddbdb;
+    border: solid 2px #e9cf28;
     border-radius: 50%;
     box-shadow: 2px 2px 4px #726a6a;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 
