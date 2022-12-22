@@ -38,4 +38,11 @@ nav img {
     background-color: rgba(0,0,0,0.70);
 }
 
+/* Club Intro */
+
+.club-intro img {
+    height: 100px;
+    width: auto;
+}
+
 
