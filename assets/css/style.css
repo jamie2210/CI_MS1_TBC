@@ -60,7 +60,7 @@ nav img {
 /* Map */
 
 .map iframe {
-    position:absolute;
+    
     height: 400px;
     width: 100%;
 }
