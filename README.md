@@ -57,12 +57,15 @@ Review profile images are taken by me of my friends and I have been given permis
     • Github is used to store the projects code after being pushed from Git.
 8. Illustrator:
     Illustrator was used for logo creation and artwork touch ups
+9. Photoshop:
+    Photoshop was used to cut, crop and edit photos.
 
 ## Credits
 
 #### Code 
 
-• The full-screen hero image was taken from https://www.pexels.com/
+• The full-screen hero image was taken from 
+• Coach profile pictures taken from https://www.pexels.com/, credit to Volkan Erdek, Gustavo Fring, Yaroslav Shuraev, cottonbro studio, RODNAE Productions and Ron Lach.
 
 #### Content
 

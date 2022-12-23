@@ -68,6 +68,12 @@ nav img {
     width: 100%;
 }
 
-/* ---- INDEX ---- */
-
 /* ---- ABOUT ---- */
+
+/* ---- TEAM ---- */
+
+.coaches img{
+    height: 150px;
+    width: auto;
+    filter: grayscale(0.5);
+}
