@@ -57,4 +57,11 @@ nav img {
     margin-bottom: 15px;
 }
 
+/* Map */
+
+.map iframe {
+    position:absolute;
+    height: 400px;
+    width: 100%;
+}
 
