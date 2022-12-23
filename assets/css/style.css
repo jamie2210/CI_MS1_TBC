@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Martian+Mono:wght@100;200;300;400;500;600;700;800&family=Nunito+Sans:wght@200;300;400;600;700;800&family=PT+Sans:wght@400;700&display=swap');
 
+
 /* Nav Bar*/
 
 nav img {
@@ -7,6 +8,9 @@ nav img {
     height:auto;
 }
 
+/* Footer */
+
+/* ---- INDEX ---- */
 
 /* Hero Image */
 
@@ -60,8 +64,10 @@ nav img {
 /* Map */
 
 .map iframe {
-    
     height: 400px;
     width: 100%;
 }
 
+/* ---- INDEX ---- */
+
+/* ---- ABOUT ---- */
