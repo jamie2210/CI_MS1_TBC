@@ -18,7 +18,13 @@ The target audience is from 16 and up of any gender.
 
 ### Design Choices
 
-#### Fonts
+### Fonts
+
+• Google fonts were used to import the 'Martian Mono and Nunito Sans' font used throughout the website:
+
+• [Martian Mono](https://fonts.google.com/specimen/Martian+Mono?query=martian)
+
+• [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans?query=nunito+sans)
 
 #### Icons
 
@@ -28,9 +34,40 @@ The target audience is from 16 and up of any gender.
 
 #### Backgrounds
 
-#### Images
+## Images
 
-Review profile images are taken by me of my friends and I have been given permission to use them.
+### Index Page
+• Photos were taken from [Pexels](https://www.pexels.com/), credit to;
+
+• [RODNAE Productions](https://www.pexels.com/@rodnae-prod/)
+
+• [Kool Shooters](https://www.pexels.com/@kool-shooters/)
+
+• [Mikhail Nilov](https://www.pexels.com/@mikhail-nilov/)
+
+• [cottonbro studio](https://www.pexels.com/@cottonbro/)
+
+• [Ron Lach](https://www.pexels.com/@ron-lach/)
+
+• Review profile images are taken by me of my friends and I have been given permission to use them.
+
+### About Page
+• The fictional founders of the club are friends of mine and the photos are my own.
+
+### Meet the Team Page
+Coach profile pictures taken from [Pexels](https://www.pexels.com/), credit to;
+
+• [Ron Lach](https://www.pexels.com/@ron-lach/)
+
+• [RODNAE Productions](https://www.pexels.com/@rodnae-prod/)
+
+• [cottonbro studio](https://www.pexels.com/@cottonbro/)
+
+• [Yaroslav Shuraev](https://www.pexels.com/@yaroslav-shuraev/)
+
+• [Gustavo Fring](https://www.pexels.com/@gustavo-fring/)
+
+• [Volkan Erdek](https://www.pexels.com/@volkan-erdek-311029/)
 
 #### Wireframes
 
@@ -65,15 +102,12 @@ Review profile images are taken by me of my friends and I have been given permis
 #### Code 
 
 • The full-screen hero image was taken from 
-• Coach profile pictures taken from https://www.pexels.com/, credit to Volkan Erdek, Gustavo Fring, Yaroslav Shuraev, cottonbro studio, RODNAE Productions and Ron Lach.
 
 #### Content
 
 • Most content was written by the developer, some code was copied and modififed from Code Institute learning modules.
 
 #### Media
-
-• All images were taken from this site [Pexels](https://www.pexels.com/)
 
 
 #### Ackowledgements 
