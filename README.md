@@ -99,6 +99,8 @@ Coach profile pictures taken from [Pexels](https://www.pexels.com/), credit to;
 
 ## Credits
 
+https://www.w3schools.com/cssref/css3_pr_overflow-x.php 
+
 #### Code 
 
 • The full-screen hero image was taken from 

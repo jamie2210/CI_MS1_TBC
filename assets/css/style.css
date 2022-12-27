@@ -77,3 +77,10 @@ nav img {
     width: auto;
     filter: grayscale(0.5);
 }
+
+/* ---- Media screen ---- */
+
+@media screen and (max-width:768px){
+    .table{
+        overflow-x:auto;}
+}
