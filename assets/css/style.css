@@ -80,7 +80,7 @@ nav img {
 
 /* ---- Media screen ---- */
 
-@media screen and (max-width:768px){
+@media screen and (max-width:784px){
     .table{
         overflow-x:auto;}
 }

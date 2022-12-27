@@ -99,7 +99,9 @@ Coach profile pictures taken from [Pexels](https://www.pexels.com/), credit to;
 
 ## Credits
 
+#### Table Creation
 https://www.w3schools.com/cssref/css3_pr_overflow-x.php 
+https://www.w3schools.com/howto/howto_css_table_responsive.asp
 
 #### Code 
 
