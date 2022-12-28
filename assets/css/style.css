@@ -42,7 +42,59 @@ body {
 
 /* Footer */
 
-/* ---- INDEX ---- */
+.footer {
+    background-color: #333131;
+    max-height: auto;
+    padding: 0;
+}
+
+.contact-details p{
+    display: inline;
+    padding-right: 20px;
+}
+
+.contact-details{
+    color:#ffffff;
+    
+}
+
+.footer .col-8 {
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.email{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.email:hover{
+    color: #e9c431;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.fa-solid {
+    padding-right: 5px;
+}
+
+.social-links{
+    float:right;
+    padding-right: 50px;
+}
+
+.social-links li a i {
+    color:#ffffff;
+    font-size: 2em;
+    padding: 15px;
+}
+.social-links li a i:hover {
+    color:#e9c431;
+}
+/* ---------------------- INDEX ---- */
 
 /* Hero Image */
 
@@ -55,14 +107,13 @@ body {
     background-size: cover;
     background-color: rgba(0,0,0,0.75);
     background-blend-mode: multiply;
-
-
     display: flex;
     align-items: center;
     justify-content: center;
     background-position: top 100px;
     position: relative;
 }
+
 .hero img {
     align-items: center;
     height: 20vh;
@@ -93,6 +144,8 @@ body {
     height: 100px;
     width: auto;
 }
+
+/* Carousel */
 
 /* Reviews */
 
@@ -129,7 +182,7 @@ body {
 }
 
 .read:hover{
-    color: #dd2f1e;
+    color: #e9c431;
 }
 /* Map */
 
@@ -138,9 +191,12 @@ body {
     width: 100%;
 }
 
-/* ---- ABOUT ---- */
+.map {padding: 0;
+}
 
-/* ---- TEAM ---- */
+/* ---------------------- ABOUT ---- */
+
+/* ---------------------- TEAM ---- */
 
 .coaches img{
     height: 150px;
@@ -148,7 +204,7 @@ body {
     filter: grayscale(0.5);
 }
 
-/* ---- Media screen ---- */
+/* ---------------------- Media screen ---- */
 
 @media screen and (max-width:280px){
     .reviews .hidden{
@@ -173,7 +229,7 @@ body {
 
 
 @media screen and (max-width:480px){
-    .reviews .hidden{
+    .hidden{
         display: none;}
     .btn.btn-dark {
         width: 125px;
@@ -185,6 +241,16 @@ body {
         height: 50vh;}
     .table{
         overflow-x:auto;}
+    .contact-details .hidden {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1143px){
+    .contact-details p {
+        display:list-item;
+        list-style-type: none;
+    }
 }
 
 @media screen and (min-width:1025px){
