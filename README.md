@@ -144,5 +144,8 @@ The project was deployed to GitHub using the following stages;
 
 ## Known bugs
 
-(detail issues found on the different devices)
+#### Buttons
+
+• Index.html
+    Having tested their position on all devices, I notcied using a margin of a specific px cause them to be out of place on different devices. Using an 'EM' unit paired with media queries instead allows them repsond better ensuring they are in a good posotion on all devices. 
 
