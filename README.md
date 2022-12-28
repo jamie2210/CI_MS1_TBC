@@ -49,6 +49,8 @@ The target audience is from 16 and up of any gender.
 
 • [Ron Lach](https://www.pexels.com/@ron-lach/)
 
+• [Julia Larson](https://www.pexels.com/@julia-larson/)
+
 • Review profile images are taken by me of my friends and I have been given permission to use them.
 
 ### About Page

@@ -6,7 +6,20 @@
 nav img {
     max-width: 75px;
     height:auto;
+    margin-left: 25px;
 }
+.navbar ul {
+    margin-right: 25px;
+}
+.navbar-toggler{
+    margin-right: 25px;
+}  
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 300;
+}
+
 
 /* Footer */
 
@@ -16,11 +29,12 @@ nav img {
 
 .hero {
     height: 75vh;
-    background: url("../images/hero-2.jpg") no-repeat bottom center;
+    background: url("../images/hero-1.jpg") no-repeat bottom center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    filter: grayscale(0.80);
 
     display: flex;
     align-items: center;
@@ -39,7 +53,7 @@ nav img {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.70);
+    background-color: rgba(0,0,0,0.75);
 }
 
 /* Club Intro */
@@ -80,7 +94,9 @@ nav img {
 
 /* ---- Media screen ---- */
 
-@media screen and (max-width:784px){
+@media screen and (max-width:768px){
+    .hero {
+        height: 50vh;}  
     .table{
         overflow-x:auto;}
 }
