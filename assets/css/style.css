@@ -25,6 +25,7 @@ nav img {
 body {
     font-family: "Nunito Sans", sans-serif;
     font-weight: 300;
+    background-color: #f1f1f1;
 }
 
 .btn:hover {
@@ -87,9 +88,6 @@ body {
 .club-intro{
     padding: 0;
 }
-.intro-text{
-    
-}
 
 .club-intro img {
     height: 100px;
@@ -98,16 +96,41 @@ body {
 
 /* Reviews */
 
+.container-color{
+    background-color: #f1f1f1;
+    width: 100%;
+    height: auto;
+}
+
+.reviews {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 .reviews img {
     height: 75px;
     width: auto;
-    border: solid 2px #e9cf28;
+    border: solid 2px #ffffff;
     border-radius: 50%;
     box-shadow: 2px 2px 4px #726a6a;
     margin-top: 20px;
     margin-bottom: 15px;
 }
 
+.fa {
+    color: #e9c431;
+    margin-bottom: 10px;
+}
+
+.read {
+    text-decoration: none;
+    color: #807c7c;
+    margin-top: -20px;
+}
+
+.read:hover{
+    color: #dd2f1e;
+}
 /* Map */
 
 .map iframe {
