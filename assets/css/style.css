@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Martian+Mono:wght@100;200;300;400;500;600;700;800&family=Nunito+Sans:wght@200;300;400;600;700;800&family=PT+Sans:wght@400;700&display=swap');
 
 
-/* Nav Bar*/
+/* Nav Bar */
 
 nav img {
     max-width: 75px;
@@ -13,11 +13,24 @@ nav img {
 }
 .navbar-toggler{
     margin-right: 25px;
-}  
+}
+
+.navbar-dark {
+    --bs-navbar-hover-color: #e9c431;
+    --bs-navbar-active-color: #e9c431;
+}
+
+/* Body */
 
 body {
     font-family: "Nunito Sans", sans-serif;
     font-weight: 300;
+}
+
+.btn:hover {
+    background-color: #e9c431;
+    color: #000000;
+    border-width: 0;
 }
 
 
@@ -55,8 +68,23 @@ body {
     width: 100%;
     background-color: rgba(0,0,0,0.75);
 }
+.hero-btn{
+    display: block;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    margin-top: 200px;
+    filter: grayscale(0%)
+}
 
 /* Club Intro */
+
+.club-intro{
+    padding: 0;
+}
+.intro-text{
+    
+}
 
 .club-intro img {
     height: 100px;
@@ -94,9 +122,22 @@ body {
 
 /* ---- Media screen ---- */
 
+@media screen and (max-width:480px){
+    .reviews .hidden{
+        display: none;}
+}
+
 @media screen and (max-width:768px){
     .hero {
-        height: 50vh;}  
+        height: 50vh;}
+  
     .table{
         overflow-x:auto;}
+}
+
+@media screen and (min-width:1025px){
+    .intro-text{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
 }
