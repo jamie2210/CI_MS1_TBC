@@ -43,6 +43,22 @@ nav img {
     --bs-navbar-hover-color: #e9c431;
 }
 
+.nav-link:hover {
+        transform: translateY(-2px);
+        transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+}
+
+nav img:hover{
+        transform: translateY(-2px);
+        transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+}
+
 /* ------------------------------------- Body */
 
 body {
