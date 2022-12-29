@@ -365,12 +365,30 @@ body {
     box-shadow: 2px 2px 4px #726a6a;
 }
 
+.coach{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .coach h5 {
     font-weight: 700;
 }
 
 .coach .btn {
     margin-bottom: 50px;
+}
+
+.coaches a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.coaches a:hover{
+    color: #000000;
+}
+
+.coaches span {
+    font-weight: 400;
 }
 
 /* ---------------------- Media screen ---- */
