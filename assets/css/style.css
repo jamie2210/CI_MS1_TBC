@@ -93,7 +93,7 @@ body {
 
 .footer .col-8 {
     padding-left: 50px;
-    padding-top: 20px;
+    padding-top: 35px;
     padding-bottom: 10px;
 }
 
@@ -121,6 +121,7 @@ body {
 .social-links{
     float:right;
     padding-right: 50px;
+    padding-top: 15px;
 }
 
 .social-links li a i {
@@ -257,9 +258,56 @@ body {
 
 /* ------------------------------------- ABOUT */
 
+.about-container{
+    height: 50vh;
+}
+
+.about-container h2{
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.fa-medal {
+    font-size: large;
+}
+
+.silver {
+    color: #C0C0C0;
+}
+
+.bronze {
+    color:#CD7F32;
+}
+
+.name-link {
+    text-decoration: none;
+    color:#000000;
+}
+
+.silver2:hover {
+    color:#C0C0C0
+}
+
+.bronze2:hover {
+    color:#CD7F32
+}
+
+.container img {
+    height: 300px;
+    width: auto;
+    filter: grayscale(0.5);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.about-text{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
 /* ------------------------------------- TEAM */
 
-.coaches img{
+.coaches img {
     height: 150px;
     width: auto;
     filter: grayscale(0.5);
@@ -302,6 +350,9 @@ body {
     .hero-btn {
         font-weight: none;
     }
+    .container img{
+       display: none;
+    }
 }
 
 @media screen and (max-width:820px){
@@ -325,5 +376,12 @@ body {
     .intro-text{
         padding-left: 20%;
         padding-right: 20%;
+    }
+}
+
+@media  screen and (max-width:768px){
+    .container img{
+        height: 200px;
+        width: auto;
     }
 }
