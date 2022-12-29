@@ -259,7 +259,7 @@ body {
 /* ------------------------------------- ABOUT */
 
 .about-container{
-    height: 50vh;
+    height: auto;
 }
 
 .about-container h2{
@@ -304,7 +304,7 @@ body {
 }
 
 .image-link:hover{
-    -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);
     cursor: pointer;
 }
 
@@ -320,8 +320,10 @@ body {
 }
 
 .about-text{
-    margin-top: 100px;
     margin-bottom: 50px;
+    max-width: 75%;
+    margin: 5rem auto;
+    position: relative;
 }
 
 .wandsbc {
@@ -338,6 +340,12 @@ body {
 
 }
 
+.about-text hr {
+    max-width: 50vh;
+    margin: 50px auto;
+    padding-bottom: 10px;
+}
+
 /* ------------------------------------- TEAM */
 
 .coaches img {
@@ -347,6 +355,60 @@ body {
 }
 
 /* ---------------------- Media screen ---- */
+
+@media screen and (max-width:1143px){
+    .contact-details p {
+        display:list-item;
+        list-style-type: none;
+    }
+}
+
+@media screen and (min-width:1025px){
+    .intro-text{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+@media screen and (min-width:820px) and (max-width:912px){
+    .hero-btn{
+        margin-top: 20em;
+    }
+}
+
+@media screen and (max-width:820px){
+    .hero {
+        height: 50vh;}
+    .table{
+        overflow-x: auto;}
+    .contact-details .hidden {
+        display: none;
+    }
+}
+
+@media  screen and (max-width:768px){
+    .container img{
+        height: 200px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width:480px){
+    .hidden{
+        display: none;
+    }
+    .btn.btn-dark {
+        width: 125px;
+    }
+    .hero-btn {
+        font-weight: none;
+    }
+    .container img{
+       height: 125px;
+       width: auto;
+       border-width: 4px;
+    }
+}
 
 @media screen and (max-width:280px){
     .reviews .hidden{
@@ -364,57 +426,9 @@ body {
     .social-links{
         display: none;
     }
-}
-
-@media screen and (min-width:820px) and (max-width:912px){
-    .hero-btn{
-        margin-top: 20em;
-    }
-}
-
-
-@media screen and (max-width:480px){
-    .hidden{
-        display: none;
-    }
-    .btn.btn-dark {
-        width: 125px;
-    }
-    .hero-btn {
-        font-weight: none;
-    }
     .container img{
-       display: none;
-    }
-}
-
-@media screen and (max-width:820px){
-    .hero {
-        height: 50vh;}
-    .table{
-        overflow-x: auto;}
-    .contact-details .hidden {
-        display: none;
-    }
-}
-
-@media screen and (max-width:1143px){
-    .contact-details p {
-        display:list-item;
-        list-style-type: none;
-    }
-}
-
-@media screen and (min-width:1025px){
-    .intro-text{
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-}
-
-@media  screen and (max-width:768px){
-    .container img{
-        height: 200px;
+        height: 100px;
         width: auto;
+        border-width: 2px;  
     }
 }
