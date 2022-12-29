@@ -282,6 +282,10 @@ body {
 .name-link {
     text-decoration: none;
     color:#000000;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .silver2:hover {
@@ -292,17 +296,46 @@ body {
     color:#CD7F32
 }
 
+.image-link {
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.image-link:hover{
+    -webkit-filter: grayscale(50%);
+    cursor: pointer;
+}
+
 .container img {
     height: 300px;
     width: auto;
     filter: grayscale(0.5);
     margin-top: 50px;
     margin-bottom: 20px;
+    border: solid 5px #ffffff;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px #726a6a;
 }
 
 .about-text{
     margin-top: 100px;
     margin-bottom: 50px;
+}
+
+.wandsbc {
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.wandsbc:hover{
+    color: #e9c431;
+
 }
 
 /* ------------------------------------- TEAM */
