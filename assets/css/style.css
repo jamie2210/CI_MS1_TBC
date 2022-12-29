@@ -308,7 +308,7 @@ body {
     cursor: pointer;
 }
 
-.container img {
+.about-container img {
     height: 300px;
     width: auto;
     filter: grayscale(0.5);
@@ -348,10 +348,29 @@ body {
 
 /* ------------------------------------- TEAM */
 
+.team-title h2{
+    font-weight: 700;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
 .coaches img {
     height: 150px;
     width: auto;
-    filter: grayscale(0.5);
+    filter: grayscale(0.75);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 5px #ffffff;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px #726a6a;
+}
+
+.coach h5 {
+    font-weight: 700;
+}
+
+.coach .btn {
+    margin-bottom: 50px;
 }
 
 /* ---------------------- Media screen ---- */
