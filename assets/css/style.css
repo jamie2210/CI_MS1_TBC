@@ -16,6 +16,10 @@ nav img {
 }
 
 .navbar-dark {
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     --bs-navbar-hover-color: #e9c431;
     --bs-navbar-active-color: #e9c431;
 }
@@ -26,6 +30,13 @@ body {
     font-family: "Nunito Sans", sans-serif;
     font-weight: 300;
     background-color: #f1f1f1;
+}
+
+.btn {
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .btn:hover {
@@ -67,6 +78,10 @@ body {
 .email{
     text-decoration: none;
     color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .email:hover{
@@ -90,6 +105,10 @@ body {
     color:#ffffff;
     font-size: 2em;
     padding: 15px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 .social-links li a i:hover {
     color:#e9c431;
@@ -240,7 +259,7 @@ body {
     .hero {
         height: 50vh;}
     .table{
-        overflow-x:auto;}
+        overflow-x: auto;}
     .contact-details .hidden {
         display: none;
     }
