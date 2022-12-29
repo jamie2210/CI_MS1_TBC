@@ -144,8 +144,11 @@ The project was deployed to GitHub using the following stages;
 
 ## Known bugs
 
-#### Buttons
+#### Index.html
 
-• Index.html
+• Buttons
     Having tested their position on all devices, I notcied using a margin of a specific px cause them to be out of place on different devices. Using an 'EM' unit paired with media queries instead allows them repsond better ensuring they are in a good posotion on all devices. 
+
+• Map
+    The map had a grey line under so wasn't flush to the footer, after using google inspect I noticed the container was a different height the map so matched both heights to 400px which fixed the issue.
 

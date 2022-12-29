@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Martian+Mono:wght@100;200;300;400;500;600;700;800&family=Nunito+Sans:wght@200;300;400;600;700;800&family=PT+Sans:wght@400;700&display=swap');
 
 
-/* Nav Bar */
+/* ------------------------------------- Nav Bar */
 
 nav img {
     max-width: 75px;
@@ -10,21 +10,40 @@ nav img {
 }
 .navbar ul {
     margin-right: 25px;
+    font-weight: 700;
 }
 .navbar-toggler{
     margin-right: 25px;
+    border: none;
 }
 
-.navbar-dark {
+.fas {
+    color:#ffffff;
+    font-size:28px;
+}
+
+#navbarNavDropdown {
+    padding-left: 20px;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.active .nav-link {
+    color:#e9c431;
+}
+
+.navbar-black {
+    background-color: #000000;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     --bs-navbar-hover-color: #e9c431;
-    --bs-navbar-active-color: #e9c431;
 }
 
-/* Body */
+/* ------------------------------------- Body */
 
 body {
     font-family: "Nunito Sans", sans-serif;
@@ -33,6 +52,9 @@ body {
 }
 
 .btn {
+    background-color: #000000;
+    border: none;
+    font-weight: 500;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -51,10 +73,10 @@ body {
 }
 
 
-/* Footer */
+/* ------------------------------------- Footer */
 
 .footer {
-    background-color: #333131;
+    background-color: #000000;
     max-height: auto;
     padding: 0;
 }
@@ -113,9 +135,9 @@ body {
 .social-links li a i:hover {
     color:#e9c431;
 }
-/* ---------------------- INDEX ---- */
+/* ------------------------------------- INDEX */
 
-/* Hero Image */
+/* ------------------------------------- Hero Image */
 
 .hero {
     height: 75vh;
@@ -153,10 +175,25 @@ body {
     margin-right: 10px;
 }
 
-/* Club Intro */
+/* ------------------------------------- Club Intro */
 
 .club-intro{
     padding: 0;
+    height: auto;
+    width: 100%;
+    background-color: #000000;
+    color:#ffffff;
+}
+
+.club-intro-text{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.club-intro h2{
+    font-weight: 700;
 }
 
 .club-intro img {
@@ -164,9 +201,9 @@ body {
     width: auto;
 }
 
-/* Carousel */
+/* ------------------------------------- Carousel */
 
-/* Reviews */
+/* ------------------------------------- Reviews */
 
 .container-color{
     background-color: #f1f1f1;
@@ -203,7 +240,12 @@ body {
 .read:hover{
     color: #e9c431;
 }
-/* Map */
+/* ------------------------------------- Map */
+
+.map {
+    height: 400px;
+    width: 100%;
+}
 
 .map iframe {
     height: 400px;
@@ -213,9 +255,9 @@ body {
 .map {padding: 0;
 }
 
-/* ---------------------- ABOUT ---- */
+/* ------------------------------------- ABOUT */
 
-/* ---------------------- TEAM ---- */
+/* ------------------------------------- TEAM */
 
 .coaches img{
     height: 150px;
@@ -238,6 +280,9 @@ body {
         height: 15vh;
         margin-bottom: 25px;
     }
+    .social-links{
+        display: none;
+    }
 }
 
 @media screen and (min-width:820px) and (max-width:912px){
@@ -249,10 +294,14 @@ body {
 
 @media screen and (max-width:480px){
     .hidden{
-        display: none;}
+        display: none;
+    }
     .btn.btn-dark {
         width: 125px;
-        }
+    }
+    .hero-btn {
+        font-weight: none;
+    }
 }
 
 @media screen and (max-width:820px){
@@ -274,7 +323,7 @@ body {
 
 @media screen and (min-width:1025px){
     .intro-text{
-        padding-left: 150px;
-        padding-right: 150px;
+        padding-left: 20%;
+        padding-right: 20%;
     }
 }
