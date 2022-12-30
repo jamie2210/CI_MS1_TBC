@@ -415,7 +415,7 @@ body {
 }
 
 .prices-body footer {
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .prices-body h3{
@@ -427,7 +427,7 @@ body {
     font-weight: 700;
 }
 
-.prices-body p{
+.prices-flex p{
     color: #595959;
 }
 
