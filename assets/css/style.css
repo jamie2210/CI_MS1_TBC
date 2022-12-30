@@ -414,6 +414,23 @@ body {
     background-color: #e1e0e0;
 }
 
+.prices-body footer {
+    margin-top: 30px;
+}
+
+.prices-body h3{
+    font-weight: 700;
+}
+
+.prices-body h5{
+    color:#a51e1e;
+    font-weight: 700;
+}
+
+.prices-body p{
+    color: #595959;
+}
+
 .prices-flex{
     display: flex;
     justify-content: center;
@@ -444,16 +461,16 @@ body {
    display: flex;
    justify-content: center;
    margin: 2em auto;
-   position: relative;
 }
 
-.btn-prices {
-    position: absolute;
-    bottom: 5px;   
+.prices-hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.prices-flex a:hover{
+.prices-flex .btn:hover{
     background-color:#a51e1e;
+    color:#ffffff;
 }
 
 /* ---------------------- Media screen ---- */
