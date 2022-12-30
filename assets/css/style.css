@@ -159,7 +159,7 @@ body {
 
 .hero {
     height: 75vh;
-    background: url("../images/hero-1-sat.jpg") no-repeat bottom center;
+    background: url("../images/hero-1-sat.jpg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -473,7 +473,27 @@ body {
     color:#ffffff;
 }
 
-/* ---------------------- Media screen ---- */
+/* ------------------------------------- TEAM */
+
+.schedule-style th {
+    height: 100px;
+    background-color: #000000;
+    padding: 2em;
+    color: #C0C0C0;
+    
+}
+
+.schedule-style tr {
+   height: 150px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.schedule-style .btn {
+    margin-top: 30px;
+}
+
+/* ------------------------------------- Media screen */
 
 @media screen and (max-width:1143px){
     .contact-details p {
