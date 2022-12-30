@@ -435,14 +435,25 @@ body {
 .container-box {
    border: 1px solid;
    border-color: #bcbcbc;
-   height: 300px;
-   width: auto;
+   max-width: 400px;
+   width: 75%;
+   height:auto; 
    padding: 30px;
    background-color: #f0eeee;
    box-shadow: 2px 2px 4px #726a6a;
    display: flex;
    justify-content: center;
    margin: 2em auto;
+   position: relative;
+}
+
+.btn-prices {
+    position: absolute;
+    bottom: 5px;   
+}
+
+.prices-flex a:hover{
+    background-color:#a51e1e;
 }
 
 /* ---------------------- Media screen ---- */
