@@ -636,4 +636,7 @@ td p:hover{
         width: auto;
         border-width: 2px;  
     }
+    .week-cursor i{
+            display: none;
+    }
 }
