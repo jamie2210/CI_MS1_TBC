@@ -468,7 +468,7 @@ body {
     margin-bottom: 30px;
 }
 
-.prices-flex .btn:hover{
+.prices-flex .btn:hover {
     background-color:#a51e1e;
     color:#ffffff;
 }
@@ -513,7 +513,6 @@ body {
     color:#a51e1e;
 }
 
-
 .schedule-style th {
     background-color: #000000;
     padding: 2em;
@@ -534,6 +533,26 @@ body {
 
 .schedule-style .btn {
     margin-top: 30px;
+}
+
+.schedule-body footer {
+    margin-top: 60px;
+}
+
+/*---- MODAL ----*/
+
+.modal-text {
+    font-size: large;
+    font-weight: 700;
+    color:#a51e1e;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.text-style td a:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
 }
 
 /* ------------------------------------- Media screen */
