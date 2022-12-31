@@ -501,7 +501,7 @@ body {
 
 .week-cursor a{
     text-decoration: none;
-    color: #000000;
+    color: #595959;
     font-weight: 500;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -542,15 +542,19 @@ body {
 /*---- MODAL ----*/
 
 .modal-text {
-    font-size: large;
+    font-size: x-large;
     font-weight: 700;
     color:#a51e1e;
+    text-decoration: none;
+    
+}
+td p {
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
 }
-.text-style td a:hover {
+td p:hover{
     transform: translateY(-2px);
     cursor: pointer;
 }
