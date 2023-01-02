@@ -565,11 +565,12 @@ td h4 {
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
-    padding-top: 15px;
+    border-radius: 5px;
 }
 td h4:hover{
     transform: translateY(-2px);
     cursor: pointer;
+    box-shadow: 2px 2px 4px #726a6a;
 }
 
 .modal {
@@ -584,6 +585,14 @@ td h4:hover{
 
 .modal-content h5 {
     padding-top: 15px;
+}
+
+/* ------------------------------------- Get In Touch */
+
+.contact-title {
+    font-weight: 700;
+    padding-top: 50px;
+    margin-bottom: 50px;
 }
 
 /* ------------------------------------- Media screen */
