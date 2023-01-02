@@ -1,6 +1,6 @@
 # Read Me Documentation
 
-[View the live project here]()
+[View the live project here](https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/)
 
 This is the webiste for 'Tooting Boxing Club, it is designed to be responsible and acccessible on all devices allowing easy access to the timetable, class schedule and information on club and coaches for our members and those who want to know more about us.
 
@@ -165,3 +165,7 @@ The project was deployed to GitHub using the following stages;
 • Schedule
     Overflow scroll wasn't working correctly on scheudle page, noticed the way media query was working seemed to be the issue and it was also affecting the footer. Fixed the issue by chaing the max-width of the media query which resovled both issues.
 
+
+
+[Strategy.jpg]: Strategy.jpg
+[def]: https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/
