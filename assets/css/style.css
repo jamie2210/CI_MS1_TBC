@@ -604,7 +604,7 @@ td .btn.btn-dark {
 }
 
 .form {
-    width: 800px;
+    width: 80vh;
     height: auto;
     margin: 0 5%;
     border: #C0C0C0 solid 2px;
@@ -643,18 +643,18 @@ td .btn.btn-dark {
    max-height: 100px;
 }
 
-/* ------------------------------------- Media screen */
+/* ------------------------------------- Media Queries */
+
+@media screen and (max-width: 1428px){
+    .table{
+        overflow-x: auto;}
+}
 
 @media screen and (max-width:1143px){
     .contact-details p {
         display:list-item;
         list-style-type: none;
     }
-}
-
-@media screen and (max-width: 1428px){
-    .table{
-        overflow-x: auto;}
 }
 
 @media screen and (min-width:1025px){
@@ -675,6 +675,9 @@ td .btn.btn-dark {
         height: 50vh;}
     .contact-details .hidden {
         display: none;
+    }
+    .form {
+        width: 400px;
     }
 }
 
@@ -699,6 +702,9 @@ td .btn.btn-dark {
        height: 125px;
        width: auto;
        border-width: 4px;
+    }
+    .form {
+        width: 300px;
     }
 }
 
@@ -725,5 +731,8 @@ td .btn.btn-dark {
     }
     .week-cursor i{
             display: none;
+    }
+    .form {
+        width: 250px;
     }
 }

@@ -6,6 +6,16 @@ This is the webiste for 'Tooting Boxing Club, it is designed to be responsible a
 
 ## UX
 
+### UX Design Planes
+
+• ![Strategy]()
+
+
+
+### Wireframes
+
+
+
 ### Project Goals
 
 Primary goal is to provide an informative good looking website that showcases Tooting Boxing Club and encourages the user to come to the gym or get in touch via the website.
@@ -151,4 +161,7 @@ The project was deployed to GitHub using the following stages;
 
 • Map
     The map had a grey line under so wasn't flush to the footer, after using google inspect I noticed the container was a different height the map so matched both heights to 400px which fixed the issue.
+
+• Schedule
+    Overflow scroll wasn't working correctly on scheudle page, noticed the way media query was working seemed to be the issue and it was also affecting the footer. Fixed the issue by chaing the max-width of the media query which resovled both issues.
 
