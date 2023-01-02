@@ -540,24 +540,11 @@ body {
 }
 
 .modal-text {
-    margin: 0;
-    padding: 0;
-}
-
-td p {
-    margin: 15px;
-}
-
-td .btn.btn-dark {
-    margin: 0 10px;
-}
-
-/*---- MODAL ----*/
-
-.modal-text {
     font-weight: 700;
     color:#a51e1e;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
     
 }
 td h4 {
@@ -572,6 +559,16 @@ td h4:hover{
     cursor: pointer;
     box-shadow: 2px 2px 4px #726a6a;
 }
+
+td p {
+    margin: 15px;
+}
+
+td .btn.btn-dark {
+    margin: 0 10px;
+}
+
+/*---- MODAL ----*/
 
 .modal {
     background-color: rgba(187, 187, 187, 0.5);
@@ -591,6 +588,7 @@ td h4:hover{
 
 .contact-body{
     background-color: #000000;
+    flex-grow: 1;
 }
 
 .contact-title {
@@ -602,7 +600,7 @@ td h4:hover{
 
 .form-container {
     text-align: center;
-    height: 100vh;
+    margin-bottom: 20px;
 }
 
 .form {
@@ -642,7 +640,7 @@ td h4:hover{
 }
 
 .contact-footer{
-   
+   max-height: 100px;
 }
 
 /* ------------------------------------- Media screen */
@@ -654,13 +652,16 @@ td h4:hover{
     }
 }
 
+@media screen and (max-width: 1428px){
+    .table{
+        overflow-x: auto;}
+}
+
 @media screen and (min-width:1025px){
     .intro-text{
         padding-left: 20%;
         padding-right: 20%;
     }
-    .table{
-        overflow-x: auto;}
 }
 
 @media screen and (min-width:820px) and (max-width:912px){

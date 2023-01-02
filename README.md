@@ -111,7 +111,7 @@ https://www.w3schools.com/howto/howto_css_table_responsive.asp
 
 #### Content
 
-• Most content was written by the developer, some code was copied and modififed from Code Institute learning modules.
+• Most content was written by the developer, some code was copied and modififed from Code Institute and Bootstrap learning modules.
 
 #### Media
 
@@ -121,7 +121,7 @@ https://www.w3schools.com/howto/howto_css_table_responsive.asp
 • Tutor support from Code Institute for their support.
 • The slack community of coders for immediate and helpful response.
 • My mentor for feedback throughout.
-• For help when stuck on code: https://stackoverflow.com/ , https://www.w3schools.com/ 
+• For help when stuck on code: [Stackoverflow](https://stackoverflow.com/), [W3 schools](https://www.w3schools.com/), [Flexbox Froggy](https://flexboxfroggy.com/)
 
 ## Testing User Stories from User Experiencer 
 
