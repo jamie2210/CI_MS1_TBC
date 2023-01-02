@@ -584,7 +584,7 @@ td .btn.btn-dark {
     padding-top: 15px;
 }
 
-/* ------------------------------------- Get In Touch */
+/* ------------------------------------- Contact */
 
 .contact-body{
     background-color: #000000;
@@ -640,7 +640,7 @@ td .btn.btn-dark {
 }
 
 .contact-footer{
-   max-height: 100px;
+   padding-top: 60px;
 }
 
 /* ------------------------------------- Media Queries */
