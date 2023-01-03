@@ -8,23 +8,58 @@ This is the webiste for 'Tooting Boxing Club, it is designed to be responsible a
 
 ### UX Design Planes
 
-• ![Strategy]()
+![Strategy](../MSP-1-Tooting-Boxing-Club/assets/images/planes/Strategy.jpg "Strategy")
+![Trade Off](../MSP-1-Tooting-Boxing-Club/assets/images/planes/Trade-off.jpg "Trade Off")
+![Scope](../MSP-1-Tooting-Boxing-Club/assets/images/planes/Scope.jpg "Scope")
+![Structure](../MSP-1-Tooting-Boxing-Club/assets/images/planes/Structure.jpg "Structure")
+![Skeleton 1](../MSP-1-Tooting-Boxing-Club/assets/images/planes/Skeleton%201.jpg "Skeleton 1")
+![Skeleton 2](../MSP-1-Tooting-Boxing-Club/assets/images/planes/Skeleton%202.jpg "Skeleton 2")
 
+### Branding & Research
 
+![Branding Colour Ideas](../MSP-1-Tooting-Boxing-Club/assets/images/Branding%20%26%20Research/Colour%20Branding%20.jpg "Branding Colour Ideas")
+![Research - BXR](../MSP-1-Tooting-Boxing-Club/assets/images/Branding%20%26%20Research/London%20Boxing%20Gym%20Research.jpg "Research - BXR")
+![Research - Rathbone](../MSP-1-Tooting-Boxing-Club/assets/images/Branding%20%26%20Research/London%20Boxing%20Gym%20Research2.jpg "Research - Rathbone")
+![Research - Balham & Miguel's](../MSP-1-Tooting-Boxing-Club/assets/images/Branding%20%26%20Research/London%20Boxing%20Gym%20Research3.jpg "Research - Balham & Miguel's")
+![Research - 12x3 Boxing](../MSP-1-Tooting-Boxing-Club/assets/images/Branding%20%26%20Research/London%20Boxing%20Gym%20Research4.jpg "Research - 12x3 Boxing")
+![Research - Jab](../MSP-1-Tooting-Boxing-Club/assets/images/Branding%20%26%20Research/London%20Boxing%20Gym%20Research5.jpg "Research - Jab")
+![Research - Left Hook](../MSP-1-Tooting-Boxing-Club/assets/images/Branding%20%26%20Research/London%20Boxing%20Gym%20Research6.jpg "Research - Left Hook")
 
 ### Wireframes
 
-
+![Home /Index](../MSP-1-Tooting-Boxing-Club/assets/images/Wireframes/TBC%20Home%20page%20Wireframe.png "Home / Index") 
+![About](../MSP-1-Tooting-Boxing-Club/assets/images/Wireframes/TBC%20About%20Wireframe.png "About")
+![Meet The Team](../MSP-1-Tooting-Boxing-Club/assets/images/Wireframes/TBC%20Meet%20The%20Team%20Wireframe.png "Meet The Team")
+![Prices](../MSP-1-Tooting-Boxing-Club/assets/images/Wireframes/TBC%20Prices%20page%20Wireframe.png "Prices")
+![Schedule](../MSP-1-Tooting-Boxing-Club/assets/images/Wireframes/TBC%20Schedule%20page%20Wireframe.png "Schedule")
+![Contact](../MSP-1-Tooting-Boxing-Club/assets/images/Wireframes/TBC%20Get%20In%20Touch%20page%20Wireframe.png "Contact")
 
 ### Project Goals
 
-Primary goal is to provide an informative good looking website that showcases Tooting Boxing Club and encourages the user to come to the gym or get in touch via the website.
+Primary goal is to provide an informative good looking website that showcases Tooting Boxing Club and encourages the user to come to the gym, buy classes or 1-1's or get in touch via the website.
 
 ### User goals
 
-The target audience is from 16 and up of any gender.
+The target audience is from 16 and up and for any gender.
+
+User goals are:
+
+• A well displayed easy to navigate website.
+• Clear indication to what we and who we are and what's on offer.
+• Easy access to get in touch for more information.
+• Visual diplay of the club to help user see and get and feel for the gym.
+• Call to action buttons to allow a user friendly experience buying and booking classes.
+• Enough information on the owners, coaches and classes for the user to have a good undertsanding of the company and it's employees.
+
+### Developer and Business Goals
+
+• A clean design that stands out and catches the users attention.
+• A website that responds correclty on all devices where design and effectivness is not hindered on any device.
+• A project the developer would be proud to display in their portfolio.
 
 ### User Stories
+
+
 
 ### Design Choices
 
@@ -47,7 +82,7 @@ The target audience is from 16 and up of any gender.
 ## Images
 
 ### Index Page
-• Photos were taken from [Pexels](https://www.pexels.com/), credit to;
+• Gym photos were taken from [Pexels](https://www.pexels.com/), credit to;
 
 • [RODNAE Productions](https://www.pexels.com/@rodnae-prod/)
 
