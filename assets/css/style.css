@@ -60,6 +60,14 @@ nav img:hover{
         -o-transition: all 0.3s ease-in-out;
 }
 
+.whatsapp {
+    color: #ffffff;
+    font-size: 34px;
+}
+
+.whatsapp:hover {
+    color:#e9c431;
+}
 /* ------------------------------------- Body */
 
 body {
