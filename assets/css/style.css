@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Martian+Mono:wght@100;200;300;400;500;600;700;800&family=Nunito+Sans:wght@200;300;400;600;700;800&family=PT+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=:wght@100;200;300;400;500;600;700;800&family=Nunito+Sans:wght@200;300;400;600;700;800&family=PT+Sans:wght@400;700&display=swap');
 
 
 /* ------------------------------------- Nav Bar */
@@ -300,6 +300,7 @@ body {
 .about-container h2{
     font-weight: 700;
     margin-top: 50px;
+    font-family: "Martian Mono", sans-serif;
 }
 
 .fa-medal {
@@ -388,6 +389,7 @@ body {
     width: 100%;
     padding: 0;
     margin-bottom: 60px;
+    font-family: "Martian Mono", sans-serif;
 }
 
 .team-title h2{
@@ -449,6 +451,8 @@ body {
     width: 100%;
     padding: 0;
     margin-bottom: 50px;
+    font-family: "Martian Mono", sans-serif;
+    
 }
 
 .prices-title-header h2{
@@ -518,6 +522,7 @@ body {
     width: 100%;
     padding: 0;
     margin-bottom: 50px;
+    font-family: "Martian Mono", sans-serif;
 }
 
 .schedule-title h2 {
@@ -649,7 +654,8 @@ td p {
     font-weight: 700;
     padding-top: 50px;
     margin-bottom: 50px;
-    color: #C0C0C0;
+    color: #ffffff;
+    font-family: "Martian Mono", sans-serif;
 }
 
 .form-container {
