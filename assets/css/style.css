@@ -84,7 +84,7 @@ body {
     background-color: #000000;
     color: #ffffff;
     text-decoration: none;
-    padding: 9px 31px;
+    padding: 9px 30px;
     border-radius: 5px;
     border: none;
     font-weight: 500;
@@ -194,6 +194,7 @@ body {
     align-items: center;
     height: 20vh;
     z-index: 1;
+
 }
 
 .hero-button {
@@ -625,6 +626,18 @@ td p {
     padding-top: 15px;
 }
 
+.btn-secondary {
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+}
+
+.btn-secondary:hover {
+    color:#000000;
+    background-color: #e9c431;
+    border: none;
+}
+
 /* ------------------------------------- Contact */
 
 .contact-body{
@@ -706,8 +719,8 @@ td p {
 }
 
 @media screen and (min-width:820px) and (max-width:912px){
-    .hero-btn{
-        margin-top: 20em;
+    .hero-butto {
+        margin-top: 15rem;
     }
 }
 
@@ -719,6 +732,9 @@ td p {
     }
     .form {
         width: 400px;
+    }
+    .hero-butto {
+        margin-top: 12rem;
     }
 }
 
@@ -732,9 +748,6 @@ td p {
 @media screen and (max-width:480px){
     .hidden{
         display: none;
-    }
-    .btn.btn-dark {
-        width: 125px;
     }
     .hero-btn {
         font-weight: none;
