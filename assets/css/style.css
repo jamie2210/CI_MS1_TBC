@@ -175,7 +175,7 @@ body {
 /* ------------------------------------- Hero Image */
 
 .hero {
-    height: 75vh;
+    height: 100vh;
     background: url("../images/hero-1-sat.jpg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -724,9 +724,9 @@ td p {
     }
 }
 
-@media screen and (min-width:820px) and (max-width:912px){
-    .hero-butto {
-        margin-top: 15rem;
+@media screen and (min-width:821px) and (max-width:912px){
+    .hero-button {
+        margin-top: 19rem;
     }
 }
 
@@ -739,7 +739,7 @@ td p {
     .form {
         width: 400px;
     }
-    .hero-butto {
+    .hero-button {
         margin-top: 12rem;
     }
 }
@@ -768,13 +768,13 @@ td p {
     }
 }
 
-@media screen and (max-width:280px){
+@media screen and (max-width:364px){
     .reviews .hidden{
         display: none;}
-    .hero-btn {
-        margin-top: 175px;
+    .hero-button {
+        margin-top: 180px;
     }
-    .btn.btn-dark{
+    .hero .button{
         margin-bottom: 10px;
     }
     .hero img {

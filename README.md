@@ -219,10 +219,11 @@ https://www.w3schools.com/howto/howto_css_table_responsive.asp
 
 #### Ackowledgements 
 
-• Tutor support from Code Institute for their support.
-• The slack community of coders for immediate and helpful response.
-• My mentor for feedback throughout.
-• For help when stuck on code: [Stackoverflow](https://stackoverflow.com/), [W3 schools](https://www.w3schools.com/), [Flexbox Froggy](https://flexboxfroggy.com/)
+- Tutor support from Code Institute for their support.
+- The slack community of coders for immediate and helpful response.
+- My mentor for feedback throughout.
+- For help when stuck on code: [Stackoverflow](https://stackoverflow.com/), [W3 schools](https://www.w3schools.com/), [Flexbox Froggy](https://flexboxfroggy.com/)
+- Code for adding WhatsApp came from [Message Bird](https://support.messagebird.com/hc/en-us/articles/360018616838-Add-an-embeddable-WhatsApp-Button-to-your-website)
 
 ## Testing User Stories from User Experiencer 
 
