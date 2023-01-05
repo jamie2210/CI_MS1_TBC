@@ -84,8 +84,7 @@ body {
     background-color: #000000;
     color: #ffffff;
     text-decoration: none;
-    width: 140px;
-    height: 39px;
+    padding: 9px 31px;
     border-radius: 5px;
     border: none;
     font-weight: 500;
@@ -93,6 +92,7 @@ body {
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
+    display:inline-block;
 }
 
 .button:hover {
