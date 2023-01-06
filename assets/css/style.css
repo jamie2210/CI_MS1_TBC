@@ -715,8 +715,12 @@ td p {
 /* ------------------------------------- Media Queries */
 
 @media screen and (max-width: 1428px){
-    .table{
-        overflow-x: auto;}
+    .table {
+        overflow-x: auto;
+    }
+    .schedule-style{
+        min-width: 1320px;
+    }
 }
 
 @media screen and (max-width:1143px){
@@ -726,7 +730,7 @@ td p {
     }
 }
 
-@media screen and (min-width:1025px){
+@media screen and (max-width:1025px){
     .intro-text{
         padding-left: 20%;
         padding-right: 20%;
@@ -741,7 +745,7 @@ td p {
 
 @media screen and (max-width:820px){
     .hero {
-        height: 50vh;}
+        height: 100vh;}
     .contact-details .hidden {
         display: none;
     }
@@ -776,6 +780,10 @@ td p {
     .form {
         width: 300px;
     }
+    .intro-text{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 }
 
 @media screen and (max-width:364px){
@@ -792,6 +800,9 @@ td p {
     }
     .week-cursor i{
             display: none;
+    }
+    .week-cursor {
+        padding: 0 6px;
     }
     .form {
         width: 250px;
