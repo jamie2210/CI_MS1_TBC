@@ -248,7 +248,7 @@ The project was deployed to GitHub using the following stages;
 
 1. Buttons on index.html hero image
 
-   - Having tested their position on all devices, I notcied using a margin of a specific px cause them to be out of place on different devices. Using an 'rem' unit paired with specific media queries commands instead allows them repsond better ensuring they are in a good posotion on all devices.
+   A. Having tested their position on all devices, I notcied using a margin of a specific px cause them to be out of place on different devices. Using an 'rem' unit paired with specific media queries commands instead allows them repsond better ensuring they are in a good posotion on all devices.
 
     ##### **CSS Edits**
             .hero-btn {
@@ -286,7 +286,7 @@ The project was deployed to GitHub using the following stages;
                 margin-bottom: 25px;
             }
 
-    - Having looked at ths in more detail it just wasn't working correclty, it caused the logo and buttons to be at different positions on lots of different devices and was messy. I decided to re-write the code and see if there was a different way of doing it. I found a solution here is the old code and the new;
+    B. Having looked at ths in more detail it just wasn't working correclty, it caused the logo and buttons to be at different positions on lots of different devices and was messy. I decided to re-write the code and see if there was a different way of doing it. I found a solution here is the old code and the new;
 
 #### Old HTML
 
@@ -351,15 +351,13 @@ The project was deployed to GitHub using the following stages;
                 display: block;
             }
 
-    - Which meant i could remove all the messy media queries and write just one for when the screen width was really thin;
+Which meant i could remove all the messy media queries and write just one for when the screen width was really thin;
 
             @media screen and (max-width:282px){
                 .hero-button .button{
                 margin-bottom: 10px;
                 }
             }           
-
-
 
 
 2. Map
