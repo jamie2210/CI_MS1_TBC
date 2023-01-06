@@ -198,7 +198,6 @@ body {
 .hero-button {
     display: block;
     text-align: center;
-    display: block;
 }
 /*
 .hero img {
@@ -737,12 +736,6 @@ td p {
     }
 }
 
-@media screen and (min-width:821px) and (max-width:912px){
-    .hero-butto {
-        margin-top: 19rem;
-    }
-}
-
 @media screen and (max-width:820px){
     .hero {
         height: 100vh;}
@@ -751,9 +744,6 @@ td p {
     }
     .form {
         width: 400px;
-    }
-    .hero-butto {
-        margin-top: 12rem;
     }
 }
 
@@ -767,10 +757,6 @@ td p {
 @media screen and (max-width:480px){
     .hidden{
         display: none;
-    }
-    .hero-btn {
-        font-weight: none;
-        padding: 0 27px;
     }
     .container img{
        height: 125px;
