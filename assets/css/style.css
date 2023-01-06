@@ -553,6 +553,10 @@ body {
     color:#a51e1e;
 }
 
+.schedule-style th:first-child {
+    background-color: transparent;
+}
+
 .schedule-style th {
     background-color: #000000;
     padding: 2em;
