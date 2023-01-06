@@ -608,34 +608,6 @@ td p {
     margin: 0 10px;
 }
 
-/*---- MODAL ----*/
-
-.modal {
-    background-color: rgba(187, 187, 187, 0.5);
-}
-
-.modal-content {
-    background-color: #000000;
-    color:#C0C0C0;
-    border-width: 1px solid;
-}
-
-.modal-content h5 {
-    padding-top: 15px;
-}
-
-.btn-secondary {
-    color: #ffffff;
-    background-color: #000000;
-    border: none;
-}
-
-.btn-secondary:hover {
-    color:#000000;
-    background-color: #e9c431;
-    border: none;
-}
-
 /* ------------------------------------- Contact */
 
 .contact-body{
@@ -694,6 +666,50 @@ td p {
 
 .contact-footer{
    padding-top: 60px;
+}
+
+/* ------------------------------------- MODALS */
+
+.modal {
+    background-color: rgba(187, 187, 187, 0.5);
+}
+
+.modal-content {
+    background-color: #000000;
+    color:#C0C0C0;
+    border-width: 1px solid;
+}
+
+.sign-in {
+    background-color: #000000;
+    color:#C0C0C0;
+    border-width: 1px solid;
+}
+
+.sign-in-form a {
+    
+    color: #ffffff
+}
+
+.sign-in-form a:hover {
+    color:#e9c431;
+    text-decoration: none;
+}
+
+.modal-content h5 {
+    padding-top: 15px;
+}
+
+.btn-secondary {
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+}
+
+.btn-secondary:hover {
+    color:#000000;
+    background-color: #e9c431;
+    border: none;
 }
 
 /* ------------------------------------- Media Queries */
