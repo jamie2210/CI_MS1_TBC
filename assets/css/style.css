@@ -811,6 +811,9 @@ td p {
     font-size: larger;
     color: #000000;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #boxing-clash {
