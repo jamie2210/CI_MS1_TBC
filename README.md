@@ -111,7 +111,7 @@ Primary goal is to provide an informative good-looking website that showcases To
 13. As the site owner, I want users to easy access their account and make purchases.
 14. As the site owner, I want users to get a feel for the club and more about me.
 15. As the site owner, I want the users to be able to contact us.
-16. As the site owner, I want the user to able to book in to classes.
+16. As the site owner, I want the user to able to book into classes.
 
 ## Design
 
@@ -149,34 +149,132 @@ I tested multiple options on indesign to ensure I was happy with the colours and
 <img src="docs/research/colour-branding.jpg">
 </details>
 
+### Fonts
 
-
-
-
-### **Fonts**
-
-- Google fonts were used to import the 'Martian Mono and Nunito Sans' font used throughout the website:
+Google fonts were used to import the 'Martian Mono and Nunito Sans' font used throughout the website:
 - [Martian Mono](https://fonts.google.com/specimen/Martian+Mono?query=martian)
 - [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans?query=nunito+sans)
-- I use these fonts as they are clean, easy to read and have a smart appearance and as they are not a commonly used font still manage to portray a unique and individual look to them.
+
+Martian Mono only used for title headers as they stand out well being a slightly and make an impact as the user lands on the page.
+<br> 
+I use these fonts as they are clean, easy to read and have a smart appearance and as they are not a commonly used fonts still manage to portray a unique and individual look to them.
+
+### Structure
+The page is structure in a user friendly and visually appealing way. Upon arriving the user will notice the recognisable navigation bar, with the company logo on the left and next to that a WhatsApp symbol for quick and convenient contact via the app, all navigation links are placed on the right.
+
+The website consists of six separate pages and a ‘Sign In’ modal: 
+- A homepage with a sections giving more information on the club (Strapline and short introduction, gallery, reviews and map)
+- An About page with information on the founders and why they started the club.
+- A Team page that introduces the user to the coaches.
+- A Prices page with details on the different options for classes and 1-1’s.
+- A Class Schedule page with the class timetable and details on the different class the gym puts on via a modal.
+- A Contact page with a form for getting in touch.
+- The Sign In icon takes the user to a sign in modal, there is no page.
+
+### Wireframes
+
+<details><summary>Home</summary>
+<img src="docs/wireframes/home-wireframe.png">
+</details>
+<details><summary>About</summary>
+<img src="docs/wireframes/about-wireframe.png">
+</details>
+<details><summary>the Team</summary>
+<img src="docs/wireframes/team-wireframe.png">
+</details>
+<details><summary>Prices</summary>
+<img src="docs/wireframes/prices-wireframe.png">
+</details>
+<details><summary>Class Schedule</summary>
+<img src="docs/wireframes/schedule-wireframe.png">
+</details>
+<details><summary>Get In Touch</summary>
+<img src="docs/wireframes/contact-wireframe.png">
+</details>
+
+## Technologies Used
+
+### Languages
+- HTML
+- CSS
+
+### Frameworks & Tools
+- Bootstrap v5.0
+- Git
+- GitHub
+- Gitpod
+- Tinypng
+- Balsamiq
+- Google Fonts
+- Adobe Suite (Illustrator, Photoshop & InDesign)
+- Font Awesome
+- Favicon<span>.</span>io
+
+## Features
+The page consists of six pages and fourteen features.
+
+### Logo and Navigation Bar
+- Featured on all six pages
+- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
+links to the Homepage, About page, The Team page, Prices Page, Class Schedule Page and Get In Touch page.
+- It allows users to easily navigate the page
+- The link for the page the user is currently on is highlighted in yellow.
+- The left includes the gym’s logo which also acts as a home button with a WhatsApp logo which opens WhatsApp chat with the gym when clicked.
+- The navigation bar includes a sign in icon that opens a modal to sing in or sign up.
+- User stories covered: 6,7,8.
+
+![Logo and Navigation Bar](docs/features/feature-navbar.png)
+
+### Hero Image / Landing Page
+-	Company logo with 2 buttons underneath it one that takes the user to the schedule page and one that takes the user to the prices page.
+-	Background image of two boxing gloves fist bumping depicting a sense of unity and bond, representing the ethos of the gym.
+-	User stories covered: 5, 7, 12.
+
+![Hero Image / Landing Page](docs/features/feature-hero.png)
+
+### Company Logo and Strap Line
+
+- This introduces the user to the club ethos and principles and gives a little taste of how the user benefits from joining.
+- User stories covered: 4.
+
+![Company Logo and Strap Line](docs/features/feature-strapline.png)
+
+### Carousel
+- Introduces the user to the gym and its classes and coaches with a six-picture slide show.
+- Options for the user to navigate the slide show via back and forward arrows or indicators are located to the left and right centre of the image.
+- User stories covered: 5.
+
+![Carousel](docs/features/feature-carousel.png)
+
+### Reviews
+- 4 Reviews from members detailing how much they like the gym
+- User stories covered: 4,5.
+
+![Reviews](docs/features/feature-reviews.png)
+
+### Map
+- Shows the restaurant location on an embedded Google Map
+- User stories covered: 1, 10.
+
+![Map](docs/features/feature-map.png)
+
+### Footer
+- Featured on all six pages.
+- Consists of two separate sections: contact information and social media links.
+- User stories covered: 8, 9.
+
+![Footer](docs/features/feature-footer.png)
 
 
-#### **Icons**
 
-- All icons used were chosen to reflect the specifc site or page they represent (instagram icon for link ot instagram) allowing an easy understanding for everyone using the site.
 
-#### **Colours**
 
-- specific colours used on the site all taking from a colour picker in InDesign are;
-    1. Black: #000000
-    2. White: #ffffff
-    3. Off-white: #f1f1f1 
-    4. Off-white: 2 #C0C0C0 (also used for Silver)
-    5. Yellow: #e9c431
-    6. Red: #a51e1e
-    7. Shadow Grey: #726a6a
-    8. Sublte Grey: #807c7c (only used for a very small amount of text on - 'Read Me' on index.html reviews section)
-    9. Bronze: #CD7F32
+
+
+
+
+
+
 
 ### **Styling**
 
@@ -187,8 +285,8 @@ I tested multiple options on indesign to ensure I was happy with the colours and
 
 ### **Backgrounds**
 
-- The only background image used is on the index.html as the hero image it was chosen as it shows 2 gloves coming together which is a symbol of repsect, unity and companionship. all of whic the club stands for.
-- All over backgrounds are either an off-white as white is too garish or black. 
+- The only background image used is on the index.html as the hero image it was chosen as it shows 2 gloves coming together which is a symbol of repsect, unity and companionship. all of which the club stands for.
+- All over backgrounds are either an off-white or black. 
 
 ## **Images**
 
@@ -229,32 +327,6 @@ Coach profile pictures taken from [Pexels](https://www.pexels.com/), credit to;
 • [Volkan Erdek](https://www.pexels.com/@volkan-erdek-311029/)
 
 ### **Features**
-
-## **Languages Used**
-• [HTML5](https://en.wikipedia.org/wiki/HTML)
-
-• [CSS3](https://en.wikipedia.org/wiki/CSS)
-
-## Frameworks, Libraries & Programmes Used
-
-1. Bootstrap 5.2:
-    • Boostrap used to assist with the responsiveness and styling of the website
-2. Hover css:
-    • 
-3. Google Fonts:
-    • Google fonts were used to import the 'Martian Mono and Nunito Sans' font used throughout the website:
-4. Font Awesome:
-5. JQuery
-6. Git:
-    • Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-7. GitHub:
-    • Github is used to store the projects code after being pushed from Git.
-8. Illustrator:
-    Illustrator was used for logo creation and artwork touch ups
-9. Photoshop:
-    Photoshop was used to cut, crop and edit photos.
-10. Indesign:
-    Indesign was used when creating branding colour chart and putting to images together like the competion research.
 
 ## Credits
 
