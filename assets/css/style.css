@@ -716,7 +716,7 @@ td p {
 
 .bang-cont{
     height: 80vh;
-    width: auto;
+    width: 100%;
     font-family: "Martian Mono", sans-serif;
     font-weight: 700;
     color: #000000;
@@ -813,6 +813,10 @@ td p {
     .form {
         width: 250px;
     }
+    .bang-cont{
+        font-weight: 300;
+        font-size: smaller;
+    } 
 }
 @media screen and (max-width:282px){
     .hero-button .button{
