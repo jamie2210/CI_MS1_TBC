@@ -1,69 +1,117 @@
-# **Read Me Documentation**
+# Tooting Boxing Club
+(Developer: Jamie Letts)
+
+![Mockup image](docs/)
+
+[Live webpage]( https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/index.html
+
+This is the website for 'Tooting Boxing Club, it is designed to be responsible and accessible on all devices allowing easy access to the timetable, class schedule and information on club and coaches for our members and those who want to know more about us.
 
 
-[View the live project here](https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/)
+## Table of Content
 
-This is the webiste for 'Tooting Boxing Club, it is designed to be responsible and acccessible on all devices allowing easy access to the timetable, class schedule and information on club and coaches for our members and those who want to know more about us.
+1. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [User Requrements and Expectations](#user-requrements-and-expectations)
+    3. [User Stories](#user-stories)
+3. [Design](#design)
+    1. [Design Choices](#design-choices)
+    2. [Colour](#colours)
+    3. [Fonts](#fonts)
+    4. [Structure](#structure)
+    5. [Wireframes](#wireframes)
+4. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks & Tools](#frameworks-&-tools)
+5. [Features](#features)
+6. [Testing](#validation)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](#CSS-validation)
+    3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Device testing](#performing-tests-on-various-devices)
+    6. [Browser compatibility](#browser-compatability)
+    7. [Testing user stories](#testing-user-stories)
+8. [Bugs](#Bugs)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+11. [Acknowledgements](#acknowledgements)
+
+## Project Goals
+
+Primary goal is to provide an informative good-looking website that showcases Tooting Boxing Club and encourages the user to come to the gym, buy classes or 1-1's or get in touch via the website.
 
 
-## **UX**
-
-
-### UX **Design Planes**
-
-
-![Strategy](../MSP-1-Tooting-Boxing-Club/assets/images/planes/Strategy.jpg "Strategy")
-![Trade Off](../MSP-1-Tooting-Boxing-Club/assets/images/planes/Trade-off.jpg "Trade Off")
-![Scope](../MSP-1-Tooting-Boxing-Club/assets/images/planes/Scope.jpg "Scope")
-![Structure](../MSP-1-Tooting-Boxing-Club/assets/images/planes/Structure.jpg "Structure")
-![Skeleton 1](../MSP-1-Tooting-Boxing-Club/assets/images/planes/Skeleton%201.jpg "Skeleton 1")
-![Skeleton 2](../MSP-1-Tooting-Boxing-Club/assets/images/planes/Skeleton%202.jpg "Skeleton 2")
-
-
-### **Wireframes**
-
-![Home /Index](../MSP-1-Tooting-Boxing-Club/assets/images/Wireframes/TBC%20Home%20page%20Wireframe.png "Home / Index") 
-![About](../MSP-1-Tooting-Boxing-Club/assets/images/Wireframes/TBC%20About%20Wireframe.png "About")
-![Meet The Team](../MSP-1-Tooting-Boxing-Club/assets/images/Wireframes/TBC%20Meet%20The%20Team%20Wireframe.png "Meet The Team")
-![Prices](../MSP-1-Tooting-Boxing-Club/assets/images/Wireframes/TBC%20Prices%20page%20Wireframe.png "Prices")
-![Schedule](../MSP-1-Tooting-Boxing-Club/assets/images/Wireframes/TBC%20Schedule%20page%20Wireframe.png "Schedule")
-![Contact](../MSP-1-Tooting-Boxing-Club/assets/images/Wireframes/TBC%20Get%20In%20Touch%20page%20Wireframe.png "Contact")
-
-
-### **Project Goals**
-
-Primary goal is to provide an informative good looking website that showcases Tooting Boxing Club and encourages the user to come to the gym, buy classes or 1-1's or get in touch via the website.
-
-
-### **User Goals**
-
-The target audience is from 16 and up and for any gender.
-
-User goals are:
-
+### User Goals
 - A well displayed easy to navigate website.
 - Clear indication to what we and who we are and what's on offer.
 - Easy access to get in touch for more information.
-- Visual diplay of the club to help user see and get and feel for the gym.
-- Call to action buttons to allow a user friendly experience buying and booking classes.
-- Enough information on the club, owners, coaches and classes for the user to have a good undertsanding of the company and it's employees.
+- Visual display of the club to help user see and get and feel for the gym.
+- Call to action buttons to allow a user-friendly experience buying and booking classes.
+- Enough information on the club, owners, coaches and classes for the user to have a good undertsanding of the company and its employees.
 
 
-### **Developer and Business Goals**
+### Site Owner Goals
+- Increase in the number of members.
+- Promote the business.
+- Provide a way for new and existing clients to contact the gym.
+- Provide easy access to booking class and arranging private sessions.
+- Provide detailed pricing and payment options.
+- Provide information on the gym, it’s classes, coaches, and owners.
 
+### Developer Goals
 - A clean design that stands out and catches the users attention.
-- A website that responds correclty on all devices where design and effectivness is not hindered on any device.
-- An easy to navigate website with clear pathwasy to specific pages such as class booking, prices and information on the club and coaches.
+- A website that responds correctly on all devices where design and effectiveness is not hindered on any device.
+- An easy to navigate website with clear pathways to specific pages such as class booking, prices and information on the club and coaches.
 - A project the developer would be proud to display in their portfolio.
 
 
-### **User Stories**
+## User Experience
 
-- The main goal for the useris t be encouraged to either get in touch, make a purchase, book in a class or gather more information on the club.
-- The site should be visually appealling, neatly laid out with an attract colour system.
-- The user should easily be ablt to find the prices, coaches and then find which coaches are coaching on the schedule.
-- The schedule needs to be able to give further information about the specific classes that are on each day for the user to know more about what they are booking in to.
-- If the user wants to know more or has any further questions, simpes means to contact must be visable.
+### Target Audience
+- Ages 16 and up.
+- Anyone who is interested in learning to box.
+- All levels and abilities welcome.
+- Companies looking for corporate team building events
+- Mainly individuals but limited to.
+
+### User Requirements and Expectations
+
+- A simple and intuitive navigation system.
+- Quickly and easily find relevant information.
+- Links and functions that work as expected.
+- Good presentation and a visually appealing design regardless of screen size.
+- An easy way to contact the gym.
+- Simple content that the user can skim read.
+- Accessibility.
+
+### User Stories
+
+#### First-time User 
+1. As a first-time user, I want to know where the gym is located.
+2. As a first-time user, I want to know the prices for classes and 1-1’s.
+3. As a first-time user, I want to know when classes are on throughout the week.
+4. As a first-time user, I want to know more about the club, it’s history and its coaches.
+5. As a first-time user, I want to get a feel for the classes and atmosphere in the gym.
+
+
+#### Returning User
+6. As a returning user, I want to easily log in to my account or create one.
+7. As a returning user, I want access the schedule quickly to book in.
+8. As a returning user, I want to find a phone number, email, or a means to contact to arrange a 1-1 or ask for more information.
+9. As a returning user, I want to find the gym on social media.
+10. As a returning user, I want to get directions to the gym.
+11. As a returning user, I want to know more about what each individual class involves.
+12. As a returning user, I want to purchase sessions, memberships or 1-1’s.
+
+#### Site Owner 
+13. As the site owner, I want users to easy access their account and make purchases.
+14. As the site owner, I want users to get a feel for the club and more about me.
+15. As the site owner, I want the users to be able to contact us.
+16. As the site owner, I want the user to able to book in to classes.
 
 
 ### **Design Choices**
