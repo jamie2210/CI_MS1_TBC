@@ -51,7 +51,7 @@ Primary goal is to provide an informative good-looking website that showcases To
 - Easy access to get in touch for more information.
 - Visual display of the club to help user see and get and feel for the gym.
 - Call to action buttons to allow a user-friendly experience buying and booking classes.
-- Enough information on the club, owners, coaches and classes for the user to have a good undertsanding of the company and its employees.
+- Enough information on the club, owners, coaches and classes for the user to have a good understanding of the company and its employees.
 
 
 ### Site Owner Goals
@@ -60,7 +60,7 @@ Primary goal is to provide an informative good-looking website that showcases To
 - Provide a way for new and existing clients to contact the gym.
 - Provide easy access to booking class and arranging private sessions.
 - Provide detailed pricing and payment options.
-- Provide information on the gym, it’s classes, coaches, and owners.
+- Provide information on the gym, its classes, coaches, and owners.
 
 ### Developer Goals
 - A clean design that stands out and catches the users attention.
@@ -113,10 +113,13 @@ Primary goal is to provide an informative good-looking website that showcases To
 15. As the site owner, I want the users to be able to contact us.
 16. As the site owner, I want the user to able to book in to classes.
 
+## Design
 
-### **Design Choices**
+### Design Choices
+The layout I chose ensures each specific point of information is easy to access and follows a similar theme to ensure continuity. Tooting boxing club is a new, high end and authentic boxing gym so I want the website to be slick and clean to represent that.
 
-I took inspiration from what I saw in the competitors sites I liked and as Tooting Boxing Club is a club that is influenced by the past I wanted to add hints of authentic and classic colours used in boxing posters from the 70's and 80's - a truly classic era of boxing.
+### Colour
+As Tooting Boxing Club is a club that is influenced by the past, I wanted to add hints of authentic and classic colour (yellow and red) used in boxing posters from the 70's and 80's - a truly classic era of boxing.
 
 The branding colours I chose are Black, White, A slightly Mustard Yellow and a Burnt Red.
 
@@ -124,25 +127,30 @@ Primary Colours - Black / White
 
 Secondary Colours - Yellow / Red
 
-Black, Yellow and white being the most promodinant as they stand out so well against each other.
+Black, Yellow and white being the most predominant as they stand out so well against each other.
 
-I will also use subtle greys when a white backlground to too garish.
+I also use subtle greys when a white background to too garish.
 
-### **Branding & Research**
+Specific colours used on the site all taken from a colour picker in InDesign are;
+1. Black: #000000
+2. White: #ffffff
+3. Off-white: #f1f1f1 
+4. Off-white: 2 #C0C0C0 (also used for Silver)
+5. Yellow: #e9c431
+6. Red: #a51e1e
+7. Shadow Grey: #726a6a
+8. Sublte Grey: #807c7c (only used for a very small amount of text on - 'Read Me' on index.html reviews section)
+9. Bronze: #CD7F32
 
-![Branding Colour Ideas](../MSP-1-Tooting-Boxing-Club/assets/images/![Research - Rathbone](../MSP-1-Tooting-Boxing-Club/assets/images/research/London%20Boxing%20Gym%20Research2.jpg "Research - Rathbone")
-/Colour%20Branding%20.jpg "Branding Colour Ideas")
-![Research - BXR](../MSP-1-Tooting-Boxing-Club/assets/images/![Research - Rathbone](../MSP-1-Tooting-Boxing-Club/assets/images/research/London%20Boxing%20Gym%20Research2.jpg "Research - Rathbone")
-/London%20Boxing%20Gym%20Research.jpg "Research - BXR")
-![Research - Rathbone](../MSP-1-Tooting-Boxing-Club/assets/images/research/London%20Boxing%20Gym%20Research2.jpg "Research - Rathbone")
-![Research - Balham & Miguel's](../MSP-1-Tooting-Boxing-Club/assets/images/![Research - Rathbone](../MSP-1-Tooting-Boxing-Club/assets/images/research/London%20Boxing%20Gym%20Research2.jpg "Research - Rathbone")
-/London%20Boxing%20Gym%20Research3.jpg "Research - Balham & Miguel's")
-![Research - 12x3 Boxing](../MSP-1-Tooting-Boxing-Club/assets/images/![Research - Rathbone](../MSP-1-Tooting-Boxing-Club/assets/images/research/London%20Boxing%20Gym%20Research2.jpg "Research - Rathbone")
-/London%20Boxing%20Gym%20Research4.jpg "Research - 12x3 Boxing")
-![Research - Jab](../MSP-1-Tooting-Boxing-Club/assets/images/![Research - Rathbone](../MSP-1-Tooting-Boxing-Club/assets/images/research/London%20Boxing%20Gym%20Research2.jpg "Research - Rathbone")
-/London%20Boxing%20Gym%20Research5.jpg "Research - Jab")
-![Research - Left Hook](../MSP-1-Tooting-Boxing-Club/assets/images/![Research - Rathbone](../MSP-1-Tooting-Boxing-Club/assets/images/research/London%20Boxing%20Gym%20Research2.jpg "Research - Rathbone")
-/London%20Boxing%20Gym%20Research6.jpg "Research - Left Hook")
+I tested multiple options on indesign to ensure I was happy with the colours and had covered as many other options I also liked.
+
+
+<details><summary>Branding Colour Ideas</summary>
+<img src="docs/research/colour-branding.jpg">
+</details>
+
+
+
 
 
 ### **Fonts**
