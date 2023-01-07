@@ -800,3 +800,18 @@ td p {
        margin-bottom: 10px;
     }
 }
+
+/* --------------------------------- Page 404 */
+
+.bang-cont{
+    height: 100vh;
+    width: auto;
+}
+
+#bang-cont p {
+    font-family: "Martian Mono", sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    color: #000000;
+    text-align: center;
+}
