@@ -147,7 +147,7 @@ body {
 }
 
 .social-links{
-    float:right;
+    float: right;
     padding-right: 50px;
     padding-top: 15px;
 }
@@ -164,6 +164,27 @@ body {
 .social-links li a i:hover {
     color:#e9c431;
 }
+
+.social-links-sm{
+    float:left;
+    padding: 0;
+}
+
+.social-links-sm li a i {
+    color:#ffffff;
+    font-size: 2em;
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    padding-left: 0;
+    padding-right: 30px;
+}
+.social-links-sm li a i:hover {
+    color:#e9c431;
+}
+
 /* ------------------------------------- INDEX */
 
 /* ------------------------------------- Hero Image */
@@ -817,6 +838,12 @@ td p {
         font-weight: 300;
         font-size: smaller;
     } 
+}
+
+@media screen and (min-width: 365px){
+    .social-links-sm {
+        display: none;
+    }
 }
 @media screen and (max-width:282px){
     .hero-button .button{
