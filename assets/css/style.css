@@ -712,6 +712,25 @@ td p {
     border: none;
 }
 
+/* --------------------------------- Page 404 */
+
+.bang-cont{
+    height: 80vh;
+    width: auto;
+    font-family: "Martian Mono", sans-serif;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boxing-clash {
+    max-height: 300px;
+    width: auto;
+}
+
 /* ------------------------------------- Media Queries */
 
 @media screen and (max-width: 1428px){
@@ -771,26 +790,6 @@ td p {
         padding-left: 10%;
         padding-right: 10%;
     }
-}
-
-/* --------------------------------- Page 404 */
-
-.bang-cont{
-    height: 80vh;
-    width: auto;
-    font-family: "Martian Mono", sans-serif;
-    font-weight: 900;
-    font-size: larger;
-    color: #000000;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#boxing-clash {
-    max-height: 300px;
-    width: auto;
 }
 
 @media screen and (max-width:364px){
