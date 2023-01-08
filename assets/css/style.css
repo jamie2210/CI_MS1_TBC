@@ -408,7 +408,8 @@ body {
     font-family: "Martian Mono", sans-serif;
 }
 
-.team-title h2{
+.team-title h1{
+    font-size: xx-large;
     font-weight: 700;
     padding-top: 50px;
     margin-bottom: 50px;
@@ -431,7 +432,8 @@ body {
     padding-right: 40px;
 }
 
-.coach h5 {
+.coach h2 {
+    font-size: x-large;
     font-weight: 700;
 }
 
@@ -471,14 +473,15 @@ body {
     
 }
 
-.prices-title-header h2{
+.prices-title-header h1{
+    font-size: xx-large;
     font-weight: 700;
     padding-top: 50px;
     margin-bottom: 50px;
     color: #ffffff;
 }
 
-.prices-title h3 {
+.prices-title h2 {
     font-weight: 700;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -493,9 +496,14 @@ body {
     font-weight: 700;
 }
 
-.prices-body h5{
+.prices-body h4{
     color:#a51e1e;
     font-weight: 700;
+}
+
+.prices-body h5 {
+    font-weight: 700;
+    font-size: xx-large;
 }
 
 .prices-flex p{
@@ -541,7 +549,8 @@ body {
     font-family: "Martian Mono", sans-serif;
 }
 
-.schedule-title h2 {
+.schedule-title h1 {
+    font-size: xx-large;
     font-weight: 700;
     padding-top: 50px;
     margin-bottom: 50px;
@@ -614,14 +623,15 @@ body {
     padding: 0;
     
 }
-td h4 {
+td h2 {
+    font-size: x-large;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     border-radius: 5px;
 }
-td h4:hover{
+td h2:hover{
     transform: translateY(-2px);
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -650,7 +660,8 @@ td p {
     min-height: 70vh;
     min-width: auto;
 }
-.contact-title {
+.contact-title h1 {
+    font-size: xx-large;
     font-weight: 700;
     padding-top: 50px;
     margin-bottom: 50px;
@@ -729,7 +740,8 @@ td p {
     text-decoration: none;
 }
 
-.modal-content h5 {
+.modal-content h2 {
+    font-size: x-large;
     padding-top: 15px;
 }
 
