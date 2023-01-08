@@ -36,17 +36,26 @@ nav img {
 .navbar-black {
     background-color: #000000;
     transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     --bs-navbar-hover-color: #e9c431;
 }
 
 .nav-link:hover {
         transform: translateY(-2px);
         transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
 }
 
 nav img:hover{
         transform: translateY(-2px);
         transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
 }
 
 .whatsapp {
@@ -58,6 +67,9 @@ nav img:hover{
     color:#e9c431;
     transform: translateY(-2px);
     transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 /* ------------------------------------- Body */
@@ -77,6 +89,9 @@ body {
     border: none;
     font-weight: 500;
     transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     display:inline-block;
 }
 
@@ -114,6 +129,9 @@ body {
     text-decoration: none;
     color: #ffffff;
     transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .email:hover{
@@ -139,6 +157,9 @@ body {
     font-size: 2em;
     padding: 15px;
     transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .social-links li a i:hover {
@@ -155,6 +176,9 @@ body {
     font-size: 2em;
     padding: 15px;
     transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     padding-left: 0;
     padding-right: 30px;
 }
@@ -302,6 +326,9 @@ body {
     text-decoration: none;
     color:#000000;
     transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .silver2:hover {
@@ -314,6 +341,9 @@ body {
 
 .image-link {
     transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .image-link:hover{
@@ -343,6 +373,9 @@ body {
     text-decoration: none;
     color: #000000;
     transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .wandsbc:hover{
@@ -529,6 +562,9 @@ body {
     color: #595959;
     font-weight: 500;
     transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
 }
 
 .week-cursor a:hover {
@@ -571,10 +607,17 @@ body {
 }
 td h4 {
     transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     border-radius: 5px;
 }
 td h4:hover{
     transform: translateY(-2px);
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
     cursor: pointer;
     box-shadow: 2px 2px 4px #726a6a;
 }
