@@ -335,9 +335,6 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 
 ![404](docs/features/feature-404.png)
 
-## Validation
-
-
 
 
 
