@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=:wght@100;200;300;400;500;600;700;800&family=Nunito+Sans:wght@200;300;400;600;700;800&family=PT+Sans:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200;300;400;500;600;700;800&family=Nunito+Sans:wght@200;300;400;600;700;800&display=swap');
 
 /* ------------------------------------- Nav Bar */
 
@@ -37,26 +36,17 @@ nav img {
 .navbar-black {
     background-color: #000000;
     transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
     --bs-navbar-hover-color: #e9c431;
 }
 
 .nav-link:hover {
         transform: translateY(-2px);
         transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        -webkit-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
 }
 
 nav img:hover{
         transform: translateY(-2px);
         transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        -webkit-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
 }
 
 .whatsapp {
@@ -68,10 +58,8 @@ nav img:hover{
     color:#e9c431;
     transform: translateY(-2px);
     transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
 }
+
 /* ------------------------------------- Body */
 
 body {
@@ -89,9 +77,6 @@ body {
     border: none;
     font-weight: 500;
     transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
     display:inline-block;
 }
 
@@ -105,7 +90,7 @@ body {
 
 .footer {
     background-color: #000000;
-    max-height: auto;
+    height: auto;
     padding: 0;
 }
 
@@ -129,9 +114,6 @@ body {
     text-decoration: none;
     color: #ffffff;
     transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
 }
 
 .email:hover{
@@ -157,10 +139,8 @@ body {
     font-size: 2em;
     padding: 15px;
     transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
 }
+
 .social-links li a i:hover {
     color:#e9c431;
 }
@@ -175,9 +155,6 @@ body {
     font-size: 2em;
     padding: 15px;
     transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
     padding-left: 0;
     padding-right: 30px;
 }
@@ -192,16 +169,12 @@ body {
 .hero {
     height: 100vh;
     background: url("../images/hero-1-sat.jpg") no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     background-color: rgba(0,0,0,0.75);
     background-blend-mode: multiply;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-position: top 100px;
     position: relative;
 }
 
@@ -329,9 +302,6 @@ body {
     text-decoration: none;
     color:#000000;
     transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
 }
 
 .silver2:hover {
@@ -344,9 +314,6 @@ body {
 
 .image-link {
     transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
 }
 
 .image-link:hover{
@@ -376,9 +343,6 @@ body {
     text-decoration: none;
     color: #000000;
     transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
 }
 
 .wandsbc:hover{
@@ -565,9 +529,6 @@ body {
     color: #595959;
     font-weight: 500;
     transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
 }
 
 .week-cursor a:hover {
@@ -610,9 +571,6 @@ body {
 }
 td h4 {
     transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
     border-radius: 5px;
 }
 td h4:hover{
@@ -701,17 +659,16 @@ td p {
 .modal-content {
     background-color: #000000;
     color:#C0C0C0;
-    border-width: 1px solid;
+    border-width: 1px;
 }
 
 .sign-in {
     background-color: #000000;
     color:#C0C0C0;
-    border-width: 1px solid;
+    border-width: 1px;
 }
 
 .sign-in-form a {
-    
     color: #ffffff
 }
 
