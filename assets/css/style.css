@@ -235,7 +235,7 @@ body {
     padding-right: 10%;
 }
 
-.club-intro h1{
+.club-intro h2{
     font-weight: 700;
 }
 
@@ -312,7 +312,8 @@ body {
     height: auto;
 }
 
-.about-container h2{
+.about-container h1{
+    font-size: xx-large;
     font-weight: 700;
     margin-top: 50px;
     font-family: "Martian Mono", sans-serif;
