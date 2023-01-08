@@ -339,19 +339,19 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 
 ### HTML Validation
 
-The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors.
 
-index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Findex.html) - No Errors Found
+index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Findex.html)
 
-about.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fabout.html) - No Errors Found
+about.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fabout.html) 
 
-team.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fteam.html) - No Errors Found
+team.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fteam.html) 
 
-prices.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fprices.html) - No Errors Found
+prices.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fprices.html) 
 
-schedule.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fschedule.html) - No Errors Found
+schedule.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fschedule.html) 
 
-contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fcontact.html) - No Errors Found
+contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fcontact.html) 
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
@@ -361,7 +361,18 @@ When validating just my own custom CSS it passes with no errors and flagged some
 <img src="docs/validation/validation-css.png">
 </details>
 
+### Accessibility
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
 
+index.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/index.html) 
+
+about.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/about.html)
+
+team.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/team.html)
+
+prices.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/prices.html)
+
+shcedule.html [results]()
 
 
 ### **Styling**
