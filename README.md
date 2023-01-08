@@ -374,8 +374,10 @@ prices.html [results](https://wave.webaim.org/report#/https://jamie2210.github.i
 
 schedule.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/schedule.html)
 
-contact.html [results]()
+contact.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/contact.html)
 
+### Performance 
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
 
 ### **Styling**
 
