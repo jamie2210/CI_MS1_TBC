@@ -379,6 +379,25 @@ contact.html [results](https://wave.webaim.org/report#/https://jamie2210.github.
 ### Performance 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
 
+<details><summary>index.html</summary>
+<img src="docs/lighthouse/lighthouse-index.png">
+</details>
+<details><summary>about.html</summary>
+<img src="docs/lighthouse/lighthouse-about.png">
+</details>
+<details><summary>team.html</summary>
+<img src="docs/lighthouse/lighthouse-team.png">
+</details>
+<details><summary>prices.html</summary>
+<img src="docs/lighthouse/lighthouse-prices.png">
+</details>
+<details><summary>schedule.html</summary>
+<img src="docs/lighthouse/lighthouse-schedule.png">
+</details>
+<details><summary>contact.html</summary>
+<img src="docs/lighthouse/lighthouse-contact.png">
+</details>
+
 ### **Styling**
 
 - Buttons are consistently rectangular with rounded corners and soft hover feature for aesthetics. 
