@@ -212,7 +212,7 @@ The website consists of six separate pages and a ‘Sign In’ modal:
 - Favicon<span>.</span>io
 
 ## Features
-The page consists of six pages and fourteen features.
+The page consists of six pages and thirteen features.
 
 ### Logo and Navigation Bar
 - Featured on all six pages
@@ -262,7 +262,7 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 ### Footer
 - Featured on all six pages.
 - Consists of two separate sections: contact information and social media links.
-- User stories covered: 6, 9, 10.
+- User stories covered: 6, 9, 10, 11.
 
 ![Footer](docs/features/feature-footer.png)
 
@@ -327,6 +327,15 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 <details><summary>Class Modal</summary>
 <img src="docs/features/feature-class-modal.png">
 </details>
+
+### 404
+
+- For a bit of fun, I added light hearted boxing related humour to the error page.
+- Includes navigation bar and footer, with a centrally places 'Home' button for convenience.
+
+![404](docs/features/feature-404.png)
+
+## Validation
 
 
 
