@@ -204,12 +204,17 @@ body {
 
 .hero-content {
    display: flex;
+   text-align: center;
+   align-items: center;
    flex-direction: column;
    z-index: 1;
 }
 
-.hero img {
-    height: 180px;
+.hero-content img {
+    display: block;
+    max-height: 185px;
+    max-width: 195px;
+    height: auto;
     width: auto;
 }
 
