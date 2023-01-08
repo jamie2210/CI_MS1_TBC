@@ -96,22 +96,23 @@ Primary goal is to provide an informative good-looking website that showcases To
 3. As a first-time user, I want to know when classes are on throughout the week.
 4. As a first-time user, I want to know more about the club, it’s history and its coaches.
 5. As a first-time user, I want to get a feel for the classes and atmosphere in the gym.
+6. As a first-time user, I want to easily contact the club should I have any questions.
 
 
 #### Returning User
-6. As a returning user, I want to easily log in to my account or create one.
-7. As a returning user, I want access the schedule quickly to book in.
-8. As a returning user, I want to find a phone number, email, or a means to contact to arrange a 1-1 or ask for more information.
-9. As a returning user, I want to find the gym on social media.
-10. As a returning user, I want to get directions to the gym.
-11. As a returning user, I want to know more about what each individual class involves.
-12. As a returning user, I want to purchase sessions, memberships or 1-1’s.
+7. As a returning user, I want to easily log in to my account or create one.
+8. As a returning user, I want access the schedule quickly to book in.
+9. As a returning user, I want to find a phone number, email, or a means to contact to arrange a 1-1 or ask for more information.
+10. As a returning user, I want to find the gym on social media.
+11. As a returning user, I want to get directions to the gym.
+12. As a returning user, I want to know more about what each individual class involves.
+13. As a returning user, I want to purchase sessions, memberships or 1-1’s.
 
 #### Site Owner 
-13. As the site owner, I want users to easily access their account and make purchases.
-14. As the site owner, I want users to get a feel for the club and more about me.
-15. As the site owner, I want the users to be able to contact us.
-16. As the site owner, I want the user to easily book into classes.
+14. As the site owner, I want users to easily access their account and make purchases.
+15. As the site owner, I want users to get a feel for the club and more about me.
+16. As the site owner, I want the users to be able to contact us.
+17. As the site owner, I want the user to easily book into classes.
 
 ## Design
 
@@ -139,7 +140,7 @@ Specific colours used on the site all taken from a colour picker in InDesign are
 5. Yellow: #e9c431
 6. Red: #a51e1e
 7. Shadow Grey: #726a6a
-8. Sublte Grey: #807c7c (only used for a very small amount of text on - 'Read Me' on index.html reviews section)
+8. Subtle Grey: #807c7c (only used for a very small amount of text on - 'Read Me' on index.html reviews section)
 9. Bronze: #CD7F32
 
 I tested multiple options on indesign to ensure I was happy with the colours and had covered as many other options I also liked.
@@ -221,14 +222,14 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 - The link for the page the user is currently on is highlighted in yellow.
 - The left includes the gym’s logo which also acts as a home button with a WhatsApp logo which opens WhatsApp chat with the gym when clicked.
 - The navigation bar includes a sign in icon that opens a modal to sing in or sign up.
-- User stories covered: 6,7,8.
+- User stories covered: 6, 7, 8, 9.
 
 ![Logo and Navigation Bar](docs/features/feature-navbar.png)
 
 ### Hero Image / Landing Page
 -	Company logo with 2 buttons underneath it one that takes the user to the schedule page and one that takes the user to the prices page.
 -	Background image of two boxing gloves fist bumping depicting a sense of unity and bond, representing the ethos of the gym.
--	User stories covered: 5, 7, 12, 16.
+-	User stories covered: 5, 8, 13, 17.
 
 ![Hero Image / Landing Page](docs/features/feature-hero.png)
 
@@ -248,20 +249,20 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 
 ### Reviews
 - 4 Reviews from members detailing how much they like the gym
-- User stories covered: 4,5.
+- User stories covered: 4, 5.
 
 ![Reviews](docs/features/feature-reviews.png)
 
 ### Map
-- Shows the restaurant location on an embedded Google Map
-- User stories covered: 1, 10.
+- Shows the gym location on an embedded Google Maps.
+- User stories covered: 1, 11.
 
 ![Map](docs/features/feature-map.png)
 
 ### Footer
 - Featured on all six pages.
 - Consists of two separate sections: contact information and social media links.
-- User stories covered: 8, 9.
+- User stories covered: 6, 9, 10.
 
 ![Footer](docs/features/feature-footer.png)
 
@@ -269,14 +270,14 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 - Introduces the user to the founders, Sam and Rick and their history in boxing. 
 - Provides links to their boxing achievements to find out more on their careers.
 - Details why they started the gym and gives an insight to what can be expected when going.
-- User stories covered: 4, 5, 14.
+- User stories covered: 4, 5, 15.
 
 ![About](docs/features/feature-about.png)
 
 ### The Team
 - Features a short bio of the of each coach under their own profile picture.
 - Under each bio is a button that links to the schedule for easy access to booking classes.
-- User stories covered: 4, 5, 11, 14, 15.
+- User stories covered: 4, 5, 12, 15, 16.
 
 ![The Team](docs/features/feature-the-team.png)
 
@@ -287,7 +288,7 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
     3. Class Packages
     4. Personal Training
 - This helps for easy navigation and good aesthetics.
-- User stories covered: 2, 12, 13.
+- User stories covered: 2, 13, 14.
 
 <details><summary>Intro Offers</summary>
 <img src="docs/features/feature-intro-offers.png">
@@ -301,6 +302,35 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 <details><summary>Personal Training</summary>
 <img src="docs/features/feature-personal-training.png">
 </details>
+
+### Class Schedule
+- Weekly schedule detail what classes on are on each day of the week, what time they are on and which coach is taking the class.
+- A description of the class is available with more detail on a modal when the class description is clicked.
+- User stories covered: 3, 5, 8, 12, 15, 17.
+
+![Class Schedule](docs/features/feature-class-schedule.png)
+
+### Get In Touch
+- A contact form allowing an easy way for the user to ask questions or book 1-1’s. 
+- User stories covered: 6, 9, 16
+
+![Get In Touch](docs/features/feature-get-in-touch.png)
+
+### Modals
+- Sign In Modal on the navigation bar allows for immediate and easy log in to the users account.
+- Class Modal gives a more detailed description of the class including the experience level required.
+- User stories covered: 5, 7, 11.
+
+<details><summary>Sign In Modal</summary>
+<img src="docs/features/feature-sign-in-modal.png">
+</details>
+<details><summary>Class Modal</summary>
+<img src="docs/features/feature-class-modal.png">
+</details>
+
+
+
+
 
 
 
