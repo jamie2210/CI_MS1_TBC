@@ -291,6 +291,7 @@ body {
     text-decoration: none;
     color: #807c7c;
     margin-top: -20px;
+    cursor: pointer;
 }
 
 .read:hover{
