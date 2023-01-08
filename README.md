@@ -347,8 +347,6 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 
 
 
-
-
 ### **Styling**
 
 - Buttons are consistently rectangular with rounded corners and soft hover feature for aesthetics. 
