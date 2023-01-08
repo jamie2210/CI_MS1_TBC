@@ -108,10 +108,10 @@ Primary goal is to provide an informative good-looking website that showcases To
 12. As a returning user, I want to purchase sessions, memberships or 1-1’s.
 
 #### Site Owner 
-13. As the site owner, I want users to easy access their account and make purchases.
+13. As the site owner, I want users to easily access their account and make purchases.
 14. As the site owner, I want users to get a feel for the club and more about me.
 15. As the site owner, I want the users to be able to contact us.
-16. As the site owner, I want the user to able to book into classes.
+16. As the site owner, I want the user to easily book into classes.
 
 ## Design
 
@@ -228,7 +228,7 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 ### Hero Image / Landing Page
 -	Company logo with 2 buttons underneath it one that takes the user to the schedule page and one that takes the user to the prices page.
 -	Background image of two boxing gloves fist bumping depicting a sense of unity and bond, representing the ethos of the gym.
--	User stories covered: 5, 7, 12.
+-	User stories covered: 5, 7, 12, 16.
 
 ![Hero Image / Landing Page](docs/features/feature-hero.png)
 
@@ -265,8 +265,42 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 
 ![Footer](docs/features/feature-footer.png)
 
+### About
+- Introduces the user to the founders, Sam and Rick and their history in boxing. 
+- Provides links to their boxing achievements to find out more on their careers.
+- Details why they started the gym and gives an insight to what can be expected when going.
+- User stories covered: 4, 5, 14.
 
+![About](docs/features/feature-about.png)
 
+### The Team
+- Features a short bio of the of each coach under their own profile picture.
+- Under each bio is a button that links to the schedule for easy access to booking classes.
+- User stories covered: 4, 5, 11, 14, 15.
+
+![The Team](docs/features/feature-the-team.png)
+
+### Prices 
+- Pricing is broken down into 4 main titles
+    1. Intro Offers
+    2. Memberships
+    3. Class Packages
+    4. Personal Training
+- This helps for easy navigation and good aesthetics.
+- User stories covered: 2, 12, 13.
+
+<details><summary>Intro Offers</summary>
+<img src="docs/features/feature-intro-offers.png">
+</details>
+<details><summary>Memberships</summary>
+<img src="docs/features/feature-memberships.png">
+</details>
+<details><summary>Class Packages</summary>
+<img src="docs/features/feature-class-packages.png">
+</details>
+<details><summary>Personal Training</summary>
+<img src="docs/features/feature-personal-training.png">
+</details>
 
 
 
