@@ -335,9 +335,23 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 
 ![404](docs/features/feature-404.png)
 
+## Testing
 
+### HTML Validation
 
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
 
+index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Findex.html) - No Errors Found
+
+about.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fabout.html) - No Errors Found
+
+team.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fteam.html) - No Errors Found
+
+prices.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fprices.html) - No Errors Found
+
+schedule.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fschedule.html) - No Errors Found
+
+contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fcontact.html) - No Errors Found
 
 
 
