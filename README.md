@@ -372,7 +372,9 @@ team.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/
 
 prices.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/prices.html)
 
-shcedule.html [results]()
+schedule.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/schedule.html)
+
+contact.html [results]()
 
 
 ### **Styling**
