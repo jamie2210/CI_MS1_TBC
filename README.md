@@ -353,7 +353,13 @@ schedule.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210
 
 contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fcontact.html) - No Errors Found
 
+### CSS Validation
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
+When validating just my own custom CSS it passes with no errors and flagged some warnings for the moz, o and webkit transitions used through and 1 wanring for the google fonts import used.
 
+<details><summary>style.css</summary>
+<img src="docs/validation/validation-css.png">
+</details>
 
 
 
