@@ -268,7 +268,7 @@ body {
 }
 
 .reviews h2 {
-    font-size: large;
+    font-size: medium;
 }
 
 .reviews img {
@@ -286,15 +286,6 @@ body {
     margin-bottom: 10px;
 }
 
-.read {
-    color: #807c7c;
-    margin-top: -20px;
-    cursor: pointer;
-}
-
-.read:hover{
-    color: #e9c431;
-}
 /* ------------------------------------- Map */
 
 .map {
