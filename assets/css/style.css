@@ -269,10 +269,15 @@ body {
 
 .reviews h2 {
     font-size: x-large;
+    font-weight: 500;
+}
+
+.reviews h3 {
+    font-size: large;
 }
 
 .reviews p {
-    font-size: medium;
+    font-size: small;
 }
 
 .reviews img {
@@ -840,7 +845,7 @@ td p {
         padding-right: 10%;
     }
     .reviews h2 {
-        font-size: x-large;
+        font-size: large;
     }
     .about-container h1 {
         font-size: x-large;
