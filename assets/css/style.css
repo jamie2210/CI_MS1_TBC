@@ -268,7 +268,11 @@ body {
 }
 
 .reviews h2 {
-    font-size: xx-large;
+    font-size: x-large;
+}
+
+.reviews p {
+    font-size: medium;
 }
 
 .reviews img {
