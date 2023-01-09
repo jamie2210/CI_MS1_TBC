@@ -377,7 +377,7 @@ schedule.html [results](https://wave.webaim.org/report#/https://jamie2210.github
 contact.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/contact.html)
 
 ### Performance 
-Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. All results scoring 90 or above.
 
 <details><summary>index.html</summary>
 <img src="docs/lighthouse/lighthouse-index.png">
@@ -397,6 +397,21 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 <details><summary>contact.html</summary>
 <img src="docs/lighthouse/lighthouse-contact.png">
 </details>
+
+### Performing tests on various devices 
+The website was tested on the following devices:
+- MacBook Pro
+- Ipad Tablet
+- Google Pixel 5
+
+In addition, the website was tested using Google Chrome Developer Tools Device Toggeling option for all available device options.
+
+### Browser compatability
+The website was tested on the following browsers:
+- Google Chrome
+- Apple Safari
+- Mozilla Firefox
+
 
 ### **Styling**
 
