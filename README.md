@@ -469,13 +469,25 @@ The website was tested on the following browsers:
 | Navigation Bar | On any page at the top click on 'Coaches' | Find Coaches page with more information on the coaches | Works as expected |
 | Company Introduction | On Index page scroll down to 'Tooting Boxing Club' title | Find introduction and short description of the gym and it's values | Works as expected |
 | Slide Show Gallery | On Index page scroll down to gallery | Find images of the gym on display in a carousel | Works as expected |
-| Class Modal | Click on any class name on the schedule | Find a modal pop up going in to more detail of chosen class | Works as expected |
+| Class Modal | Click on any class name on the schedule | Find a modal pop up going into more detail of chosen class | Works as expected |
 
-<details><summary>Find About / Coaches / Introduction / Gallery</summary>
+<details><summary>Find About / Coaches / Introduction / Gallery / Class Modal</summary>
 <img src="docs/user-story-testing/user-story-prices.gif">
 </details>
 
 6. As a first-time user, I want to easily contact the club should I have any questions.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | On any page at the top click on 'Get In Touch' | Find Contact page with contact form |
+| Navigation Bar | On any page at the top click on 'WhatsApp' logo | Find WhatsApp app open with direct line to chat | Works as expected |
+| Footer - contact information section | On any page scroll down to the footer | Find the email and phone number of gym | Works as expected |
+
+
+<details><summary>Find Contact / WhatsApp / Email & Phone Number</summary>
+<img src="docs/user-story-testing/user-story-prices.gif">
+</details>
+
 ### **Styling**
 
 - Buttons are consistently rectangular with rounded corners and soft hover feature for aesthetics. 
