@@ -457,6 +457,7 @@ body {
 
 .prices-body {
     background-color: #e1e0e0;
+    padding-bottom: 40px;
 }
 
 .prices-title-header {
@@ -481,10 +482,6 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
     Color: #a51e1e;
-}
-
-.prices-body footer {
-    margin-top: 60px;
 }
 
 .prices-body h3{
@@ -535,6 +532,10 @@ body {
 }
 
 /* ------------------------------------- SCHEDULE */
+
+.schedule-body {
+    margin-bottom: 50px;
+}
 
 .schedule-title {
     background-color: #595959;
@@ -651,6 +652,7 @@ td p {
 .contact-body{
     background-color: #000000;
     flex-grow: 1;
+    padding-bottom: 30px;
 }
 
 .form-height {   
