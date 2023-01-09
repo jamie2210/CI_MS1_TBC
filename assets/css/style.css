@@ -268,7 +268,7 @@ body {
 }
 
 .reviews h2 {
-    font-size: medium;
+    font-size: xx-large;
 }
 
 .reviews img {
@@ -833,11 +833,17 @@ td p {
         padding-left: 10%;
         padding-right: 10%;
     }
+    .reviews h2 {
+        font-size: x-large;
+    }
 }
 
 @media screen and (max-width:364px){
     .reviews .hidden{
         display: none;
+    }
+    .reviews h2 {
+        font-size: large;
     }
     .social-links{
         display: none;
