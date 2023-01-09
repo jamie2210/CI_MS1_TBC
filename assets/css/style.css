@@ -193,7 +193,7 @@ body {
 
 .hero {
     height: 100vh;
-    background: url("../images/hero-image.jpg") no-repeat center;
+    background: url("../images/hero-image.webp") no-repeat center;
     background-size: cover;
     background-color: rgba(0,0,0,0.75);
     background-blend-mode: multiply;
