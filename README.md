@@ -94,7 +94,7 @@ Primary goal is to provide an informative good-looking website that showcases To
 1. As a first-time user, I want to know where the gym is located.
 2. As a first-time user, I want to know the prices for classes and 1-1’s.
 3. As a first-time user, I want to know when classes are on throughout the week.
-4. As a first-time user, I want to know more about the club, it’s history and its coaches.
+4. As a first-time user, I want to know more about the club, its history and its coaches.
 5. As a first-time user, I want to get a feel for the classes and atmosphere in the gym.
 6. As a first-time user, I want to easily contact the club should I have any questions.
 
@@ -412,7 +412,70 @@ The website was tested on the following browsers:
 - Apple Safari
 - Mozilla Firefox
 
+### Testing user stories
 
+1. As a first-time user, I want to know where the gym is located.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | On Index page scroll down the bottom | Locating a map showing the location of the gym | Works as expected |
+| Footer - contact information section | On any page scroll down to the footer | Find the address of the restaurant | Works as expected |
+
+<details><summary>Find Map / Address</summary>
+<img src="docs/user-story-testing/user-story-map-address.gif">
+</details>
+
+2. As a first-time user, I want to know the prices for classes and 1-1’s.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Hero Image | On Index page click on 'Buy Now' button on hero image | Find Prices page with all pricing | Works as expected |
+| Navigation Bar | On any page at the top click on 'Prices' | Find Prices page with all pricing | Works as expected |
+
+<details><summary>Find Prices</summary>
+<img src="docs/user-story-testing/user-story-prices.gif">
+</details>
+
+3. As a first-time user, I want to know when classes are on throughout the week.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Hero Image | On Index page click on 'Book Now' button on hero image | Find Schedule page with class timetable | Works as expected |
+| Navigation Bar | On any page at the top click on 'Schedule'  | Find Schedule page with class timetable | Works as expected |
+| Coach Page | Click on any 'Book Me' button | Find Schedule page | Works as expected |
+
+<details><summary>Find Schedule</summary>
+<img src="docs/user-story-testing/user-story-prices.gif">
+</details>
+
+4. As a first-time user, I want to know more about the club, its history and its coaches.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | On any page at the top click on 'About' | Find About page with more information on the founders | Works as expected |
+| Navigation Bar | On any page at the top click on 'Coaches' | Find Coaches page with more information on the coaches | Works as expected |
+| Company Introduction | On Index page scroll down to 'Tooting Boxing Club' title | Find introduction and short description of the gym and it's values | Works as expected |
+| Slide Show Gallery | On Index page scroll down to gallery | Find images of the gym on display in a carousel | Works as expected |
+
+<details><summary>Find About / Coaches / Introduction / Gallery</summary>
+<img src="docs/user-story-testing/user-story-prices.gif">
+</details>
+
+5. As a first-time user, I want to get a feel for the classes and atmosphere in the gym.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | On any page at the top click on 'About' | Find About page with more information on the founders and the gym | Works as expected |
+| Navigation Bar | On any page at the top click on 'Coaches' | Find Coaches page with more information on the coaches | Works as expected |
+| Company Introduction | On Index page scroll down to 'Tooting Boxing Club' title | Find introduction and short description of the gym and it's values | Works as expected |
+| Slide Show Gallery | On Index page scroll down to gallery | Find images of the gym on display in a carousel | Works as expected |
+| Class Modal | Click on any class name on the schedule | Find a modal pop up going in to more detail of chosen class | Works as expected |
+
+<details><summary>Find About / Coaches / Introduction / Gallery</summary>
+<img src="docs/user-story-testing/user-story-prices.gif">
+</details>
+
+6. As a first-time user, I want to easily contact the club should I have any questions.
 ### **Styling**
 
 - Buttons are consistently rectangular with rounded corners and soft hover feature for aesthetics. 
