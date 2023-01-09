@@ -3,10 +3,8 @@
 /* ------------------------------------- Nav Bar */
 
 nav img {
-    max-width: 74px;
-    max-height: 70px;
-    width: auto;
-    height: auto;
+    width: 75px;
+    height: 53px;
     margin-left: 25px;
 }
 .navbar ul {
@@ -214,10 +212,8 @@ body {
 
 .hero-content img {
     display: block;
-    max-height: 185px;
-    max-width: 195px;
-    height: auto;
-    width: auto;
+    height: 185px;
+    width: 195px;
 }
 
 .hero-button {
@@ -251,10 +247,8 @@ body {
 }
 
 .club-intro img {
-    max-width:  108px;
-    max-height: 102px;
-    width: auto;
-    height: auto;
+    width:  108px;
+    height: 76px;
 }
 
 /* ------------------------------------- Carousel */
