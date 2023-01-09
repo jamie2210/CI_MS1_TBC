@@ -838,6 +838,21 @@ td p {
     .reviews h2 {
         font-size: x-large;
     }
+    .about-container h1 {
+        font-size: x-large;
+    }
+    .team-title h1 {
+        font-size: x-large;
+    }
+    .prices-body h1 {
+        font-size: x-large;
+    }
+    .schedule-body h1 {
+        font-size: x-large;
+    }
+    .contact-body h1 {
+        font-size: x-large;
+    }
 }
 
 @media screen and (max-width:364px){
