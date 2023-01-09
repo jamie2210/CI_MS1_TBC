@@ -27,6 +27,7 @@ nav img {
 
 .nav-link {
     color: #ffffff;
+    cursor: pointer;
 }
 
 .active .nav-link {
@@ -272,7 +273,7 @@ body {
 
 .reviews img {
     height: 75px;
-    width: auto;
+    width: 75px;
     border: solid 2px #ffffff;
     border-radius: 50%;
     box-shadow: 2px 2px 4px #726a6a;
@@ -286,7 +287,6 @@ body {
 }
 
 .read {
-    text-decoration: none;
     color: #807c7c;
     margin-top: -20px;
     cursor: pointer;
