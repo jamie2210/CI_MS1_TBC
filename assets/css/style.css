@@ -405,13 +405,18 @@ body {
 /* ------------------------------------- TEAM */
 
 .team-title {
-    background-color: #595959;
+    height: 80vh;
+    background: url("../images/header/faded-boxer.png") no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     width: 100%;
     padding: 0;
     margin-bottom: 60px;
     font-family: "Martian Mono", sans-serif;
 }
-
 .team-title h1{
     font-size: xx-large;
     font-weight: 700;
@@ -422,7 +427,7 @@ body {
 
 .coaches img {
     height: 150px;
-    width: auto;
+    width: 150px;
     filter: grayscale(0.75);
     margin-top: 20px;
     margin-bottom: 20px;
@@ -470,7 +475,13 @@ body {
 }
 
 .prices-title-header {
-    background-color: #595959;
+    height: 80vh;
+    background: url("../images/header/faded-gloves.png") no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     width: 100%;
     padding: 0;
     margin-bottom: 50px;
@@ -547,7 +558,13 @@ body {
 }
 
 .schedule-title {
-    background-color: #595959;
+    height: 80vh;
+    background: url("../images/header/faded-wraps.png") no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     width: 100%;
     padding: 0;
     margin-bottom: 50px;
