@@ -1,7 +1,7 @@
 # Tooting Boxing Club
 (Developer: Jamie Letts)
 
-![Mockup image](docs/)
+![Mockup image](docs/devices-display.jpg)
 
 [Live webpage]( https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/index.html
 
