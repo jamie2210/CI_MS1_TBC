@@ -109,10 +109,11 @@ Primary goal is to provide an informative good-looking website that showcases To
 13. As a returning user, I want to purchase sessions, memberships or 1-1’s.
 
 #### Site Owner 
-14. As the site owner, I want users to easily access their account and make purchases.
+14. As the site owner, I want users to easily access their account.
 15. As the site owner, I want users to get a feel for the club and more about me.
 16. As the site owner, I want the users to be able to contact us.
 17. As the site owner, I want the user to easily book into classes.
+18. As the site owner, I want users to easily make purchases.
 
 ## Design
 
@@ -222,14 +223,14 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 - The link for the page the user is currently on is highlighted in yellow.
 - The left includes the gym’s logo which also acts as a home button with a WhatsApp logo which opens WhatsApp chat with the gym when clicked.
 - The navigation bar includes a sign in icon that opens a modal to sing in or sign up.
-- User stories covered: 6, 7, 8, 9.
+- User stories covered: 6, 7, 8, 9, 14, 17, 18.
 
 ![Logo and Navigation Bar](docs/features/feature-navbar.png)
 
 ### Hero Image / Landing Page
 -	Company logo with 2 buttons underneath it one that takes the user to the schedule page and one that takes the user to the prices page.
 -	Background image of two boxing gloves fist bumping depicting a sense of unity and bond, representing the ethos of the gym.
--	User stories covered: 5, 8, 13, 17.
+-	User stories covered: 5, 8, 13, 17, 18.
 
 ![Hero Image / Landing Page](docs/features/feature-hero.png)
 
@@ -288,7 +289,7 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
     3. Class Packages
     4. Personal Training
 - This helps for easy navigation and good aesthetics.
-- User stories covered: 2, 13, 14.
+- User stories covered: 2, 13, 14, 18.
 
 <details><summary>Intro Offers</summary>
 <img src="docs/features/feature-intro-offers.png">
@@ -560,6 +561,68 @@ The website was tested on the following browsers:
 </details>
 
 13. As a returning user, I want to purchase sessions, memberships or 1-1’s.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Hero Image | On Index page click on 'Buy Now' button on hero image | Find Prices page with all pricing | Works as expected |
+| Navigation Bar | On any page at the top click on 'Prices' | Find Prices page with all pricing | Works as expected |
+
+<details><summary>Find Prices</summary>
+<img src="docs/user-story-testing/user-story-prices.gif">
+</details>
+
+#### Site Owner 
+
+14. As the site owner, I want users to easily access their account.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | On any page at the top click on 'Sign In' | Find Sign In Modal | Works as expected |
+
+<details><summary>Find Sign In</summary>
+<img src="docs/user-story-testing/user-story-sign-in.gif">
+</details>
+
+15. As the site owner, I want users to get a feel for the club and more about me.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | On any page at the top click on 'About' | Find About page with more information on the founders and the gym | Works as expected |
+| Navigation Bar | On any page at the top click on 'Coaches' | Find Coaches page with more information on the coaches | Works as expected |
+| Company Introduction | On Index page scroll down to 'Tooting Boxing Club' title | Find introduction and short description of the gym and it's values | Works as expected |
+| Slide Show Gallery | On Index page scroll down to gallery | Find images of the gym on display in a carousel | Works as expected |
+| Class Modal | Click on any class name on the schedule | Find a modal pop up going into more detail of chosen class | Works as expected |
+
+<details><summary>Find About / Coaches / Introduction / Gallery / Class Modal</summary>
+<img src="docs/user-story-testing/user-story-atmos.gif">
+</details>
+
+16. As the site owner, I want the users to be able to contact us.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | On any page at the top click on 'Get In Touch' | Find Contact page with contact form |
+| Navigation Bar | On any page at the top click on 'WhatsApp' logo | Find WhatsApp app open with direct line to chat | Works as expected |
+| Footer - contact information section | On any page scroll down to the footer | Find the email and phone number of gym | Works as expected |
+
+
+<details><summary>Find Contact / WhatsApp / Email & Phone Number</summary>
+<img src="docs/user-story-testing/user-story-contact.gif">
+</details>
+
+17. As the site owner, I want the user to easily book into classes.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Hero Image | On Index page click on 'Book Now' button on hero image | Find Schedule page with class timetable | Works as expected |
+| Navigation Bar | On any page at the top click on 'Schedule'  | Find Schedule page with class timetable | Works as expected |
+| Coach Page | Click on any 'Book Me' button | Find Schedule page | Works as expected |
+
+<details><summary>Find Schedule</summary>
+<img src="docs/user-story-testing/user-story-classes.gif">
+</details>
+
+18. As the site owner, I want users to easily make purchases.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
