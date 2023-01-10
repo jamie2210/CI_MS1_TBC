@@ -332,7 +332,7 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 ### 404
 
 - For a bit of fun, I added light hearted boxing related humour to the error page.
-- Includes navigation bar and footer, with a centrally places 'Home' button for convenience.
+- Includes navigation bar and footer, with a centrally placed 'Home' button for convenience.
 
 ![404](docs/features/feature-404.png)
 
