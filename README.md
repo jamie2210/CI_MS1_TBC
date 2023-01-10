@@ -283,7 +283,7 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 ![The Team](docs/features/feature-the-team.png)
 
 ### Prices 
-- Pricing is broken down into 4 main titles
+- Pricing is broken down into 4 subtitles;
     1. Intro Offers
     2. Memberships
     3. Class Packages
