@@ -843,6 +843,9 @@ td p {
         height: 200px;
         width: auto;
     }
+    .schedule-title {
+        background-position: 60%;
+    }
 }
 
 @media screen and (max-width:480px){
