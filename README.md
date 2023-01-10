@@ -5,7 +5,7 @@
 
 [Live webpage]( https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/index.html)
 
-This is the website for 'Tooting Boxing Club, it is designed to be responsive and accessible on all devices allowing easy access to the timetable, class schedule and information on club and coaches for our members and those who want to know more about us.
+This is the website for Tooting Boxing Club, it is designed to be responsive and accessible on all devices allowing easy access to the timetable, class schedule and information on club and coaches for our members and those who want to know more about us.
 
 ## Table of Content
 
