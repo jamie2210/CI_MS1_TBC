@@ -633,6 +633,206 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-prices.gif">
 </details>
 
+## Bugs
+
+1. Buttons on index.html hero image
+
+   A. Having tested their position on all devices, I notcied using a margin of a specific px cause them to be out of place on different devices. Using an 'rem' unit paired with specific media queries commands instead allows them repsond better ensuring they are in a good posotion on all devices.
+
+
+##### CSS Edits
+```css
+            .hero-btn {
+                display: block;
+                text-align: center;
+                z-index: 1;
+                position: absolute;
+                margin-top: 15rem; (originally used a pixel unit here)
+            }
+```
+##### Media Query commands
+```css
+        @media screen and (min-width:820px) and (max-width:912px){
+            .hero-btn{
+                margin-top: 20em;
+            }
+
+        @media screen and (max-width:480px)
+            .btn.btn-dark {
+                width: 125px;
+            }
+            .hero-btn {
+                font-weight: none;
+            }
+
+        @media screen and (max-width:280px)
+            .hero-btn {
+                margin-top: 175px;
+            }
+            .btn.btn-dark{
+                margin-bottom: 10px;
+            }
+            .hero img {
+                height: 15vh;
+                margin-bottom: 25px;
+            }
+```
+
+    B. Having looked at ths in more detail it just wasn't working correclty, it caused the logo and buttons to be at different positions on lots of different devices and was messy. I decided to re-write the code and see if there was a different way of doing it. I found a solution here is the old code and the new;
+
+#### Old HTML
+```html
+            <div class="hero">
+                <div class="container-fuild">
+                    <img src="assets/images/logo-05.png" alt="Tooting Boxing Club boxing gloves logo">
+                </div>
+                <div class="hero-button text-center">
+                    <a href="prices.html" class="button">Buy Now</a>
+                    <a href="schedule.html" class="button">Book Now</a>
+                </div>
+            </div>
+```
+##### New HTML
+```html
+            <div class="hero">
+                <div class="container-fuild hero-content">
+                    <img src="assets/images/logo-05.png" alt="Tooting Boxing Club boxing gloves logo">
+                    <div class="hero-button">
+                        <a href="prices.html" class="button">Buy Now</a>
+                        <a href="schedule.html" class="button">Book Now</a>
+                    </div>
+                </div>
+            </div>
+```
+#### Old CSS
+```css
+            .hero img {
+                align-items: center;
+                height: 20vh;
+            }
+
+            .hero-button {
+                display: block;
+                text-align: center;
+                position: absolute;
+                top: 75%;
+            }
+
+            .button {
+                width: 150px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+```
+#### New CSS
+```css
+            .hero-content {
+                display: flex;
+                text-align: center;
+                align-items: center;
+                flex-direction: column;
+                z-index: 1;
+            }
+
+            .hero-content img {
+                display: block;
+                height: 185px;
+                width: 195px;
+            }
+
+            .hero-button {
+                display: block;
+                text-align: center;
+            }
+```
+
+Which meant i could remove all the messy media queries and write just one for when the screen width was really thin;
+```css
+            @media screen and (max-width:282px){
+                .hero-button .button{
+                margin-bottom: 10px;
+                }
+            }           
+```
+2. Map
+
+The map had a grey line under so wasn't flush to the footer, after using google inspect I noticed the container was a different height the map so matched both heights to 400px which fixed the issue.
+
+#### Orginal code
+```css
+            .map {
+                height: 400px;
+                width: 100%;
+            }
+```
+#### Code fix
+```css
+            .map {
+                height: 400px;
+                width: 100%;
+            }
+
+            .map iframe {
+                height: 400px;
+                width: 100%;
+                }
+```
+3. Schedule
+
+Overflow scroll wasn't working correctly on scheudle page, noticed the way I'd set up the media query seemed to be the issue and it was also affecting the header and footer. Fixed the issue by changing to max-width instead of min-width of the media query and moving the units, which resovled both issues.
+
+#### Orginal code
+
+``` css
+        @media screen and (min-width: 900px){
+            .table{
+                overflow-x: auto;}
+            }       
+```
+
+#### Code fix
+
+``` css
+        @media screen and (max-width: 1428px){
+            .table{
+                overflow-x: auto;}
+            }
+```
+
+I then ran into more problems as the scroll was working but but the buttons were squashing as the container width changed with the screen. To fix this I added a fixed min-width to the table in the same media query above so it now is written as;
+
+#### **Code fix**
+```css
+       @media screen and (max-width: 1428px){
+            .table {
+                overflow-x: auto;
+            }
+            .schedule-style{
+                min-width: 1320px;
+            }
+        }
+```
+
+## Deployment
+The website was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the Settings tab
+2. On the left hand menu select Pages
+3. For the source select Branch: master
+4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/team.html
+
+You can for fork the repository by following these steps:
+1. Go to the GitHub repository
+2. Click on Fork button in upper right hand corner
+
+You can clone the repository by following these steps:
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7. Press Enter to create your local clone.
+
 ### **Styling**
 
 - Buttons are consistently rectangular with rounded corners and soft hover feature for aesthetics. 
@@ -728,181 +928,6 @@ The project was deployed to GitHub using the following stages;
 
 • The webiste was tested on Google Chrome, firefox, Safari.....
 • The website was viewed on a variety of devices such as Desktop, Laptop, Mobile Phone (apple and android) and tablets
-
-## **Known bugs**
-
-1. Buttons on index.html hero image
-
-   A. Having tested their position on all devices, I notcied using a margin of a specific px cause them to be out of place on different devices. Using an 'rem' unit paired with specific media queries commands instead allows them repsond better ensuring they are in a good posotion on all devices.
-
-    ##### **CSS Edits**
-            .hero-btn {
-                display: block;
-                text-align: center;
-                z-index: 1;
-                position: absolute;
-                margin-top: 15rem; (originally used a pixel unit here)
-            }
-
-    ##### **Media Query commands**
-
-        @media screen and (min-width:820px) and (max-width:912px){
-            .hero-btn{
-                margin-top: 20em;
-            }
-
-        @media screen and (max-width:480px)
-            .btn.btn-dark {
-                width: 125px;
-            }
-            .hero-btn {
-                font-weight: none;
-            }
-
-        @media screen and (max-width:280px)
-            .hero-btn {
-                margin-top: 175px;
-            }
-            .btn.btn-dark{
-                margin-bottom: 10px;
-            }
-            .hero img {
-                height: 15vh;
-                margin-bottom: 25px;
-            }
-
-    B. Having looked at ths in more detail it just wasn't working correclty, it caused the logo and buttons to be at different positions on lots of different devices and was messy. I decided to re-write the code and see if there was a different way of doing it. I found a solution here is the old code and the new;
-
-#### Old HTML
-
-            <div class="hero">
-                <div class="container-fuild">
-                    <img src="assets/images/logo-05.png" alt="Tooting Boxing Club boxing gloves logo">
-                </div>
-                <div class="hero-button text-center">
-                    <a href="prices.html" class="button">Buy Now</a>
-                    <a href="schedule.html" class="button">Book Now</a>
-                </div>
-            </div>
-
-##### New HTML
-
-        <div class="hero">
-            <div class="container-fuild hero-content">
-                <img src="assets/images/logo-05.png" alt="Tooting Boxing Club boxing gloves logo">
-                <div class="hero-button">
-                    <a href="prices.html" class="button">Buy Now</a>
-                    <a href="schedule.html" class="button">Book Now</a>
-                </div>
-            </div>
-        </div>
-
-#### Old CSS
-
-            .hero img {
-                align-items: center;
-                height: 20vh;
-            }
-
-            .hero-button {
-                display: block;
-                text-align: center;
-                position: absolute;
-                top: 75%;
-            }
-
-            .button {
-                width: 150px;
-                margin-left: 10px;
-                margin-right: 10px;
-            }
-
-#### New CSS
-
-            .hero-content {
-                display: flex;
-                lex-direction: column;
-                z-index: 1;
-            }
-
-            .hero img {
-                height: 180px;
-                width: auto;
-            }
-
-            .hero-button {
-                display: block;
-                text-align: center;
-                display: block;
-            }
-
-Which meant i could remove all the messy media queries and write just one for when the screen width was really thin;
-
-            @media screen and (max-width:282px){
-                .hero-button .button{
-                margin-bottom: 10px;
-                }
-            }           
-
-
-2. Map
-
-The map had a grey line under so wasn't flush to the footer, after using google inspect I noticed the container was a different height the map so matched both heights to 400px which fixed the issue.
-
-#### **Orginal code**
-
-            .map {
-                height: 400px;
-                width: 100%;
-            }
-
-#### **Code fix**
-
-            .map {
-                height: 400px;
-                width: 100%;
-            }
-
-            .map iframe {
-                height: 400px;
-                width: 100%;
-                }
-
-3. Schedule
-
-Overflow scroll wasn't working correctly on scheudle page, noticed the way I'd set up the media query seemed to be the issue and it was also affecting the header and footer. Fixed the issue by changing to max-width instead of min-width of the media query and moving the units, which resovled both issues.
-
-#### Orginal code
-
-``` css
-        @media screen and (min-width: 900px){
-            .table{
-                overflow-x: auto;}
-            }       
-```
-
-#### Code fix
-
-
-``` css
-        @media screen and (max-width: 1428px){
-            .table{
-                overflow-x: auto;}
-            }
-```
-
-I then ran into more problems as the scroll was working but but the buttons were squashing as the container width changed with the screen. To fix this I added a fixed min-width to the table in the same media query above so it now is written as;
-
-#### **Code fix**
-
-       @media screen and (max-width: 1428px){
-            .table {
-                overflow-x: auto;
-            }
-            .schedule-style{
-                min-width: 1320px;
-            }
-        }
 
 
 [Strategy.jpg]: Strategy.jpg
