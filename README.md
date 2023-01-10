@@ -833,15 +833,15 @@ You can clone the repository by following these steps:
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
 7. Press Enter to create your local clone.
 
-### Credits
+## Credits
 
 Images and logos not referenced below are owned or created by the developer.
 
-#### Media
+### Media
 
-### Index Page
+All photos were taken from [Pexels](https://www.pexels.com/), credit to (in order of appearance);
 
-#### Gym photos were taken from [Pexels](https://www.pexels.com/), credit to (in order of appearance);
+#### Index Page
 
 - [Julia Larson](https://www.pexels.com/@julia-larson/)
     <details><summary>Hero Image</summary>
@@ -876,7 +876,7 @@ Images and logos not referenced below are owned or created by the developer.
     </details>
 <br>
 
-### The Team Page
+#### The Team Page
 
 - [Los Muertos Crew](https://www.pexels.com/@cristian-rojas/)
     <details><summary>Team Banner</summary>
@@ -920,73 +920,28 @@ Images and logos not referenced below are owned or created by the developer.
     </details>
 <br>
 
-### Prices Page
+#### Prices Page
 - [Kool Shooters](https://www.pexels.com/@kool-shooters/)
     <details><summary>Prices Banner</summary>
     <img src="docs/credits/prices-banner.jpg">
     </details>
 <br>
 
-### Class Schedule Page
+#### Class Schedule Page
 - [Wang Motret](https://www.pexels.com/@wang-motret-35777729/)
     <details><summary>Schedule Banner</summary>
     <img src="docs/credits/schedule-banner.jpg">
     </details>
 <br>
 
+### Code 
 
-## **Images**
-
-### **Index Page**
-
-• Gym photos were taken from [Pexels](https://www.pexels.com/), credit to;
-
-• [RODNAE Productions](https://www.pexels.com/@rodnae-prod/)
-
-• [Kool Shooters](https://www.pexels.com/@kool-shooters/)
-
-• [Mikhail Nilov](https://www.pexels.com/@mikhail-nilov/)
-
-• [cottonbro studio](https://www.pexels.com/@cottonbro/)
-
-• [Ron Lach](https://www.pexels.com/@ron-lach/)
-
-• [Julia Larson](https://www.pexels.com/@julia-larson/)
-
-
-
-### **Meet the Team Page**
-Coach profile pictures taken from [Pexels](https://www.pexels.com/), credit to;
-
-• [Ron Lach](https://www.pexels.com/@ron-lach/)
-
-• [RODNAE Productions](https://www.pexels.com/@rodnae-prod/)
-
-• [cottonbro studio](https://www.pexels.com/@cottonbro/)
-
-• [Yaroslav Shuraev](https://www.pexels.com/@yaroslav-shuraev/)
-
-• [Gustavo Fring](https://www.pexels.com/@gustavo-fring/)
-
-• [Volkan Erdek](https://www.pexels.com/@volkan-erdek-311029/)
-
-### **Features**
-
-## Credits
-
-#### Table Creation
-https://www.w3schools.com/cssref/css3_pr_overflow-x.php 
-https://www.w3schools.com/howto/howto_css_table_responsive.asp
-
-#### Code 
-
-• The full-screen hero image was taken from 
-
-#### Content
-
-• Most content was written by the developer, some code was copied and modififed from Code Institute and Bootstrap learning modules.
-
-#### Media
+In order of appearance;
+- The HTML for the responsive [Navbar with toggler](https://getbootstrap.com/docs/5.1/components/navbar/) was taken from Boostrap v5.1 documentation snippet.
+- The HTML for adding [WhatsApp](https://support.messagebird.com/hc/en-us/articles/360018616838-Add-an-embeddable-WhatsApp-Button-to-your-website) was taken from Message Bird Snippet.
+- The HTML for the Nav Bar [Sign In Modal](https://getbootstrap.com/docs/5.3/components/modal/#how-it-works) was taken from Boostrap v5.3 documentation snippet.
+- The HTML for the [Carousel](https://getbootstrap.com/docs/5.0/components/carousel/#with-indicators) on index page was taken from Bootrap v5.1 documentation code snippet.
+- The HTMl for the [Class Modal](https://getbootstrap.com/docs/5.3/components/modal/#how-it-works) was taken from Boostrap v5.3 documentation snippet.
 
 
 #### Ackowledgements 
