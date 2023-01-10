@@ -636,7 +636,7 @@ The website was tested on the following browsers:
 
 1. Buttons on index.html hero image
 
-   A. Having tested their position on all devices, I notcied using a margin of a specific px cause them to be out of place on different devices. Using an 'rem' unit paired with specific media queries commands instead allows them repsond better ensuring they are in a good posotion on all devices.
+-  Having tested their position on all devices, I notcied using a margin of a specific px cause them to be out of place on different devices. Using an 'rem' unit paired with specific media queries commands instead allows them repsond better ensuring they are in a good posotion on all devices.
 
 
 ##### CSS Edits
@@ -677,7 +677,7 @@ The website was tested on the following browsers:
             }
 ```
 
-    B. Having looked at ths in more detail it just wasn't working correclty, it caused the logo and buttons to be at different positions on lots of different devices and was messy. I decided to re-write the code and see if there was a different way of doing it. I found a solution here is the old code and the new;
+-  Having looked at ths in more detail it just wasn't working correclty, it caused the logo and buttons to be at different positions on lots of different devices and was messy. I decided to re-write the code and see if there was a different way of doing it. I found a solution here is the old code and the new;
 
 #### Old HTML
 ```html
@@ -745,7 +745,7 @@ The website was tested on the following browsers:
             }
 ```
 
-Which meant i could remove all the messy media queries and write just one for when the screen width was really thin;
+- Which meant I could remove all the messy media queries and write just one for when the screen width was really thin;
 ```css
             @media screen and (max-width:282px){
                 .hero-button .button{
@@ -755,7 +755,7 @@ Which meant i could remove all the messy media queries and write just one for wh
 ```
 2. Map
 
-The map had a grey line under so wasn't flush to the footer, after using google inspect I noticed the container was a different height the map so matched both heights to 400px which fixed the issue.
+    The map had a grey line under so wasn't flush to the footer, after using google inspect I noticed the container was a different height the map so matched both heights to 400px which fixed the issue.
 
 #### Orginal code
 ```css
@@ -778,7 +778,7 @@ The map had a grey line under so wasn't flush to the footer, after using google 
 ```
 3. Schedule
 
-Overflow scroll wasn't working correctly on scheudle page, noticed the way I'd set up the media query seemed to be the issue and it was also affecting the header and footer. Fixed the issue by changing to max-width instead of min-width of the media query and moving the units, which resovled both issues.
+- Overflow scroll wasn't working correctly on scheudle page, noticed the way I'd set up the media query seemed to be the issue and it was also affecting the header and footer. Fixed the issue by changing to max-width instead of min-width of the media query and moving the units, which resovled both issues.
 
 #### Orginal code
 
@@ -798,7 +798,7 @@ Overflow scroll wasn't working correctly on scheudle page, noticed the way I'd s
             }
 ```
 
-I then ran into more problems as the scroll was working but but the buttons were squashing as the container width changed with the screen. To fix this I added a fixed min-width to the table in the same media query above so it now is written as;
+- I then ran into more problems as the scroll was working but but the buttons were squashing as the container width changed with the screen. To fix this I added a fixed min-width to the table in the same media query above so it now is written as;
 
 #### **Code fix**
 ```css
