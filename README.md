@@ -943,34 +943,11 @@ In order of appearance;
 - The HTML for the [Carousel](https://getbootstrap.com/docs/5.0/components/carousel/#with-indicators) on index page was taken from Bootrap v5.1 documentation code snippet.
 - The HTMl for the [Class Modal](https://getbootstrap.com/docs/5.3/components/modal/#how-it-works) was taken from Boostrap v5.3 documentation snippet.
 
+### Ackowledgements
 
-#### Ackowledgements 
+I would like to takw the opportunity to thank;
 
-- Tutor support from Code Institute for their support.
+- My mentor, Mo Shami, for his excellent feedback, advice support and guidance throughout.
+- Tutor support from Code Institute for their swift response.
 - The slack community of coders for immediate and helpful response.
-- My mentor for feedback throughout.
-- For help when stuck on code: [Stackoverflow](https://stackoverflow.com/), [W3 schools](https://www.w3schools.com/), [Flexbox Froggy](https://flexboxfroggy.com/)
-- Code for adding WhatsApp came from [Message Bird](https://support.messagebird.com/hc/en-us/articles/360018616838-Add-an-embeddable-WhatsApp-Button-to-your-website)
-
-## Testing User Stories from User Experiencer 
-
-• First time visitor goals
-
-## Deployment
-
-### GitHub Pages
-
-The project was deployed to GitHub using the following stages;
-
-### Forking the GitHub Repository
-
-### Making a Local Clone
-
-## Further Testing 
-
-• The webiste was tested on Google Chrome, firefox, Safari.....
-• The website was viewed on a variety of devices such as Desktop, Laptop, Mobile Phone (apple and android) and tablets
-
-
-[Strategy.jpg]: Strategy.jpg
-[def]: https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/
+- WAES College and my Tutor Michael for their suppoirt and help throughout.
