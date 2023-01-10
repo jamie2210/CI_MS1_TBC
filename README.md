@@ -5,7 +5,7 @@
 
 [Live webpage]( https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/index.html)
 
-This is the website for Tooting Boxing Club, it is designed to be responsive and accessible on all devices allowing easy access to the timetable, class schedule and information on club and coaches for our members and those who want to know more about us.
+This is the website for Tooting Boxing Club, it is designed to be responsive and accessible on all devices allowing easy access to the timetable, class schedule and information on club and coaches for members and those who want to more information.
 
 ## Table of Content
 
@@ -41,20 +41,20 @@ This is the website for Tooting Boxing Club, it is designed to be responsive and
 
 ## Project Goals
 
-Primary goal is to provide an informative good-looking website that showcases Tooting Boxing Club and encourages the user to come to the gym, buy classes or 1-1's or get in touch via the website.
+Primary goal is to provide an informative good-looking website that showcases Tooting Boxing Club and encourages the user to come to the gym, buy classes or 1-1's or get in touch via the website. It is designed to ensure access to a returning users main objectives (contact, purchases and bookings) is user friendly and efficient.
 
 
 ### User Goals
 - A well displayed easy to navigate website.
-- Clear indication to what we and who we are and what's on offer.
+- Clear information on what the club does and offers.
 - Easy access to get in touch for more information.
 - Visual display of the club to help user see and get and feel for the gym.
 - Call to action buttons to allow a user-friendly experience buying and booking classes.
-- Enough information on the club, owners, coaches and classes for the user to have a good understanding of the company and its employees.
+- Enough information on the club, owners, coaches, and classes for the user to have a good understanding of the company and its employees.
 
 
 ### Site Owner Goals
-- Increase in the number of members.
+- Increase in the number of paying clients.
 - Promote the business.
 - Provide a way for new and existing clients to contact the gym.
 - Provide easy access to booking class and arranging private sessions.
@@ -93,7 +93,7 @@ Primary goal is to provide an informative good-looking website that showcases To
 1. As a first-time user, I want to know where the gym is located.
 2. As a first-time user, I want to know the prices for classes and 1-1’s.
 3. As a first-time user, I want to know when classes are on throughout the week.
-4. As a first-time user, I want to know more about the club, its history and its coaches.
+4. As a first-time user, I want to know more about the club, its history, and its coaches.
 5. As a first-time user, I want to get a feel for the classes and atmosphere in the gym.
 6. As a first-time user, I want to easily contact the club should I have any questions.
 
@@ -128,11 +128,11 @@ Primary Colours - Black / White
 
 Secondary Colours - Yellow / Red
 
-Black, Yellow and white being the most predominant as they stand out so well against each other.
+Black, Yellow, and White being the most predominant as they stand out so well against each other.
 
 I also use subtle greys when a white background to too garish.
 
-Specific colours used on the site all taken from a colour picker in InDesign are;
+Specific colours used on the site all taken from a colour picker in InDesign are:
 1. Black: #000000
 2. White: #ffffff
 3. Off-white: #f1f1f1 
@@ -142,7 +142,7 @@ Specific colours used on the site all taken from a colour picker in InDesign are
 7. Shadow Grey: #726a6a
 8. Bronze: #CD7F32
 
-I tested multiple options on indesign to ensure I was happy with the colours and had covered as many other options I also liked.
+I tested multiple options on InDesign to ensure I was happy with the colours and had covered as many other options as possible I also liked.
 
 
 <details><summary>Branding Colour Ideas</summary>
@@ -163,7 +163,7 @@ I use these fonts as they are clean, easy to read and have a smart appearance an
 The page is structure in a user friendly and visually appealing way. Upon arriving the user will notice the recognisable navigation bar, with the company logo on the left and next to that a WhatsApp symbol for quick and convenient contact via the app, all navigation links are placed on the right.
 
 The website consists of six separate pages and a ‘Sign In’ modal: 
-- A homepage with a sections giving more information on the club (Strapline and short introduction, gallery, reviews and map)
+- A homepage with a section giving more information on the club (Strapline and short introduction, gallery, reviews and map)
 - An About page with information on the founders and why they started the club.
 - A Team page that introduces the user to the coaches.
 - A Prices page with details on the different options for classes and 1-1’s.
@@ -282,7 +282,7 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 ![The Team](docs/features/feature-the-team.png)
 
 ### Prices 
-- Pricing is broken down into 4 subtitles;
+- Pricing is broken down into 4 subtitles:
     1. Intro Offers
     2. Memberships
     3. Class Packages
@@ -304,7 +304,7 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 </details>
 
 ### Class Schedule
-- Weekly schedule detail what classes on are on each day of the week, what time they are on and which coach is taking the class.
+- Weekly schedule detail what classes on are on each day of the week, what time they are on, and which coach is taking the class.
 - A description of the class is available with more detail on a modal when the class description is clicked.
 - User stories covered: 3, 5, 8, 12, 15, 17.
 
@@ -330,7 +330,7 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 
 ### 404
 
-- For a bit of fun, I added light hearted boxing related humour to the error page.
+- For a bit of fun, I added light-hearted boxing related humour to the error page.
 - Includes navigation bar and footer, with a centrally placed 'Home' button for convenience.
 
 ![404](docs/features/feature-404.png)
@@ -355,7 +355,7 @@ contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
-When validating just my own custom CSS it passes with no errors and flagged some warnings for the moz, o and webkit transitions used through and 1 wanring for the google fonts import used.
+When validating just my own custom CSS it passes with no errors and flagged some warnings for the moz, o and webkit transitions used and 1 warning for the google fonts import used.
 
 <details><summary>style.css</summary>
 <img src="docs/validation/validation-css.png">
@@ -404,9 +404,9 @@ The website was tested on the following devices:
 - Ipad Tablet
 - Google Pixel 5
 
-In addition, the website was tested using Google Chrome Developer Tools Device Toggeling option for all available device options.
+In addition, the website was tested using Google Chrome Developer Tools device toggle option for all available device options.
 
-### Browser compatability
+### Browser compatibility
 The website was tested on the following browsers:
 - Google Chrome
 - Apple Safari
@@ -456,7 +456,7 @@ The website was tested on the following browsers:
 |-------------|------------|---------------------|-------------------|
 | Navigation Bar | On any page at the top click on 'About' | Find About page with more information on the founders | Works as expected |
 | Navigation Bar | On any page at the top click on 'Coaches' | Find Coaches page with more information on the coaches | Works as expected |
-| Company Introduction | On Index page scroll down to 'Tooting Boxing Club' title | Find introduction and short description of the gym and it's values | Works as expected |
+| Company Introduction | On Index page scroll down to 'Tooting Boxing Club' title | Find introduction and short description of the gym and its values | Works as expected |
 | Slide Show Gallery | On Index page scroll down to gallery | Find images of the gym on display in a carousel | Works as expected |
 
 <details><summary>Find About / Coaches / Introduction / Gallery</summary>
@@ -469,7 +469,7 @@ The website was tested on the following browsers:
 |-------------|------------|---------------------|-------------------|
 | Navigation Bar | On any page at the top click on 'About' | Find About page with more information on the founders and the gym | Works as expected |
 | Navigation Bar | On any page at the top click on 'Coaches' | Find Coaches page with more information on the coaches | Works as expected |
-| Company Introduction | On Index page scroll down to 'Tooting Boxing Club' title | Find introduction and short description of the gym and it's values | Works as expected |
+| Company Introduction | On Index page scroll down to 'Tooting Boxing Club' title | Find introduction and short description of the gym and its values | Works as expected |
 | Slide Show Gallery | On Index page scroll down to gallery | Find images of the gym on display in a carousel | Works as expected |
 | Class Modal | Click on any class name on the schedule | Find a modal pop up going into more detail of chosen class | Works as expected |
 
@@ -588,7 +588,7 @@ The website was tested on the following browsers:
 |-------------|------------|---------------------|-------------------|
 | Navigation Bar | On any page at the top click on 'About' | Find About page with more information on the founders and the gym | Works as expected |
 | Navigation Bar | On any page at the top click on 'Coaches' | Find Coaches page with more information on the coaches | Works as expected |
-| Company Introduction | On Index page scroll down to 'Tooting Boxing Club' title | Find introduction and short description of the gym and it's values | Works as expected |
+| Company Introduction | On Index page scroll down to 'Tooting Boxing Club' title | Find introduction and short description of the gym and its values | Works as expected |
 | Slide Show Gallery | On Index page scroll down to gallery | Find images of the gym on display in a carousel | Works as expected |
 | Class Modal | Click on any class name on the schedule | Find a modal pop up going into more detail of chosen class | Works as expected |
 
@@ -614,7 +614,7 @@ The website was tested on the following browsers:
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Hero Image | On Index page click on 'Book Now' button on hero image | Find Schedule page with class timetable | Works as expected |
-| Navigation Bar | On any page at the top click on 'Schedule'  | Find Schedule page with class timetable | Works as expected |
+| Navigation Bar | On any page at the top click on 'Schedule' | Find Schedule page with class timetable | Works as expected |
 | Coach Page | Click on any 'Book Me' button | Find Schedule page | Works as expected |
 
 <details><summary>Find Schedule</summary>
@@ -636,7 +636,7 @@ The website was tested on the following browsers:
 
 1. Buttons on index.html hero image
 
--  Having tested their position on all devices, I notcied using a margin of a specific px cause them to be out of place on different devices. Using an 'rem' unit paired with specific media queries commands instead allows them repsond better ensuring they are in a good posotion on all devices.
+-  Having tested their position on all devices, I noticed using a margin of a specific px cause them to be out of place on different devices. Using a 'rem' unit paired with specific media queries commands instead allows them respond better ensuring they are in a good position on all devices.
 
 
 ##### CSS Edits
@@ -677,12 +677,12 @@ The website was tested on the following browsers:
             }
 ```
 
--  Having looked at ths in more detail it just wasn't working correclty, it caused the logo and buttons to be at different positions on lots of different devices and was messy. I decided to re-write the code and see if there was a different way of doing it. I found a solution here is the old code and the new;
+-  Having looked at this in more detail it just wasn't working correctly, it caused the logo and buttons to be at different positions on lots of different devices and was messy. I decided to re-write the code and see if there was a different way of doing it. I found a solution here is the old code and the new:
 
 #### Old HTML
 ```html
             <div class="hero">
-                <div class="container-fuild">
+                <div class="container-fluid">
                     <img src="assets/images/logo-05.png" alt="Tooting Boxing Club boxing gloves logo">
                 </div>
                 <div class="hero-button text-center">
@@ -694,7 +694,7 @@ The website was tested on the following browsers:
 ##### New HTML
 ```html
             <div class="hero">
-                <div class="container-fuild hero-content">
+                <div class="container-fluid hero-content">
                     <img src="assets/images/logo-05.png" alt="Tooting Boxing Club boxing gloves logo">
                     <div class="hero-button">
                         <a href="prices.html" class="button">Buy Now</a>
@@ -757,7 +757,7 @@ The website was tested on the following browsers:
 
     The map had a grey line under so wasn't flush to the footer, after using google inspect I noticed the container was a different height the map so matched both heights to 400px which fixed the issue.
 
-#### Orginal code
+#### Original code
 ```css
             .map {
                 height: 400px;
@@ -778,9 +778,9 @@ The website was tested on the following browsers:
 ```
 3. Schedule
 
-- Overflow scroll wasn't working correctly on scheudle page, noticed the way I'd set up the media query seemed to be the issue and it was also affecting the header and footer. Fixed the issue by changing to max-width instead of min-width of the media query and moving the units, which resovled both issues.
+- Overflow scroll wasn't working correctly on schedule page, noticed the way I'd set up the media query seemed to be the issue and it was also affecting the header and footer. Fixed the issue by changing to max-width instead of min-width of the media query and moving the units, which resolved both issues.
 
-#### Orginal code
+#### Original code
 
 ``` css
         @media screen and (min-width: 900px){
@@ -798,9 +798,9 @@ The website was tested on the following browsers:
             }
 ```
 
-- I then ran into more problems as the scroll was working but but the buttons were squashing as the container width changed with the screen. To fix this I added a fixed min-width to the table in the same media query above so it now is written as;
+- I then ran into more problems as the scroll was working but the buttons were squashing as the container width changed with the screen. To fix this I added a fixed min-width to the table in the same media query above, so it now is written as:
 
-#### **Code fix**
+#### Code fix
 ```css
        @media screen and (max-width: 1428px){
             .table {
@@ -815,13 +815,13 @@ The website was tested on the following browsers:
 ## Deployment
 The website was deployed using GitHub Pages by following these steps:
 1. In the GitHub repository navigate to the Settings tab
-2. On the left hand menu select Pages
+2. On the left-hand menu select Pages
 3. For the source select Branch: master
-4. After the webpage refreshes automaticaly you will se a ribbon on the top saying: "Your site is published at https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/team.html
+4. After the webpage refreshes automatically you will see a ribbon on the top saying: "Your site is published at https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/team.html
 
 You can for fork the repository by following these steps:
 1. Go to the GitHub repository
-2. Click on Fork button in upper right hand corner
+2. Click on Fork button in upper right-hand corner
 
 You can clone the repository by following these steps:
 1. Go to the GitHub repository 
@@ -849,7 +849,7 @@ All photos were taken from [Pexels](https://www.pexels.com/), credit to (in orde
 <br>
 
 - [Kool Shooters](https://www.pexels.com/@kool-shooters/)
-    <details><summary>Carousel - Bagwork</summary>
+    <details><summary>Carousel - Bag Work</summary>
     <img src="docs/credits/carousel-bagwork">
     </details>
 <br>
@@ -939,7 +939,7 @@ In order of appearance;
 - The HTML for the responsive [Navbar with toggler](https://getbootstrap.com/docs/5.1/components/navbar/) was taken from Boostrap v5.1 documentation snippet.
 - The HTML for adding [WhatsApp](https://support.messagebird.com/hc/en-us/articles/360018616838-Add-an-embeddable-WhatsApp-Button-to-your-website) was taken from Message Bird Snippet.
 - The HTML for the Nav Bar [Sign In Modal](https://getbootstrap.com/docs/5.3/components/modal/#how-it-works) was taken from Boostrap v5.3 documentation snippet.
-- The HTML for the [Carousel](https://getbootstrap.com/docs/5.0/components/carousel/#with-indicators) on index page was taken from Bootrap v5.1 documentation code snippet.
+- The HTML for the [Carousel](https://getbootstrap.com/docs/5.0/components/carousel/#with-indicators) on index page was taken from Boostrap v5.1 documentation code snippet.
 - The HTMl for the [Class Modal](https://getbootstrap.com/docs/5.3/components/modal/#how-it-works) was taken from Boostrap v5.3 documentation snippet.
 
 ### Acknowledgements
