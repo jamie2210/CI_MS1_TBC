@@ -239,11 +239,12 @@ body {
     padding-right: 10%;
 }
 
-.club-intro h2{
+.club-intro h1{
     font-weight: 700;
 }
 
 .club-intro h2 {
+    font-weight: 700;
     font-size: x-large;
 }
 
