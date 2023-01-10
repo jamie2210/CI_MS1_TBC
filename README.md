@@ -872,20 +872,24 @@ The map had a grey line under so wasn't flush to the footer, after using google 
 
 Overflow scroll wasn't working correctly on scheudle page, noticed the way I'd set up the media query seemed to be the issue and it was also affecting the header and footer. Fixed the issue by changing to max-width instead of min-width of the media query and moving the units, which resovled both issues.
 
-#### **Orginal code**
+#### Orginal code
 
+``` css
         @media screen and (min-width: 900px){
             .table{
                 overflow-x: auto;}
             }       
+```
+
+#### Code fix
 
 
-#### **Code fix**
-
+``` css
         @media screen and (max-width: 1428px){
             .table{
                 overflow-x: auto;}
             }
+```
 
 I then ran into more problems as the scroll was working but but the buttons were squashing as the container width changed with the screen. To fix this I added a fixed min-width to the table in the same media query above so it now is written as;
 
