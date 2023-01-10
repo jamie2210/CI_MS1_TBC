@@ -414,6 +414,8 @@ The website was tested on the following browsers:
 
 ### Testing user stories
 
+#### First-time User
+
 1. As a first-time user, I want to know where the gym is located.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -445,7 +447,7 @@ The website was tested on the following browsers:
 | Coach Page | Click on any 'Book Me' button | Find Schedule page | Works as expected |
 
 <details><summary>Find Schedule</summary>
-<img src="docs/user-story-testing/user-story-prices.gif">
+<img src="docs/user-story-testing/user-story-classes.gif">
 </details>
 
 4. As a first-time user, I want to know more about the club, its history and its coaches.
@@ -458,7 +460,7 @@ The website was tested on the following browsers:
 | Slide Show Gallery | On Index page scroll down to gallery | Find images of the gym on display in a carousel | Works as expected |
 
 <details><summary>Find About / Coaches / Introduction / Gallery</summary>
-<img src="docs/user-story-testing/user-story-prices.gif">
+<img src="docs/user-story-testing/user-story-the-club.gif">
 </details>
 
 5. As a first-time user, I want to get a feel for the classes and atmosphere in the gym.
@@ -472,7 +474,7 @@ The website was tested on the following browsers:
 | Class Modal | Click on any class name on the schedule | Find a modal pop up going into more detail of chosen class | Works as expected |
 
 <details><summary>Find About / Coaches / Introduction / Gallery / Class Modal</summary>
-<img src="docs/user-story-testing/user-story-prices.gif">
+<img src="docs/user-story-testing/user-story-atmos.gif">
 </details>
 
 6. As a first-time user, I want to easily contact the club should I have any questions.
@@ -485,6 +487,86 @@ The website was tested on the following browsers:
 
 
 <details><summary>Find Contact / WhatsApp / Email & Phone Number</summary>
+<img src="docs/user-story-testing/user-story-contact.gif">
+</details>
+
+#### Returning User
+
+7. As a returning user, I want to easily log in to my account or create one.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | On any page at the top click on 'Sign In' | Find Sign In Modal | Works as expected |
+
+<details><summary>Find Sign In</summary>
+<img src="docs/user-story-testing/user-story-sign-in.gif">
+</details>
+
+8. As a returning user, I want access the schedule to quickly to book in.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | On any page at the top click on 'Schedule' | Find class schedule and booking options | Works as expected |
+| Hero Image | Click on 'Book Now' button | Find class schedule and booking options | Works as expected |
+| Coach Page | Click on 'Book Me' button | Find class schedule and booking options | Works as expected |
+
+<details><summary>Find Schedule</summary>
+<img src="docs/user-story-testing/user-story-sign-in.gif">
+</details>
+
+9. As a returning user, I want to find a phone number, email, or a means to contact to arrange a 1-1 or ask for more information.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Navigation Bar | On any page at the top click on 'Get In Touch' | Find Contact page with contact form |
+| Navigation Bar | On any page at the top click on 'WhatsApp' logo | Find WhatsApp app open with direct line to chat | Works as expected |
+| Footer - contact information section | On any page scroll down to the footer | Find the email and phone number of gym | Works as expected |
+
+
+<details><summary>Find Contact / WhatsApp / Email & Phone Number</summary>
+<img src="docs/user-story-testing/user-story-contact.gif">
+</details>
+
+10. As a returning user, I want to find the gym on social media.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Footer - Social Media Section | On any page scroll down to the footer | Find social links on the right | Works as expected |
+
+
+<details><summary>Find Contact / WhatsApp / Email & Phone Number</summary>
+<img src="docs/user-story-testing/user-story-contact.gif">
+</details>
+
+11. As a returning user, I want to get directions to the gym.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Map | On Index page scroll down the bottom | Locating a map showing the location of the gym | Works as expected |
+| Footer - contact information section | On any page scroll down to the footer | Find the address of the restaurant | Works as expected |
+
+<details><summary>Find Map / Address</summary>
+<img src="docs/user-story-testing/user-story-map-address.gif">
+</details>
+
+12. As a returning user, I want to know more about what each individual class involves.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Class Modal | Click on any class name on the schedule | Find a modal pop up going into more detail of chosen class | Works as expected |
+
+<details><summary>Find About / Coaches / Introduction / Gallery / Class Modal</summary>
+<img src="docs/user-story-testing/user-story-class-modal.gif">
+</details>
+
+13. As a returning user, I want to purchase sessions, memberships or 1-1’s.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Hero Image | On Index page click on 'Buy Now' button on hero image | Find Prices page with all pricing | Works as expected |
+| Navigation Bar | On any page at the top click on 'Prices' | Find Prices page with all pricing | Works as expected |
+
+<details><summary>Find Prices</summary>
 <img src="docs/user-story-testing/user-story-prices.gif">
 </details>
 
