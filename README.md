@@ -833,17 +833,53 @@ You can clone the repository by following these steps:
 6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
 7. Press Enter to create your local clone.
 
-### **Styling**
+### Credits
 
-- Buttons are consistently rectangular with rounded corners and soft hover feature for aesthetics. 
-- All profile images have a white border and sublte shadow as this makes them pop out of the page, stand out as it makes them a little different from just being a straight edged photo.
-- Boxes have squared corners throughout ensuring consistency and separates them from the buttons and profile images helping them to standout and have a strong presence.
-- Each page folows one of two themes, light background with dark text or dark background with light text. This is to ensure their aren't too many differently styled pages and that both stand out with the context popping off the page. 
+Images and logos not referenced below are owned or created by the developer.
 
-### **Backgrounds**
+#### Media
 
-- The only background image used is on the index.html as the hero image it was chosen as it shows 2 gloves coming together which is a symbol of repsect, unity and companionship. all of which the club stands for.
-- All over backgrounds are either an off-white or black. 
+### Index Page
+
+#### Gym photos were taken from [Pexels](https://www.pexels.com/), credit to (in order of appearance);
+
+- [Julia Larson](https://www.pexels.com/@julia-larson/)
+    <details><summary>Hero Image</summary>
+    <img src="docs/credits/hero-image.jpg">
+    </details>
+<br>
+
+- [Kool Shooters](https://www.pexels.com/@kool-shooters/)
+    <details><summary>Carousel - Bagwork</summary>
+    <img src="docs/credits/carousel-bagwork">
+    </details>
+<br>
+
+- [RODNAE Productions](https://www.pexels.com/@rodnae-prod/)
+    <details><summary>Carousel - Boxing Gym</summary>
+    <img src="docs/credits/carousel-boxing-gym.jpg">
+    </details>
+<br>
+
+- [Mikhail Nilov](https://www.pexels.com/@mikhail-nilov/)
+    <details><summary>Carousel - Coaching</summary>
+    <img src="docs/credits/carousel-coaching.jpg">
+    </details>
+<br>
+
+- [cottonbro studio](https://www.pexels.com/@cottonbro/) gloves touch
+    <details><summary>Carousel - Sparring</summary>
+    <img src="docs/credits/carousel-sparring.jpg">
+    </details>
+    <details><summary>Carousel - Dark Gym</summary>
+    <img src="docs/credits/carousel-dark-gym.jpg">
+    </details>
+<br>
+
+
+- [Ron Lach](https://www.pexels.com/@ron-lach/)
+
+
 
 ## **Images**
 
@@ -863,10 +899,7 @@ You can clone the repository by following these steps:
 
 • [Julia Larson](https://www.pexels.com/@julia-larson/)
 
-• Review profile images are taken by me of my friends and I have been given permission to use them.
 
-### **About Page**
-• The fictional founders of the club are friends of mine and the photos are my own.
 
 ### **Meet the Team Page**
 Coach profile pictures taken from [Pexels](https://www.pexels.com/), credit to;
