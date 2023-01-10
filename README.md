@@ -35,7 +35,7 @@ This is the website for 'Tooting Boxing Club, it is designed to be responsible a
     5. [Device testing](#performing-tests-on-various-devices)
     6. [Browser compatibility](#browser-compatability)
     7. [Testing user stories](#testing-user-stories)
-8. [Bugs](#Bugs)
+8. [Bugs](#bugs)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
@@ -141,8 +141,7 @@ Specific colours used on the site all taken from a colour picker in InDesign are
 5. Yellow: #e9c431
 6. Red: #a51e1e
 7. Shadow Grey: #726a6a
-8. Subtle Grey: #807c7c (only used for a very small amount of text on - 'Read Me' on index.html reviews section)
-9. Bronze: #CD7F32
+8. Bronze: #CD7F32
 
 I tested multiple options on indesign to ensure I was happy with the colours and had covered as many other options I also liked.
 
@@ -211,6 +210,7 @@ The website consists of six separate pages and a ‘Sign In’ modal:
 - Adobe Suite (Illustrator, Photoshop & InDesign)
 - Font Awesome
 - Favicon<span>.</span>io
+- Ezgif.com
 
 ## Features
 The page consists of six pages and thirteen features.
@@ -943,9 +943,9 @@ In order of appearance;
 - The HTML for the [Carousel](https://getbootstrap.com/docs/5.0/components/carousel/#with-indicators) on index page was taken from Bootrap v5.1 documentation code snippet.
 - The HTMl for the [Class Modal](https://getbootstrap.com/docs/5.3/components/modal/#how-it-works) was taken from Boostrap v5.3 documentation snippet.
 
-### Ackowledgements
+### Acknowledgements
 
-I would like to takw the opportunity to thank;
+I would like to take the opportunity to thank;
 
 - My mentor, Mo Shami, for his excellent feedback, advice support and guidance throughout.
 - Tutor support from Code Institute for their swift response.
