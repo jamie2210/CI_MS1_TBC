@@ -876,9 +876,63 @@ Images and logos not referenced below are owned or created by the developer.
     </details>
 <br>
 
+### The Team Page
+
+- [Los Muertos Crew](https://www.pexels.com/@cristian-rojas/)
+    <details><summary>Team Banner</summary>
+    <img src="docs/credits/team-banner.jpg">
+    </details>
+<br>
+
+- [cottonbro studio](https://www.pexels.com/@cottonbro/)
+    <details><summary>Coach Lucy</summary>
+    <img src="docs/credits/team-lucy.jpg">
+    </details>
+<br>
+
+- [Gustavo Fring](https://www.pexels.com/@gustavo-fring/)
+    <details><summary>Coach Mark</summary>
+    <img src="docs/credits/team-mark.jpg">
+    </details>
+<br>
+
+- [RODNAE Productions](https://www.pexels.com/@rodnae-prod/)
+    <details><summary>Coach Chris</summary>
+    <img src="docs/credits/team-chris.jpg">
+    </details>
+<br>
+
+- [Volkan Erdek](https://www.pexels.com/@volkan-erdek-311029/)
+    <details><summary>Coach Tom</summary>
+    <img src="docs/credits/team-tom.jpg">
+    </details>
+<br>
 
 - [Ron Lach](https://www.pexels.com/@ron-lach/)
+    <details><summary>Coach Frank</summary>
+    <img src="docs/credits/team-frank.jpg">
+    </details>
+<br>
 
+- [Yaroslav Shuraev](https://www.pexels.com/@yaroslav-shuraev/)
+    <details><summary>Coach Mary</summary>
+    <img src="docs/credits/team-mary.jpg">
+    </details>
+<br>
+
+### Prices Page
+- [Kool Shooters](https://www.pexels.com/@kool-shooters/)
+    <details><summary>Prices Banner</summary>
+    <img src="docs/credits/prices-banner.jpg">
+    </details>
+<br>
+
+### Class Schedule Page
+- [Wang Motret](https://www.pexels.com/@wang-motret-35777729/)
+    <details><summary>Schedule Banner</summary>
+    <img src="docs/credits/schedule-banner.jpg">
+    </details>
+<br>
 
 
 ## **Images**
