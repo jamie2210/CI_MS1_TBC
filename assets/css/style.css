@@ -414,6 +414,8 @@ body {
 .team-title {
     height: 90vh;
     background: url("../images/header/boxer.webp") no-repeat center;
+    background-color: rgba(0,0,0,0.75);
+    background-blend-mode: multiply;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -484,6 +486,9 @@ body {
 .prices-title-header {
     height: 90vh;
     background: url("../images/header/gloves.webp") no-repeat center;
+    background-color: rgba(0,0,0,0.75);
+    background-blend-mode: multiply;
+    background-position: 70%;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -567,6 +572,8 @@ body {
 .schedule-title {
     height: 90vh;
     background: url("../images/header/wraps.webp") no-repeat center;
+    background-color: rgba(0,0,0,0.75);
+    background-blend-mode: multiply;
     background-size: cover;
     display: flex;
     align-items: center;
