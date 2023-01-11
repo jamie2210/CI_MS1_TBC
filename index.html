@@ -102,7 +102,7 @@
       <section class="reviews text-center">
         <h2>Don't just take our word for it....</h2>
         <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="col-lg-3 col-md-6 col-sm-12 hidden">
             <img src="assets/images/profiles/henry.webp" alt="profile picture of TBC member Henry">
             <h3>Henry Letts</h3>
             <div class="inline-block" role="img" aria-label="review rating of 5 stars">
@@ -113,8 +113,8 @@
             <i class="fa fa-star" aria-hidden="true"></i>
             </div>
             <p>"Honestly, one the best decisions I've made was to start training at TBC."</p>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
+        </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 hidden">
             <img src="assets/images/profiles/mads.webp" alt="profile picture of TBC member Maddy">
             <h3>Maddy Gardner</h3>
             <div class="inline-block" role="img" aria-label="review rating of 5 stars">
@@ -152,6 +152,85 @@
           </div>    
         </div>    
       </section>
+    </div>
+<!-- CODE SAMPLES TAKEN FROM BOOTSTRAP 5 SNIPPET, SEE README FILE FOR MORE INFO -->
+    <div id="reviewcontrols" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner text-center container-fluid">
+          <div class="row review-slide reviews">
+          <div class="carousel-item active">
+            <div class="d-block w-100">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+            <img src="assets/images/profiles/henry.webp" alt="profile picture of TBC member Henry">
+            <h3>Henry Letts</h3>
+            <div class="inline-block" role="img" aria-label="review rating of 5 stars">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <p>"Honestly, one the best decisions I've made was to start training at TBC."</p>
+          </div>
+          </div>
+        </div>
+          <div class="carousel-item">
+          <div class="d-block w-100">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <img src="assets/images/profiles/mads.webp" alt="profile picture of TBC member Maddy">
+              <h3>Maddy Gardner</h3>
+              <div class="inline-block" role="img" aria-label="review rating of 5 stars">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <p>"I love coming to TBC, eveyone is so friendly and the coaching is of an incredibly high level."</p>
+            </div>  
+          </div>
+        </div>
+          <div class="carousel-item">
+            <div class="d-block w-100">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <img src="assets/images/profiles/dom.webp" alt="profile picture of TBC member Dom">
+              <h3>Dom Quick</h3>
+              <div class="inline-block" role="img" aria-label="review rating of 5 stars">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <p>"Best boxing club in London, hands down!"</p>
+            </div>  
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-block w-100">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <img src="assets/images/profiles/georgie.webp" alt="profile picture of TBC member Georgie">
+              <h3>Georgie Gillard</h3>
+              <div class="inline-block" role="img" aria-label="review rating of 5 stars">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              </div>
+              <p>"This gym is awesome, old school teachings but the faciities are modern and top notch too."</p>
+            </div>    
+          </div>
+          </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#reviewcontrols" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#reviewcontrols" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
     </div>
 <!-- Map -->
     <div class="container-fluid map no-gutters">

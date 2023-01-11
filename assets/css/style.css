@@ -870,7 +870,8 @@ td p {
         padding-right: 10%;
     }
     .reviews h2 {
-        font-size: large;
+        font-size: x-large;
+        margin-bottom: 0;
     }
     .about-container h1 {
         font-size: x-large;
@@ -886,6 +887,15 @@ td p {
     }
     .contact-body h1 {
         font-size: x-large;
+    }
+    .carousel-inner {
+        margin-top: -20px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .review-slide {
+        display: none;
     }
 }
 
