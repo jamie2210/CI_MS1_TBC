@@ -295,6 +295,12 @@ body {
     color: #e9c431;
     margin-bottom: 10px;
 }
+
+.carousel-dark {
+    height: 270px;
+    width: 100%;
+}
+
 /* ------------------------------------- Map */
 
 .map {
