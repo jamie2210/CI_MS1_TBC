@@ -412,7 +412,7 @@ body {
 /* ------------------------------------- TEAM */
 
 .team-title {
-    height: 80vh;
+    height: 90vh;
     background: url("../images/header/faded-boxer.webp") no-repeat center;
     background-size: cover;
     display: flex;
@@ -482,7 +482,7 @@ body {
 }
 
 .prices-title-header {
-    height: 80vh;
+    height: 90vh;
     background: url("../images/header/faded-gloves.webp") no-repeat center;
     background-size: cover;
     display: flex;
@@ -565,7 +565,7 @@ body {
 }
 
 .schedule-title {
-    height: 80vh;
+    height: 90vh;
     background: url("../images/header/faded-wraps.webp") no-repeat center;
     background-size: cover;
     display: flex;
