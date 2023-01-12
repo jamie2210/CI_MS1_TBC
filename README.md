@@ -443,8 +443,8 @@ The website was tested on the following browsers:
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Hero Image | On Index page click on 'Book Now' button on hero image | Find Schedule page with class timetable | Works as expected |
-| Navigation Bar | On any page at the top click on 'Class Schedule'  | Find Schedule page with class timetable | Works as expected |
 | Coach Page | Click on any 'Book Me' button | Find Schedule page | Works as expected |
+| Navigation Bar | On any page at the top click on 'Class Schedule'  | Find Schedule page with class timetable | Works as expected |
 
 <details><summary>Find Schedule via Buttons</summary>
 <img src="docs/user-story-testing/user-story-classes-buttons.gif">
@@ -526,11 +526,11 @@ The website was tested on the following browsers:
 | Hero Image | Click on 'Book Now' button | Find class schedule and booking options | Works as expected |
 | Coach Page | Click on 'Book Me' button | Find class schedule and booking options | Works as expected |
 
-<details><summary>Find Schedule - Nav Bar</summary>
-<img src="docs/user-story-testing/user-story-book-in-navbar.gif">
+<details><summary>Find Schedule via Nav Bar</summary>
+<img src="docs/user-story-testing/user-story-classes-navbar.gif">
 </details>
-<details><summary>Find Schedule - Buttons</summary>
-<img src="docs/user-story-testing/user-story-book-in-buttons.gif">
+<details><summary>Find Schedule via Buttons</summary>
+<img src="docs/user-story-testing/user-story-classes-buttons.gif">
 </details>
 <br>
 9. As a returning user, I want to find a phone number, email, or a means to contact to arrange a 1-1 or ask for more information.
@@ -644,8 +644,8 @@ The website was tested on the following browsers:
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Hero Image | On Index page click on 'Book Now' button on hero image | Find Schedule page with class timetable | Works as expected |
-| Navigation Bar | On any page at the top click on 'Class Schedule' | Find Schedule page with class timetable | Works as expected |
 | Coach Page | Click on any 'Book Me' button | Find Schedule page | Works as expected |
+| Navigation Bar | On any page at the top click on 'Class Schedule' | Find Schedule page with class timetable | Works as expected |
 
 <details><summary>Find Schedule via Buttons</summary>
 <img src="docs/user-story-testing/user-story-classes-buttons.gif">
