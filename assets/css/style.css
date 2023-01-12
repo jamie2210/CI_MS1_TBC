@@ -906,8 +906,8 @@ td p {
 }
 
 @media screen and (min-width: 481px) {
-    .review-slide {
-        display: none;
+    .carousel-dark {
+    display: none;
     }
 }
 
