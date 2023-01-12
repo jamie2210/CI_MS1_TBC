@@ -426,7 +426,7 @@ The website was tested on the following browsers:
 <details><summary>Find Map / Address</summary>
 <img src="docs/user-story-testing/user-story-map-address.gif">
 </details>
-
+<br>
 2. As a first-time user, I want to know the prices for classes and 1-1’s.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -437,46 +437,59 @@ The website was tested on the following browsers:
 <details><summary>Find Prices</summary>
 <img src="docs/user-story-testing/user-story-prices.gif">
 </details>
-
+<br>
 3. As a first-time user, I want to know when classes are on throughout the week.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Hero Image | On Index page click on 'Book Now' button on hero image | Find Schedule page with class timetable | Works as expected |
-| Navigation Bar | On any page at the top click on 'Schedule'  | Find Schedule page with class timetable | Works as expected |
+| Navigation Bar | On any page at the top click on 'Class Schedule'  | Find Schedule page with class timetable | Works as expected |
 | Coach Page | Click on any 'Book Me' button | Find Schedule page | Works as expected |
 
-<details><summary>Find Schedule</summary>
-<img src="docs/user-story-testing/user-story-classes.gif">
+<details><summary>Find Schedule via Buttons</summary>
+<img src="docs/user-story-testing/user-story-classes-buttons.gif">
 </details>
-
+<details><summary>Find Schedule via Nav Bar</summary>
+<img src="docs/user-story-testing/user-story-classes-navbar.gif">
+</details>
+<br>
 4. As a first-time user, I want to know more about the club, its history and its coaches.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Navigation Bar | On any page at the top click on 'About' | Find About page with more information on the founders | Works as expected |
-| Navigation Bar | On any page at the top click on 'Coaches' | Find Coaches page with more information on the coaches | Works as expected |
+| Navigation Bar | On any page at the top click on 'The Team' | Find Coaches page with more information on the coaches | Works as expected |
 | Company Introduction | On Index page scroll down to 'Tooting Boxing Club' title | Find introduction and short description of the gym and its values | Works as expected |
 | Slide Show Gallery | On Index page scroll down to gallery | Find images of the gym on display in a carousel | Works as expected |
 
-<details><summary>Find About / Coaches / Introduction / Gallery</summary>
-<img src="docs/user-story-testing/user-story-the-club.gif">
+<details><summary>Find Introduction / Gallery</summary>
+<img src="docs/user-story-testing/user-story-the-club-index.gif">
 </details>
-
+<details><summary>Find About / Coaches </summary>
+<img src="docs/user-story-testing/user-story-the-club-navbar.gif">
+</details>
+<br>
 5. As a first-time user, I want to get a feel for the classes and atmosphere in the gym.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Navigation Bar | On any page at the top click on 'About' | Find About page with more information on the founders and the gym | Works as expected |
-| Navigation Bar | On any page at the top click on 'Coaches' | Find Coaches page with more information on the coaches | Works as expected |
+| Navigation Bar | On any page at the top click on 'The Team' | Find Coaches page with more information on the coaches | Works as expected |
 | Company Introduction | On Index page scroll down to 'Tooting Boxing Club' title | Find introduction and short description of the gym and its values | Works as expected |
 | Slide Show Gallery | On Index page scroll down to gallery | Find images of the gym on display in a carousel | Works as expected |
 | Class Modal | Click on any class name on the schedule | Find a modal pop up going into more detail of chosen class | Works as expected |
+| Reviews | On Index page scroll down to reviews section | Find Reviews from members | Works as expected |
 
-<details><summary>Find About / Coaches / Introduction / Gallery / Class Modal</summary>
-<img src="docs/user-story-testing/user-story-atmos.gif">
+<details><summary>Find Introduction / Gallery / Reviews</summary>
+<img src="docs/user-story-testing/user-story-the-atmos-index.gif">
 </details>
-
+<details><summary>Find About / Coaches </summary>
+<img src="docs/user-story-testing/user-story-the-club-navbar.gif">
+</details>
+<details><summary>Class Modal</summary>
+<img src="docs/user-story-testing/user-story-class-modal.gif">
+</details>
+<br>
 6. As a first-time user, I want to easily contact the club should I have any questions.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -485,10 +498,13 @@ The website was tested on the following browsers:
 | Navigation Bar | On any page at the top click on 'WhatsApp' logo | Find WhatsApp app open with direct line to chat | Works as expected |
 | Footer - contact information section | On any page scroll down to the footer | Find the email and phone number of gym | Works as expected |
 
-
-<details><summary>Find Contact / WhatsApp / Email & Phone Number</summary>
+<details><summary>Find Contact Form</summary>
+<img src="docs/user-story-testing/user-story-contact-form.gif">
+</details>
+<details><summary>Email & Phone Number / WhatsApp </summary>
 <img src="docs/user-story-testing/user-story-contact.gif">
 </details>
+<br>
 
 #### Returning User
 
@@ -501,19 +517,22 @@ The website was tested on the following browsers:
 <details><summary>Find Sign In</summary>
 <img src="docs/user-story-testing/user-story-sign-in.gif">
 </details>
-
+<br>
 8. As a returning user, I want access the schedule to quickly to book in.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Navigation Bar | On any page at the top click on 'Schedule' | Find class schedule and booking options | Works as expected |
+| Navigation Bar | On any page at the top click on 'Class Schedule' | Find class schedule and booking options | Works as expected |
 | Hero Image | Click on 'Book Now' button | Find class schedule and booking options | Works as expected |
 | Coach Page | Click on 'Book Me' button | Find class schedule and booking options | Works as expected |
 
-<details><summary>Find Schedule</summary>
-<img src="docs/user-story-testing/user-story-sign-in.gif">
+<details><summary>Find Schedule - Nav Bar</summary>
+<img src="docs/user-story-testing/user-story-book-in-navbar.gif">
 </details>
-
+<details><summary>Find Schedule - Buttons</summary>
+<img src="docs/user-story-testing/user-story-book-in-buttons.gif">
+</details>
+<br>
 9. As a returning user, I want to find a phone number, email, or a means to contact to arrange a 1-1 or ask for more information.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -522,22 +541,23 @@ The website was tested on the following browsers:
 | Navigation Bar | On any page at the top click on 'WhatsApp' logo | Find WhatsApp app open with direct line to chat | Works as expected |
 | Footer - contact information section | On any page scroll down to the footer | Find the email and phone number of gym | Works as expected |
 
-
-<details><summary>Find Contact / WhatsApp / Email & Phone Number</summary>
+<details><summary>Find Contact Form</summary>
+<img src="docs/user-story-testing/user-story-contact-form.gif">
+</details>
+<details><summary>Email & Phone Number / WhatsApp </summary>
 <img src="docs/user-story-testing/user-story-contact.gif">
 </details>
-
+<br>
 10. As a returning user, I want to find the gym on social media.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Footer - Social Media Section | On any page scroll down to the footer | Find social links on the right | Works as expected |
 
-
-<details><summary>Find Contact / WhatsApp / Email & Phone Number</summary>
-<img src="docs/user-story-testing/user-story-contact.gif">
+<details><summary>Find Socials</summary>
+<img src="docs/user-story-testing/user-story-social.gif">
 </details>
-
+<br>
 11. As a returning user, I want to get directions to the gym.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -548,17 +568,17 @@ The website was tested on the following browsers:
 <details><summary>Find Map / Address</summary>
 <img src="docs/user-story-testing/user-story-map-address.gif">
 </details>
-
+<br>
 12. As a returning user, I want to know more about what each individual class involves.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Class Modal | Click on any class name on the schedule | Find a modal pop up going into more detail of chosen class | Works as expected |
 
-<details><summary>Find About / Coaches / Introduction / Gallery / Class Modal</summary>
+<details><summary>Find Class Modal</summary>
 <img src="docs/user-story-testing/user-story-class-modal.gif">
 </details>
-
+<br>
 13. As a returning user, I want to purchase sessions, memberships or 1-1’s.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -569,6 +589,7 @@ The website was tested on the following browsers:
 <details><summary>Find Prices</summary>
 <img src="docs/user-story-testing/user-story-prices.gif">
 </details>
+<br>
 
 #### Site Owner 
 
@@ -581,21 +602,27 @@ The website was tested on the following browsers:
 <details><summary>Find Sign In</summary>
 <img src="docs/user-story-testing/user-story-sign-in.gif">
 </details>
-
+<br>
 15. As the site owner, I want users to get a feel for the club and more about me.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Navigation Bar | On any page at the top click on 'About' | Find About page with more information on the founders and the gym | Works as expected |
-| Navigation Bar | On any page at the top click on 'Coaches' | Find Coaches page with more information on the coaches | Works as expected |
+| Navigation Bar | On any page at the top click on 'The Team' | Find Coaches page with more information on the coaches | Works as expected |
 | Company Introduction | On Index page scroll down to 'Tooting Boxing Club' title | Find introduction and short description of the gym and its values | Works as expected |
 | Slide Show Gallery | On Index page scroll down to gallery | Find images of the gym on display in a carousel | Works as expected |
 | Class Modal | Click on any class name on the schedule | Find a modal pop up going into more detail of chosen class | Works as expected |
 
-<details><summary>Find About / Coaches / Introduction / Gallery / Class Modal</summary>
-<img src="docs/user-story-testing/user-story-atmos.gif">
+<details><summary>Find Introduction / Gallery / Reviews</summary>
+<img src="docs/user-story-testing/user-story-the-atmos-index.gif">
 </details>
-
+<details><summary>Find About / Coaches </summary>
+<img src="docs/user-story-testing/user-story-the-club-navbar.gif">
+</details>
+<details><summary>Class Modal</summary>
+<img src="docs/user-story-testing/user-story-class-modal.gif">
+</details>
+<br>
 16. As the site owner, I want the users to be able to contact us.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -605,22 +632,28 @@ The website was tested on the following browsers:
 | Footer - contact information section | On any page scroll down to the footer | Find the email and phone number of gym | Works as expected |
 
 
-<details><summary>Find Contact / WhatsApp / Email & Phone Number</summary>
+<details><summary>Find Contact Form</summary>
+<img src="docs/user-story-testing/user-story-contact-form.gif">
+</details>
+<details><summary>Email & Phone Number / WhatsApp </summary>
 <img src="docs/user-story-testing/user-story-contact.gif">
 </details>
-
+<br>
 17. As the site owner, I want the user to easily book into classes.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Hero Image | On Index page click on 'Book Now' button on hero image | Find Schedule page with class timetable | Works as expected |
-| Navigation Bar | On any page at the top click on 'Schedule' | Find Schedule page with class timetable | Works as expected |
+| Navigation Bar | On any page at the top click on 'Class Schedule' | Find Schedule page with class timetable | Works as expected |
 | Coach Page | Click on any 'Book Me' button | Find Schedule page | Works as expected |
 
-<details><summary>Find Schedule</summary>
-<img src="docs/user-story-testing/user-story-classes.gif">
+<details><summary>Find Schedule via Buttons</summary>
+<img src="docs/user-story-testing/user-story-classes-buttons.gif">
 </details>
-
+<details><summary>Find Schedule via Nav Bar</summary>
+<img src="docs/user-story-testing/user-story-classes-navbar.gif">
+</details>
+<br>
 18. As the site owner, I want users to easily make purchases.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -631,7 +664,7 @@ The website was tested on the following browsers:
 <details><summary>Find Prices</summary>
 <img src="docs/user-story-testing/user-story-prices.gif">
 </details>
-
+<br>
 ## Bugs
 
 1. Buttons on index.html hero image
