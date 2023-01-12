@@ -651,20 +651,20 @@ The website was tested on the following browsers:
 ```
 ##### Media Query commands
 ```css
-        @media screen and (min-width:820px) and (max-width:912px){
+        @media screen and (min-width:820px) and (max-width:912px) {
             .hero-btn{
                 margin-top: 20em;
             }
-
-        @media screen and (max-width:480px)
+        }
+        @media screen and (max-width:480px) {
             .btn.btn-dark {
                 width: 125px;
             }
             .hero-btn {
                 font-weight: none;
             }
-
-        @media screen and (max-width:280px)
+        }
+        @media screen and (max-width:280px) {
             .hero-btn {
                 margin-top: 175px;
             }
@@ -675,6 +675,7 @@ The website was tested on the following browsers:
                 height: 15vh;
                 margin-bottom: 25px;
             }
+        }
 ```
 
 -  Having looked at this in more detail it just wasn't working correctly, it caused the logo and buttons to be at different positions on lots of different devices and was messy. I decided to re-write the code and see if there was a different way of doing it. I found a solution here is the old code and the new:
@@ -783,18 +784,18 @@ The website was tested on the following browsers:
 #### Original code
 
 ``` css
-        @media screen and (min-width: 900px){
-            .table{
-                overflow-x: auto;}
+        @media screen and (min-width: 900px) {
+            .table {
+                overflow-x: auto; }
             }       
 ```
 
 #### Code fix
 
 ``` css
-        @media screen and (max-width: 1428px){
-            .table{
-                overflow-x: auto;}
+        @media screen and (max-width: 1428px) {
+            .table {
+                overflow-x: auto; }
             }
 ```
 
