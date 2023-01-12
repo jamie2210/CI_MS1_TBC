@@ -442,15 +442,15 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
+| Navigation Bar | On any page at the top click on 'Class Schedule'  | Find Schedule page with class timetable | Works as expected |
 | Hero Image | On Index page click on 'Book Now' button on hero image | Find Schedule page with class timetable | Works as expected |
 | Coach Page | Click on any 'Book Me' button | Find Schedule page | Works as expected |
-| Navigation Bar | On any page at the top click on 'Class Schedule'  | Find Schedule page with class timetable | Works as expected |
 
-<details><summary>Find Schedule via Buttons</summary>
-<img src="docs/user-story-testing/user-story-classes-buttons.gif">
-</details>
 <details><summary>Find Schedule via Nav Bar</summary>
 <img src="docs/user-story-testing/user-story-classes-navbar.gif">
+</details>
+<details><summary>Find Schedule via Buttons</summary>
+<img src="docs/user-story-testing/user-story-classes-buttons.gif">
 </details>
 <br>
 4. As a first-time user, I want to know more about the club, its history and its coaches.
@@ -643,15 +643,15 @@ The website was tested on the following browsers:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
+| Navigation Bar | On any page at the top click on 'Class Schedule' | Find Schedule page with class timetable | Works as expected |
 | Hero Image | On Index page click on 'Book Now' button on hero image | Find Schedule page with class timetable | Works as expected |
 | Coach Page | Click on any 'Book Me' button | Find Schedule page | Works as expected |
-| Navigation Bar | On any page at the top click on 'Class Schedule' | Find Schedule page with class timetable | Works as expected |
 
-<details><summary>Find Schedule via Buttons</summary>
-<img src="docs/user-story-testing/user-story-classes-buttons.gif">
-</details>
 <details><summary>Find Schedule via Nav Bar</summary>
 <img src="docs/user-story-testing/user-story-classes-navbar.gif">
+</details>
+<details><summary>Find Schedule via Buttons</summary>
+<img src="docs/user-story-testing/user-story-classes-buttons.gif">
 </details>
 <br>
 18. As the site owner, I want users to easily make purchases.
