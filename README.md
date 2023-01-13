@@ -48,7 +48,7 @@ Primary goal is to provide an informative good-looking website that showcases To
 - A well displayed easy to navigate website.
 - Clear information on what the club does and offers.
 - Easy access to get in touch for more information.
-- Visual display of the club to help user see and get and feel for the gym.
+- Visual display of the club to help the user see and get a feel for the gym.
 - Call to action buttons to allow a user-friendly experience buying and booking classes.
 - Enough information on the club, owners, coaches, and classes for the user to have a good understanding of the company and its employees.
 
@@ -57,7 +57,7 @@ Primary goal is to provide an informative good-looking website that showcases To
 - Increase in the number of paying clients.
 - Promote the business.
 - Provide a way for new and existing clients to contact the gym.
-- Provide easy access to booking class and arranging private sessions.
+- Provide easy access to booking classes and arranging private sessions.
 - Provide detailed pricing and payment options.
 - Provide information on the gym, its classes, coaches, and owners.
 
@@ -109,15 +109,15 @@ Primary goal is to provide an informative good-looking website that showcases To
 
 #### Site Owner 
 14. As the site owner, I want users to easily access their account.
-15. As the site owner, I want users to get a feel for the club and more about me.
-16. As the site owner, I want the users to be able to contact us.
+15. As the site owner, I want users to get a feel for the club, coaches and its founders.
+16. As the site owner, I want the users to be able to contact the club.
 17. As the site owner, I want the user to easily book into classes.
 18. As the site owner, I want users to easily make purchases.
 
 ## Design
 
 ### Design Choices
-The layout I chose ensures each specific point of information is easy to access and follows a similar theme to ensure continuity. Tooting boxing club is a new, high end and authentic boxing gym so I want the website to be slick and clean to represent that.
+The layout I chose ensures each specific point of information is easy to access and follows a similar theme to ensure continuity. Tooting Boxing Club is a new, high end and authentic boxing gym so I want the website to be slick and clean to represent that.
 
 ### Colours
 As Tooting Boxing Club is a club that is influenced by the past, I wanted to add hints of authentic and classic colour (yellow and red) used in boxing posters from the 70's and 80's - a truly classic era of boxing.
@@ -130,7 +130,7 @@ Secondary Colours - Yellow / Red
 
 Black, Yellow, and White being the most predominant as they stand out so well against each other.
 
-I also use subtle greys when a white background to too garish.
+I also use subtle greys when a white background is too garish.
 
 Specific colours used on the site all taken from a colour picker in InDesign are:
 1. Black: #000000
@@ -161,14 +161,14 @@ Martian Mono only used for title headers as they stand out well being a slightly
 I use these fonts as they are clean, easy to read and have a smart appearance and as they are not a commonly used fonts still manage to portray a unique and individual look to them.
 
 ### Structure
-The page is structure in a user friendly and visually appealing way. Upon arriving the user will notice the recognisable navigation bar, with the company logo on the left and next to that a WhatsApp symbol for quick and convenient contact via the app, all navigation links are placed on the right.
+The page is structured in a user friendly and visually appealing way. Upon arriving the user will notice the recognisable navigation bar, with the company logo on the left and next to that a WhatsApp symbol for quick and convenient contact via the app, all navigation links are placed on the right.
 
-The website consists of six separate pages and a ‘Sign In’ modal: 
+The website consists of six separate pages a ‘Sign In’ modal and modals used for class descriptions: 
 - A homepage with a section giving more information on the club (Strapline and short introduction, gallery, reviews and map)
 - An About page with information on the founders and why they started the club.
 - A Team page that introduces the user to the coaches.
 - A Prices page with details on the different options for classes and 1-1’s.
-- A Class Schedule page with the class timetable and details on the different class the gym puts on via a modal.
+- A Class Schedule page with the class timetable and details on the different classes the gym puts on via a modal.
 - A Contact page with a form for getting in touch.
 - The Sign In icon takes the user to a sign in modal, there is no page.
 
@@ -196,21 +196,24 @@ The website consists of six separate pages and a ‘Sign In’ modal:
 ## Technologies Used
 
 ### Languages
-- HTML
-- CSS
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
 
 ### Frameworks and Tools
-- Bootstrap v5.0
-- Git
-- GitHub
-- Gitpod
-- Tinypng
-- Balsamiq
-- Google Fonts
-- Adobe Suite (Illustrator, Photoshop & InDesign)
-- Font Awesome
-- Favicon<span>.</span>io
-- Ezgif.com
+- [Bootstrap v5.3](https://getbootstrap.com/)
+- [Git](https://git-scm.com/)
+- [Github](https://github.com/)
+- [GitPod](https://www.gitpod.io/)
+- [Tiny PNG](https://tinypng.com/)
+- [Balsamiq](https://balsamiq.com/wireframes/)
+- [Google Fonts](https://fonts.google.com/about)
+- [Adobe Suite (Illustrator, Photoshop & InDesign)](https://www.adobe.com/uk/)
+- [Font Awesome](https://fontawesome.com/search)
+- [Favicon](https://favicon.io/)
+- [Giphy](https://giphy.com/)
+- [W3C validator](https://validator.w3.org/)
+- [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/)
+- [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
 
 ## Features
 The page consists of six pages and thirteen features.
