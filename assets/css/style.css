@@ -488,7 +488,6 @@ body {
     background: url("../images/header/gloves.webp") no-repeat center;
     background-color: rgba(0,0,0,0.75);
     background-blend-mode: multiply;
-    background-position: 70%;
     background-size: cover;
     display: flex;
     align-items: center;
