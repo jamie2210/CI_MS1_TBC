@@ -216,16 +216,16 @@ The website consists of six separate pages a ‘Sign In’ modal and modals used
 - [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
 
 ## Features
-The page consists of six pages and thirteen features.
+The page consists of six pages and fourteen features.
 
 ### Logo and Navigation Bar
 - Featured on all six pages
-- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
+- The navigation bar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
 links to the Homepage, About page, The Team page, Prices Page, Class Schedule Page and Get In Touch page.
 - It allows users to easily navigate the page
 - The link for the page the user is currently on is highlighted in yellow.
 - The left includes the gym’s logo which also acts as a home button with a WhatsApp logo which opens WhatsApp chat with the gym when clicked.
-- The navigation bar includes a sign in icon that opens a modal to sing in or sign up.
+- The navigation bar includes a sign in icon that opens a modal to sign in or sign up.
 - User stories covered: 6, 7, 8, 9, 14, 17, 18.
 
 ![Logo and Navigation Bar](docs/features/feature-navbar.png)
@@ -245,20 +245,20 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 ![Company Logo and Strap Line](docs/features/feature-strapline.png)
 
 ### Carousel
-- Introduces the user to the gym and its classes and coaches with a six-picture slide show.
+- Introduces the user to the gym and its classes and coaches with a five-picture slide show.
 - Options for the user to navigate the slide show via back and forward arrows or indicators are located to the left and right centre of the image.
 - User stories covered: 5.
 
 ![Carousel](docs/features/feature-carousel.png)
 
 ### Reviews
-- 4 Reviews from members detailing how much they like the gym
+- Four reviews from members detailing how much they like the gym
 - User stories covered: 4, 5.
 
 ![Reviews](docs/features/feature-reviews.png)
 
 ### Map
-- Shows the gym location on an embedded Google Maps.
+- Shows the gym location on an embedded Google Map.
 - User stories covered: 1, 11.
 
 ![Map](docs/features/feature-map.png)
@@ -286,7 +286,7 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 ![The Team](docs/features/feature-the-team.png)
 
 ### Prices 
-- Pricing is broken down into 4 subtitles:
+- Pricing is broken down into four subtitles:
     1. Intro Offers
     2. Memberships
     3. Class Packages
@@ -308,7 +308,7 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 </details>
 
 ### Class Schedule
-- Weekly schedule detail what classes on are on each day of the week, what time they are on, and which coach is taking the class.
+- Weekly schedule details what classes on are on each day of the week, what time they are on, and which coach is taking the class.
 - A description of the class is available with more detail on a modal when the class description is clicked.
 - User stories covered: 3, 5, 8, 12, 15, 17.
 
@@ -381,7 +381,7 @@ schedule.html [results](https://wave.webaim.org/report#/https://jamie2210.github
 contact.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/contact.html)
 
 ### Performance 
-Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. All results scoring 90 or above.
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. All aspects performing well.
 
 <details><summary>index.html</summary>
 <img src="docs/lighthouse/lighthouse-index.png">
@@ -466,11 +466,11 @@ The website was tested on the following browsers:
 | Company Introduction | On Index page scroll down to 'Tooting Boxing Club' title | Find introduction and short description of the gym and its values | Works as expected |
 | Slide Show Gallery | On Index page scroll down to gallery | Find images of the gym on display in a carousel | Works as expected |
 
-<details><summary>Find Introduction / Gallery</summary>
-<img src="docs/user-story-testing/user-story-the-club-index.gif">
-</details>
 <details><summary>Find About / Coaches </summary>
 <img src="docs/user-story-testing/user-story-the-club-navbar.gif">
+</details>
+<details><summary>Find Introduction / Gallery</summary>
+<img src="docs/user-story-testing/user-story-the-club-index.gif">
 </details>
 <br>
 5. As a first-time user, I want to get a feel for the classes and atmosphere in the gym.
@@ -481,14 +481,14 @@ The website was tested on the following browsers:
 | Navigation Bar | On any page at the top click on 'The Team' | Find Coaches page with more information on the coaches | Works as expected |
 | Company Introduction | On Index page scroll down to 'Tooting Boxing Club' title | Find introduction and short description of the gym and its values | Works as expected |
 | Slide Show Gallery | On Index page scroll down to gallery | Find images of the gym on display in a carousel | Works as expected |
-| Class Modal | Click on any class name on the schedule | Find a modal pop up going into more detail of chosen class | Works as expected |
 | Reviews | On Index page scroll down to reviews section | Find Reviews from members | Works as expected |
+| Class Modal | Click on any class name on the schedule | Find a modal pop up going into more detail of chosen class | Works as expected |
 
-<details><summary>Find Introduction / Gallery / Reviews</summary>
-<img src="docs/user-story-testing/user-story-the-atmos-index.gif">
-</details>
 <details><summary>Find About / Coaches </summary>
 <img src="docs/user-story-testing/user-story-the-club-navbar.gif">
+</details>
+<details><summary>Find Introduction / Gallery / Reviews</summary>
+<img src="docs/user-story-testing/user-story-the-atmos-index.gif">
 </details>
 <details><summary>Class Modal</summary>
 <img src="docs/user-story-testing/user-story-class-modal.gif">
@@ -607,7 +607,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-sign-in.gif">
 </details>
 <br>
-15. As the site owner, I want users to get a feel for the club and more about me.
+15. As the site owner, I want users to get a feel for the club, coaches and its founders.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -627,7 +627,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-class-modal.gif">
 </details>
 <br>
-16. As the site owner, I want the users to be able to contact us.
+16. As the site owner, I want the users to be able to contact the club.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -672,7 +672,7 @@ The website was tested on the following browsers:
 
 ## Bugs
 
-1. Buttons on index.html hero image
+1. **Buttons on index.html hero image**
 
 -  Having tested their position on all devices, I noticed using a margin of a specific px cause them to be out of place on different devices. Using a 'rem' unit paired with specific media queries commands instead allows them respond better ensuring they are in a good position on all devices.
 
@@ -716,7 +716,7 @@ The website was tested on the following browsers:
         }
 ```
 
--  Having looked at this in more detail it just wasn't working correctly, it caused the logo and buttons to be at different positions on lots of different devices and was messy. I decided to re-write the code and see if there was a different way of doing it. I found a solution here is the old code and the new:
+-  Having looked at this in more detail it just wasn't working correctly, it caused the logo and buttons to be at different positions on lots of different devices and was messy. I decided to re-write the code and see if there was a different way of doing it. I found a solution, here is the old code and the new:
 
 #### Old HTML
 ```html
@@ -792,7 +792,7 @@ The website was tested on the following browsers:
                 }
             }           
 ```
-2. Map
+2. **Map**
 
     The map had a grey line under so wasn't flush to the footer, after using google inspect I noticed the container was a different height the map so matched both heights to 400px which fixed the issue.
 
@@ -815,7 +815,7 @@ The website was tested on the following browsers:
                 width: 100%;
                 }
 ```
-3. Schedule
+3. **Schedule**
 
 - Overflow scroll wasn't working correctly on schedule page, noticed the way I'd set up the media query seemed to be the issue and it was also affecting the header and footer. Fixed the issue by changing to max-width instead of min-width of the media query and moving the units, which resolved both issues.
 
@@ -889,7 +889,7 @@ All photos were taken from [Pexels](https://www.pexels.com/), credit to (in orde
 
 - [Kool Shooters](https://www.pexels.com/@kool-shooters/)
     <details><summary>Carousel - Bag Work</summary>
-    <img src="docs/credits/carousel-bagwork">
+    <img src="docs/credits/carousel-bagwork.jpg">
     </details>
 <br>
 
@@ -978,7 +978,7 @@ In order of appearance;
 - The HTML for the responsive [Navbar with toggler](https://getbootstrap.com/docs/5.1/components/navbar/) was taken from Boostrap v5.1 documentation snippet.
 - The HTML for adding [WhatsApp](https://support.messagebird.com/hc/en-us/articles/360018616838-Add-an-embeddable-WhatsApp-Button-to-your-website) was taken from Message Bird Snippet.
 - The HTML for the Nav Bar [Sign In Modal](https://getbootstrap.com/docs/5.3/components/modal/#how-it-works) was taken from Boostrap v5.3 documentation snippet.
-- The HTML for the [Carousel](https://getbootstrap.com/docs/5.0/components/carousel/#with-indicators) on index page was taken from Boostrap v5.1 documentation code snippet.
+- The HTML for both [Carousels](https://getbootstrap.com/docs/5.0/components/carousel/#with-indicators) on index page was taken from Boostrap v5.1 documentation code snippet. (Review carousel only visible on mobile devices)
 - The HTMl for the [Class Modal](https://getbootstrap.com/docs/5.3/components/modal/#how-it-works) was taken from Boostrap v5.3 documentation snippet.
 
 ### Acknowledgements
