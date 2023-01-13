@@ -786,7 +786,7 @@ The website was tested on the following browsers:
 
 - Which meant I could remove all the messy media queries and write just one for when the screen width was really thin;
 ```css
-            @media screen and (max-width:282px){
+            @media screen and (max-width :309px){
                 .hero-button .button{
                 margin-bottom: 10px;
                 }
