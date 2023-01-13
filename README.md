@@ -14,25 +14,25 @@ This is the website for Tooting Boxing Club, it is designed to be responsive and
     2. [Site Owner Goals](#site-owner-goals)
 2. [User Experience](#user-experience)
     1. [Target Audience](#target-audience)
-    2. [User Requrements and Expectations](#user-requrements-and-expectations)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations)
     3. [User Stories](#user-stories)
 3. [Design](#design)
     1. [Design Choices](#design-choices)
-    2. [Colour](#colours)
+    2. [Colours](#colours)
     3. [Fonts](#fonts)
     4. [Structure](#structure)
     5. [Wireframes](#wireframes)
 4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
-    2. [Frameworks & Tools](#frameworks-&-tools)
+    2. [Frameworks and Tools](#frameworks-and-tools)
 5. [Features](#features)
-6. [Testing](#validation)
+6. [Testing](#testing)
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
     3. [Accessibility](#accessibility)
     4. [Performance](#performance)
     5. [Device testing](#performing-tests-on-various-devices)
-    6. [Browser compatibility](#browser-compatability)
+    6. [Browser compatibility](#browser-compatibility)
     7. [Testing user stories](#testing-user-stories)
 8. [Bugs](#bugs)
 9. [Deployment](#deployment)
@@ -75,7 +75,7 @@ Primary goal is to provide an informative good-looking website that showcases To
 - Anyone who is interested in learning to box.
 - All levels and abilities welcome.
 - Companies looking for corporate team building events
-- Mainly individuals but limited to.
+- Mainly individuals but not limited to.
 
 ### User Requirements and Expectations
 
@@ -119,7 +119,7 @@ Primary goal is to provide an informative good-looking website that showcases To
 ### Design Choices
 The layout I chose ensures each specific point of information is easy to access and follows a similar theme to ensure continuity. Tooting boxing club is a new, high end and authentic boxing gym so I want the website to be slick and clean to represent that.
 
-### Colour
+### Colours
 As Tooting Boxing Club is a club that is influenced by the past, I wanted to add hints of authentic and classic colour (yellow and red) used in boxing posters from the 70's and 80's - a truly classic era of boxing.
 
 The branding colours I chose are Black, White, A slightly Mustard Yellow and a Burnt Red.
@@ -137,12 +137,13 @@ Specific colours used on the site all taken from a colour picker in InDesign are
 2. White: #ffffff
 3. Off-white: #f1f1f1 
 4. Off-white: 2 #C0C0C0 (also used for Silver)
-5. Yellow: #e9c431
-6. Red: #a51e1e
-7. Shadow Grey: #726a6a
-8. Bronze: #CD7F32
+5. Light grey: #e1e0e0
+6. Yellow: #e9c431
+7. Red: #a51e1e
+8. Shadow Grey: #726a6a
+9. Bronze: #CD7F32
 
-I tested multiple options on InDesign to ensure I was happy with the colours and had covered as many other options as possible I also liked.
+I tested multiple options on InDesign to ensure I was happy with the colours and had covered as many other options as possible I also liked. After deciding on the colours I tested them on WebAIM to make sure how the contrast between them worked best.
 
 
 <details><summary>Branding Colour Ideas</summary>
@@ -198,7 +199,7 @@ The website consists of six separate pages and a ‘Sign In’ modal:
 - HTML
 - CSS
 
-### Frameworks & Tools
+### Frameworks and Tools
 - Bootstrap v5.0
 - Git
 - GitHub
@@ -665,6 +666,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-prices.gif">
 </details>
 <br>
+
 ## Bugs
 
 1. Buttons on index.html hero image
