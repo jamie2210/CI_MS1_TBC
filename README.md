@@ -3,7 +3,7 @@
 
 ![Mockup image](docs/devices-display.png)
 
-[Live webpage]( https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/index.html)
+[Live webpage](https://jamie2210.github.io/CI_MS1_TBC/)
 
 This is the website for Tooting Boxing Club, it is designed to be responsive and accessible on all devices allowing easy access to the timetable, class schedule and information on club and coaches for members and those who want to more information.
 
@@ -881,7 +881,7 @@ The website was deployed using GitHub Pages by following these steps:
 1. In the GitHub repository navigate to the Settings tab
 2. On the left-hand menu select Pages
 3. For the source select Branch: master
-4. After the webpage refreshes automatically you will see a ribbon on the top saying: "Your site is published at https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/team.html
+4. After the webpage refreshes automatically you will see a ribbon on the top saying: Your site is live at https://jamie2210.github.io/CI_MS1_TBC/
 
 You can for fork the repository by following these steps:
 1. Go to the GitHub repository
