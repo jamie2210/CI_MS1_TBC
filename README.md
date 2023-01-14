@@ -413,6 +413,9 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 <details><summary>contact.html</summary>
 <img src="docs/lighthouse/lighthouse-contact.png">
 </details>
+<details><summary>404.html</summary>
+<img src="docs/lighthouse/lighthouse-404.png">
+</details>
 
 ### Performing tests on various devices 
 The website was tested on the following devices:
@@ -681,7 +684,17 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-prices.gif">
 </details>
 <br>
+19. As the site owner, I want to ensure users are directed back to the website should they come across a 404 error and page structure is not lost.
 
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Home button | On 404 error page click on 'Take Me home' button | Find home page | Works as expected |
+| Navigation Bar | Click on any link to navigate back to desired page | Find desired page | Works as expected |
+
+<details><summary>Return to site</summary>
+<img src="docs/user-story-testing/user-story-404.gif">
+</details>
+<br>
 ## Bugs
 
 1. **Buttons on index.html hero image**
