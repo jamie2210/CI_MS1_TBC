@@ -5,7 +5,7 @@
 
 [Live webpage](https://jamie2210.github.io/CI_MS1_TBC/)
 
-This is the website for Tooting Boxing Club, it is designed to be responsive and accessible on all devices allowing easy access to the timetable, class schedule and information on club and coaches for members and those who want to more information.
+This is the website for Tooting Boxing Club, it is designed to be responsive and accessible on all devices allowing easy access to the timetable, class schedule and information on the club and coaches.
 
 ## Table of Content
 
@@ -41,7 +41,7 @@ This is the website for Tooting Boxing Club, it is designed to be responsive and
 
 ## Project Goals
 
-Primary goal is to provide an informative good-looking website that showcases Tooting Boxing Club and encourages the user to come to the gym, buy classes or 1-1's or get in touch via the website. It is designed to ensure access to a returning users main objectives (contact, purchases and bookings) is user friendly and efficient.
+Primary goal is to provide an informative good-looking website that showcases Tooting Boxing Club and encourages the user to come to the gym, buy classes or 1-1's or get in touch via the website. It is designed to ensure access to a returning user,s main objectives (contact, purchases and bookings) is user friendly and efficient.
 
 
 ### User Goals
@@ -74,7 +74,6 @@ Primary goal is to provide an informative good-looking website that showcases To
 - Ages 16 and up.
 - Anyone who is interested in learning to box.
 - All levels and abilities welcome.
-- Companies looking for corporate team building events
 - Mainly individuals but not limited to.
 
 ### User Requirements and Expectations
@@ -157,7 +156,7 @@ Google fonts were used to import the 'Martian Mono and Nunito Sans' font used th
 - [Martian Mono](https://fonts.google.com/specimen/Martian+Mono?query=martian)
 - [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans?query=nunito+sans)
 
-Martian Mono only used for title headers as they stand out well being a slightly and make an impact as the user lands on the page.
+Martian Mono only used for title headers as it helps them stand out being slightly different and makes an impact as the user lands on the page.
 <br> 
 I use these fonts as they are clean, easy to read and have a smart appearance and as they are not a commonly used fonts still manage to portray a unique and individual look to them.
 
@@ -226,7 +225,7 @@ The page consists of six pages and fourteen features.
 - Featured on all six pages
 - The navigation bar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
 links to the Homepage, About page, The Team page, Prices Page, Class Schedule Page and Get In Touch page.
-- It allows users to easily navigate the page
+- It allows users to easily navigate the pages.
 - The link for the page the user is currently on is highlighted in yellow.
 - The left includes the gym’s logo which also acts as a home button with a WhatsApp logo which opens WhatsApp chat with the gym when clicked.
 - The navigation bar includes a sign in icon that opens a modal to sign in or sign up.
@@ -256,7 +255,7 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 ![Carousel](docs/features/feature-carousel.png)
 
 ### Reviews
-- Four reviews from members detailing how much they like the gym
+- Four reviews from members detailing how much they like the gym.
 - User stories covered: 4, 5.
 
 ![Reviews](docs/features/feature-reviews.png)
@@ -440,7 +439,7 @@ The website was tested on the following browsers:
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Map | On Index page scroll down the bottom | Locating a map showing the location of the gym | Works as expected |
-| Footer - contact information section | On any page scroll down to the footer | Find the address of the restaurant | Works as expected |
+| Footer - contact information section | On any page scroll down to the footer | Find the address of the gym | Works as expected |
 
 <details><summary>Find Map / Address</summary>
 <img src="docs/user-story-testing/user-story-map-address.gif">
@@ -582,7 +581,7 @@ The website was tested on the following browsers:
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Map | On Index page scroll down the bottom | Locating a map showing the location of the gym | Works as expected |
-| Footer - contact information section | On any page scroll down to the footer | Find the address of the restaurant | Works as expected |
+| Footer - contact information section | On any page scroll down to the footer | Find the address of the gym | Works as expected |
 
 <details><summary>Find Map / Address</summary>
 <img src="docs/user-story-testing/user-story-map-address.gif">
@@ -695,6 +694,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story-404.gif">
 </details>
 <br>
+
 ## Bugs
 
 1. **Buttons on index.html hero image**
@@ -1003,7 +1003,7 @@ In order of appearance;
 - The HTML for the responsive [Navbar with toggler](https://getbootstrap.com/docs/5.1/components/navbar/) was taken from Boostrap v5.1 documentation snippet.
 - The HTML for adding [WhatsApp](https://support.messagebird.com/hc/en-us/articles/360018616838-Add-an-embeddable-WhatsApp-Button-to-your-website) was taken from Message Bird Snippet.
 - The HTML for the Nav Bar [Sign In Modal](https://getbootstrap.com/docs/5.3/components/modal/#how-it-works) was taken from Boostrap v5.3 documentation snippet.
-- The HTML for both [Carousels](https://getbootstrap.com/docs/5.0/components/carousel/#with-indicators) on index page was taken from Boostrap v5.1 documentation code snippet. (Review carousel only visible on mobile devices)
+- The HTML for both [Carousels](https://getbootstrap.com/docs/5.1/components/carousel/) on index page was taken from Boostrap v5.1 documentation code snippet. (Review carousel only visible on mobile devices)
 - The HTMl for the [Class Modal](https://getbootstrap.com/docs/5.3/components/modal/#how-it-works) was taken from Boostrap v5.3 documentation snippet.
 
 ### Acknowledgements
@@ -1012,5 +1012,5 @@ I would like to take the opportunity to thank;
 
 - My mentor, Mo Shami, for his excellent feedback, advice support and guidance throughout.
 - Tutor support from Code Institute for their swift response.
-- The slack community of coders for immediate and helpful response.
+- The slack community of coders for immediate and helpful replies.
 - WAES College and my Tutor Michael for their suppoirt and help throughout.
