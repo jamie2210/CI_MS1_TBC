@@ -113,6 +113,7 @@ Primary goal is to provide an informative good-looking website that showcases To
 16. As the site owner, I want the users to be able to contact the club.
 17. As the site owner, I want the user to easily book into classes.
 18. As the site owner, I want users to easily make purchases.
+19. As the site owner, I want to ensure users are directed back to the website should they come across a 404 error.
 
 ## Design
 
@@ -191,6 +192,9 @@ The website consists of six separate pages a ‘Sign In’ modal and modals used
 </details>
 <details><summary>Get In Touch</summary>
 <img src="docs/wireframes/contact-wireframe.png">
+</details>
+<details><summary>404</summary>
+<img src="docs/wireframes/404-wireframe.png">
 </details>
 
 ## Technologies Used
@@ -355,7 +359,9 @@ prices.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.g
 
 schedule.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fschedule.html) 
 
-contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fcontact.html) 
+contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fcontact.html)
+
+404.html [results]()
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
