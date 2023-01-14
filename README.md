@@ -349,24 +349,28 @@ links to the Homepage, About page, The Team page, Prices Page, Class Schedule Pa
 
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors.
 
-index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Findex.html)
+index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FCI_MS1_TBC%2Findex.html)
 
-about.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fabout.html) 
+about.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FCI_MS1_TBC%2Fabout.html) 
 
-team.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fteam.html) 
+team.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FCI_MS1_TBC%2Fteam.html) 
 
-prices.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fprices.html) 
+prices.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FCI_MS1_TBC%2Fprices.html) 
 
-schedule.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fschedule.html) 
+schedule.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FCI_MS1_TBC%2Fschedule.html)
 
-contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FMSP-1-Tooting-Boxing-Club%2Fcontact.html)
+contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FCI_MS1_TBC%2Fcontact.html)
 
-404.html [results]()
+404.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamie2210.github.io%2FCI_MS1_TBC%2F404.html)
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
-When validating just my own custom CSS it passes with no errors and flagged some warnings for the moz, o and webkit transitions used and 1 warning for the google fonts import used.
+When pasting in my index url 16 Parse Errors are flagged, all linked to Bootstrap as well as 327 warnings.
 
+style.css [results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjamie2210.github.io%2FCI_MS1_TBC%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+<br>
+
+When validating just my own custom CSS file it passes with no errors and flagged some warnings for the moz, o and webkit transitions used and 1 warning for the google fonts import used.
 <details><summary>style.css</summary>
 <img src="docs/validation/validation-css.png">
 </details>
@@ -374,17 +378,19 @@ When validating just my own custom CSS it passes with no errors and flagged some
 ### Accessibility
 The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
 
-index.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/index.html) 
+index.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/CI_MS1_TBC/index.html) 
 
-about.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/about.html)
+about.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/CI_MS1_TBC/about.html)
 
-team.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/team.html)
+team.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/CI_MS1_TBC/team.html)
 
-prices.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/prices.html)
+prices.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/CI_MS1_TBC/prices.html)
 
-schedule.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/schedule.html)
+schedule.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/CI_MS1_TBC/schedule.html)
 
-contact.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/MSP-1-Tooting-Boxing-Club/contact.html)
+contact.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/CI_MS1_TBC/contact.html)
+
+404.html [results](https://wave.webaim.org/report#/https://jamie2210.github.io/CI_MS1_TBC/404.html)
 
 ### Performance 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. All aspects performing well.
